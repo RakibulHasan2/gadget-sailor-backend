@@ -23,7 +23,6 @@ const getAllUsers = async (): Promise<IUsers[]> => {
     }
 };
 
-
 export const UsersService = {
     createUsers,
     getAllUsers
