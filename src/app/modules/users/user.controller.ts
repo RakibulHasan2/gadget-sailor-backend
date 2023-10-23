@@ -5,6 +5,7 @@ import sendResponse from './../../../shared/sendResponse';
 import httpStatus from 'http-status';
 import { IUsers } from './user.interface';
 
+ // Controller function to create all users
 const createUsers = catchAsync(async (req: Request, res: Response) => {
     const { ...usersData } = req.body;
     const result = await UsersService.createUsers(usersData);
