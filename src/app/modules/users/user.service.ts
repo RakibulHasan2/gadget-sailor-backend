@@ -31,9 +31,17 @@ const getUserByEmail = async (email: string): Promise<IUsers | null> => {
     }
 };
 
+// delete user by id
+const getDeleteUsers = async (id: string): Promise<IUsers | null> => {
+    const result = await Users.findByIdAndDelete(id);
+    return result;
+  };
+  
+
 
 export const UsersService = {
     createUsers,
     getAllUsers,
     getUserByEmail,
+    getDeleteUsers
 };
