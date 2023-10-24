@@ -1,18 +1,11 @@
 import { Model } from 'mongoose';
 
-export type IUserName = {
-  firstName: string;
-  lastName: string;
+export type ISub_Categories = {
+  categoryName: string;
+  sub_categoryName: string;
 };
 
-export type IUsers = {
-  name: IUserName;
-  email: string;
-  password: string;
-  phoneNumber: number;
-};
-
-export type UserModel = Model<IUsers, Record<string, unknown>>;
+export type sub_CategoriesModel = Model<ISub_Categories, Record<string, unknown>>;
 
 
 
