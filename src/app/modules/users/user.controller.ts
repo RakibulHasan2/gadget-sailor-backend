@@ -29,18 +29,17 @@ const getAllUsers = async (req: Request, res: Response) => {
   });
 };
 
-
-//controller for get user by id
-const getUserByEmail = catchAsync(async (req: Request, res: Response) => {
-    const email  = req.params.email;
-    const result = await UsersService.getUserByEmail(email);
-    sendResponse<IUsers>(res, {
-      statusCode: httpStatus.OK,
-      success: true,
-      message: 'User retrieved successfully',
-      data: result,
-    });
+//get user by id
+const getUserById = catchAsync(async (req: Request, res: Response) => {
+  const id  = req.params.id;
+  const result = await UsersService.getUserById(id);
+  sendResponse<IUsers>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'User retrieved successfully',
+    data: result,
   });
+});
 
 
   //update user by id
@@ -73,9 +72,9 @@ const getUserByEmail = catchAsync(async (req: Request, res: Response) => {
   export const usersController = {
     createUsers,
     getAllUsers ,
-    getUserByEmail,
     deleteUsers,
-    updateUser
+    updateUser,
+    getUserById
   };
 
   // 
