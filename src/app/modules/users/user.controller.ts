@@ -43,6 +43,20 @@ const getUserByEmail = catchAsync(async (req: Request, res: Response) => {
   });
 
 
+  //update user by id
+  const updateUser = catchAsync(async (req: Request, res: Response) => {
+    const id = req.params.id;
+    const updateData = req.body;
+    const result = await UsersService.UpdateUser(id, updateData);
+    sendResponse<IUsers>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'user updated successfully',
+      data: result,
+    });
+  });
+
+
 // delete user by id
   const deleteUsers = catchAsync(async (req: Request, res: Response) => {
     const id = req.params.id;
@@ -60,6 +74,7 @@ const getUserByEmail = catchAsync(async (req: Request, res: Response) => {
     createUsers,
     getAllUsers ,
     getUserByEmail,
-    deleteUsers
+    deleteUsers,
+    updateUser
   };
   

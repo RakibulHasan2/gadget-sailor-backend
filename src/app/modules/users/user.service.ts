@@ -36,7 +36,12 @@ const getUserByEmail = async (email: string): Promise<IUsers | null> => {
     }
 };
 
-
+//update user by Id
+const UpdateUser = async (id: string,payload: Partial<IUsers>): Promise<IUsers | null> => {
+    const result = await Users.findOneAndUpdate({ _id: id }, payload, {new: true});
+    return result;
+  };
+  
 
 // delete user by id
 const getDeleteUsers = async (id: string): Promise<IUsers | null> => {
@@ -49,11 +54,10 @@ const getDeleteUsers = async (id: string): Promise<IUsers | null> => {
     }
 };
 
-
-
 export const UsersService = {
     createUsers,
     getAllUsers,
     getUserByEmail,
-    getDeleteUsers
+    getDeleteUsers,
+    UpdateUser
 };
