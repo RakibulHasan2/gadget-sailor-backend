@@ -1,4 +1,4 @@
-import config from "../../../config/index";
+import mongoose from "mongoose";
 import { IUsers } from "./user.interface";
 import { Users } from "./user.model";
 
@@ -20,7 +20,20 @@ const getAllUsers = async (): Promise<IUsers[]> => {
     }
 };
 
+//get user by email 
+const getUserByEmail = async (email: string): Promise<IUsers | null> => {
+    try {
+        const user = await Users.findOne({email});
+        return user;
+    } catch (error) {
+        console.error('Error getting user by id:', error);
+        throw error;
+    }
+};
+
+
 export const UsersService = {
     createUsers,
-    getAllUsers
+    getAllUsers,
+    getUserByEmail,
 };
