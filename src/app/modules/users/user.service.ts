@@ -5,8 +5,13 @@ import { Users } from "./user.model";
 
 // Function to create users
 const createUsers = async (payload: IUsers): Promise<IUsers | null> => {
-    const result = await Users.create(payload);
-    return result;
+    try {
+        const result = await Users.create(payload);
+        return result;
+    } catch (error) {
+        console.error('Error getting all users:', error);
+        throw error;
+    }
 };
 
 // Function to retrieve all users
@@ -23,7 +28,7 @@ const getAllUsers = async (): Promise<IUsers[]> => {
 //get user by email 
 const getUserByEmail = async (email: string): Promise<IUsers | null> => {
     try {
-        const user = await Users.findOne({email});
+        const user = await Users.findOne({ email });
         return user;
     } catch (error) {
         console.error('Error getting user by id:', error);
@@ -31,12 +36,19 @@ const getUserByEmail = async (email: string): Promise<IUsers | null> => {
     }
 };
 
+
+
 // delete user by id
 const getDeleteUsers = async (id: string): Promise<IUsers | null> => {
-    const result = await Users.findByIdAndDelete(id);
-    return result;
-  };
-  
+    try {
+        const result = await Users.findByIdAndDelete(id);
+        return result;
+    } catch (error) {
+        console.error('Error getting user by id:', error);
+        throw error;
+    }
+};
+
 
 
 export const UsersService = {
