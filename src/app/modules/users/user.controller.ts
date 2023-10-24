@@ -45,13 +45,23 @@ const getUserByEmail = catchAsync(async (req: Request, res: Response) => {
     });
   });
   
+// delete user by id
+  const deleteUsers = catchAsync(async (req: Request, res: Response) => {
+    const id = req.params.id;
+    const result = await UsersService.getDeleteUsers(id);
+    sendResponse<IUsers>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'user deleted successfully',
+      data: result,
+    });
+  });
 
-
-  
 
   export const usersController = {
     createUsers,
     getAllUsers ,
-    getUserByEmail
+    getUserByEmail,
+    deleteUsers
   };
   
