@@ -19,12 +19,8 @@ const createUsers = catchAsync(async (req: Request, res: Response) => {
   });
 
   // Controller function to get all users
-const getAllUsers = async (req: Request, res: Response) => {
-
-    // Call the getAllUsers function to retrieve all users
+const getAllUsers = async (req: Request, res: Response) => { 
     const result = await UsersService.getAllUsers();
-   
-    // Send the users as a JSON response
     sendResponse<IUsers[]>(res, {
     statusCode: httpStatus.OK,
     success: true,
@@ -32,6 +28,7 @@ const getAllUsers = async (req: Request, res: Response) => {
     data: result,
   });
 };
+
 
 //controller for get user by id
 const getUserByEmail = catchAsync(async (req: Request, res: Response) => {
@@ -44,7 +41,22 @@ const getUserByEmail = catchAsync(async (req: Request, res: Response) => {
       data: result,
     });
   });
-  
+
+
+  //update user by id
+  const updateUser = catchAsync(async (req: Request, res: Response) => {
+    const id = req.params.id;
+    const updateData = req.body;
+    const result = await UsersService.UpdateUser(id, updateData);
+    sendResponse<IUsers>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'user updated successfully',
+      data: result,
+    });
+  });
+
+
 // delete user by id
   const deleteUsers = catchAsync(async (req: Request, res: Response) => {
     const id = req.params.id;
@@ -62,6 +74,7 @@ const getUserByEmail = catchAsync(async (req: Request, res: Response) => {
     createUsers,
     getAllUsers ,
     getUserByEmail,
-    deleteUsers
+    deleteUsers,
+    updateUser
   };
   
