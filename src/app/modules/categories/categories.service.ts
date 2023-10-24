@@ -19,7 +19,13 @@ const getAllCategories = async (): Promise<ICategory[]> => {
     }
 };
 
+const getSingleCategory = async (id: string): Promise<ICategory | null> => {
+    const result = await Categories.findById(id);
+    return result;
+  };
+
 export const CategoriesService = {
     createCategories,
-    getAllCategories
+    getAllCategories,
+    getSingleCategory
 };
