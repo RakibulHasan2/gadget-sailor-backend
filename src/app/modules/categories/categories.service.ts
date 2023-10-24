@@ -19,7 +19,7 @@ const getAllCategories = async (): Promise<ICategory[]> => {
     }
 };
 
-export const UsersService = {
+export const CategoriesService = {
     createCategories,
     getAllCategories
 };
