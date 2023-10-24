@@ -25,16 +25,18 @@ const getAllUsers = async (): Promise<IUsers[]> => {
     }
 };
 
-//get user by email 
-const getUserByEmail = async (email: string): Promise<IUsers | null> => {
+
+//get user by id
+const getUserById = async (id: string): Promise<IUsers | null> => {
     try {
-        const user = await Users.findOne({ email });
+        const user = await Users.findById(id);
         return user;
     } catch (error) {
         console.error('Error getting user by id:', error);
         throw error;
     }
 };
+
 
 //update user by Id
 const UpdateUser = async (id: string,payload: Partial<IUsers>): Promise<IUsers | null> => {
@@ -57,7 +59,8 @@ const getDeleteUsers = async (id: string): Promise<IUsers | null> => {
 export const UsersService = {
     createUsers,
     getAllUsers,
-    getUserByEmail,
+    // getUserByEmail,
     getDeleteUsers,
-    UpdateUser
+    UpdateUser,
+    getUserById
 };
