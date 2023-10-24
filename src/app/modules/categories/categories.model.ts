@@ -2,7 +2,7 @@ import { Schema, model } from 'mongoose';
 import { CategoryModel, ICategory } from './categories.interface';
 
 
-const userSchema = new Schema<ICategory>(
+const categoriesSchema = new Schema<ICategory>(
     {
         name: {
             required: true,
@@ -17,4 +17,4 @@ const userSchema = new Schema<ICategory>(
         },
     }
 );
-export const Users = model<ICategory, CategoryModel>('Users', userSchema);
+export const Categories = model<ICategory, CategoryModel>('Categories', categoriesSchema);
