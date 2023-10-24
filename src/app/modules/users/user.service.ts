@@ -5,9 +5,6 @@ import { Users } from "./user.model";
 
 // Function to create users
 const createUsers = async (payload: IUsers): Promise<IUsers | null> => {
-    if (!payload.password) {
-        payload.password = config.default_USER_pass as string;
-    }
     const result = await Users.create(payload);
     return result;
 };
