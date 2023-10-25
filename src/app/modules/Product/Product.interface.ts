@@ -5,6 +5,7 @@ export type IProducts = {
   //common components for all data
   categoryName: string;
   sub_categoryName: string;
+  brand_name:string;
   product_name: string;
   image: string;
   model: string;

@@ -15,6 +15,9 @@ const productsSchema = new Schema<IProducts>(
             type:String,
             unique: true
         },
+        brand_name:{
+            type:String
+        },
         product_name:{
             required: true,
             type:String,
