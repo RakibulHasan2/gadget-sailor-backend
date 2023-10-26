@@ -1,6 +1,5 @@
 import { Schema, model } from 'mongoose';
 import { IProducts, ProductModel } from './Product.interface';
-import { status } from './Products.constant';
 
 
 const productsSchema = new Schema<IProducts>(
@@ -8,12 +7,10 @@ const productsSchema = new Schema<IProducts>(
         categoryName: {
             required: true,
             type:String,
-            unique: true
         },
         sub_categoryName:{
             required: true,
             type:String,
-            unique: true
         },
         brand_name:{
             type:String
@@ -40,7 +37,6 @@ const productsSchema = new Schema<IProducts>(
         },
         status:{
             type:String,
-            enum:status
         },
         display:{
             type:String,
