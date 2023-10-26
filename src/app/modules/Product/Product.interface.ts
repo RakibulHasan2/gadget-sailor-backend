@@ -1,6 +1,4 @@
 import { Model } from 'mongoose';
-
-export type IStatus =  "in-stock" | "stock-out"
 export type IProducts = {
   //common components for all data
   categoryName: string;
@@ -12,7 +10,7 @@ export type IProducts = {
   description: string;
   price: number;
   product_code: number
-  status:IStatus;
+  status:string;
   reviews: string[];
   //interface for imac
   display: string;
