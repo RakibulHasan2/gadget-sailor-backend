@@ -65,4 +65,4 @@ const imacSchema = new Schema<IImac>(
         },
     }
 );
-export const Products = model<IImac, imacModel>('Products', imacSchema);
+export const Imac = model<IImac, imacModel>('Products', imacSchema);

@@ -1,10 +1,10 @@
 import express from 'express';
-import { productsController } from '../Product.controller';
+import { productsController } from '../GlobalProducts.controller';
 
 
 
 const router = express.Router();
 
-router.post('/add-product',productsController.createProduct);
+router.post('/add-imac',productsController.createProduct);
 
-export const ProductsRoute = router;
+export const ImacRoute = router;

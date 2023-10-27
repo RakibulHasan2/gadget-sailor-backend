@@ -1,7 +1,7 @@
 import config from "../../../config";
 import { IGamingPc } from "./Gaming_pc/Gamin_pc.interface";
 import { IImac } from "./imac/imac.interface";
-import { Products } from "./imac/imac.model";
+import { Imac } from "./imac/imac.model";
 
 const createProduct = async (payload: IImac | IGamingPc): Promise<IImac|IGamingPc | null> => {
     const min = 100000;
@@ -14,9 +14,11 @@ const createProduct = async (payload: IImac | IGamingPc): Promise<IImac|IGamingP
         const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
         payload.product_code = randomNumber
     }
-    const result = await Products.create(payload);
+    const result = await Imac.create(payload);
     return result;
 };
+
+
 
 export const ProductsService = {
     createProduct

@@ -1,5 +1,5 @@
 import express from 'express';
-import { productsController } from '../Product.controller';
+import { productsController } from '../GlobalProducts.controller';
 
 
 

@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import catchAsync from "../../../shared/catchAsync";
-import { ProductsService } from "./Product.service";
+import { ProductsService } from "./GlobalProducts.service";
 import sendResponse from "../../../shared/sendResponse";
 import httpStatus from "http-status";
 
