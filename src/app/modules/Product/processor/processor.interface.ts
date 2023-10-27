@@ -1,20 +1,7 @@
 import { Model } from 'mongoose';
+import { IGlobalProducts } from '../globalProducts.interface';
 
-export type IProcessor = {
-    //common components for all data
-    categoryName: string;
-    sub_categoryName: string;
-    brand_name: string;
-    product_name: string;
-    image: string,
-    model: string;
-    description: string;
-    price: number;
-    product_code: number
-    status: string;
-    reviews: string[];
-    warranty: string;
-    //interface for processors
+export type Processor = {
     base_speed: string;
     max_speed: string;
     default_tdp: string;
@@ -26,5 +13,7 @@ export type IProcessor = {
     maximum_speed: string;
     max_channels: string;
 }
+
+export type IProcessor = IGlobalProducts & Processor;
 
 export type IProcessorModel = Model<IProcessor, Record<string, unknown>>;

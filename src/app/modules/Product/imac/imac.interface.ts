@@ -1,4 +1,6 @@
 import { Model } from 'mongoose';
+
+
 export type IImac = {
   //common components for all data
   categoryName: string;
