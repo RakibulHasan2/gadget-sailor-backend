@@ -1,0 +1,54 @@
+[
+    {
+        "product_id": 1501,
+        "product_name": "Kingston HyperX Fury 16GB DDR4 RAM",
+        "image": "https://m.media-amazon.com/images/I/41ulXuXw-nL._AC_.jpg",
+        "memory_type": "DDR4",
+        "capacity": "16GB (1 x 16GB)",
+        "speed": "3200MHz",
+        "cas_latency": "CL16",
+        "form_factor": "DIMM 288-pin",
+        "voltage": "1.2V",
+        "description": "The Kingston HyperX Fury RAM is designed for high-performance computing. With a capacity of 16GB and a speed of 3200MHz, it delivers fast and responsive multitasking. The CAS latency of CL16 ensures efficient data access. It's compatible with most modern desktops and operates at a low voltage of 1.2V for energy efficiency.",
+        "price": 6900,
+        "status": "In Stock",
+        "product_code": 2022501,
+        "reviews": ""
+    },
+    {
+        "product_id": 1502,
+        "product_name": "Kingston ValueRAM 8GB DDR3L SODIMM RAM",
+        "image": "https://media.kingston.com/kingston/content/ktc-custom-solutions-desktop-notebook-build-own-systems.jpg",
+        "memory_type": "DDR3L",
+        "capacity": "8GB (1 x 8GB)",
+        "speed": "1600MHz",
+        "cas_latency": "CL11",
+        "form_factor": "SODIMM 204-pin",
+        "voltage": "1.35V",
+        "description": "The Kingston ValueRAM is a reliable RAM module for laptops and compact systems. With 8GB capacity and a speed of 1600MHz, it provides sufficient memory for everyday tasks. The CAS latency of CL11 ensures responsive performance. It's a low-voltage module operating at 1.35V for power efficiency.",
+        "price": 3200,
+        "status": "In Stock",
+        "product_code": 2022502,
+        "reviews": ""
+    },
+    {
+        "product_id": 1503,
+        "product_name": "Kingston HyperX Predator RGB 32GB DDR4 RAM",
+        "image": "https://media.kingston.com/kingston/headers/ktc-header-gaming-overclocking-impact-ddr4-md.jpg",
+        "memory_type": "DDR4",
+        "capacity": "32GB (2 x 16GB)",
+        "speed": "3600MHz",
+        "cas_latency": "CL17",
+        "form_factor": "DIMM 288-pin",
+        "voltage": "1.35V",
+        "description": "The Kingston HyperX Predator RGB RAM delivers exceptional performance with 32GB of DDR4 memory in a 2 x 16GB configuration. It operates at a speedy 3600MHz, ensuring fast and responsive multitasking. With a CAS latency of CL17, it offers efficient data access. The RAM's RGB lighting adds a touch of style to your build. It's designed for high-performance systems and runs at a voltage of 1.35V.",
+        "price": 12500,
+        "status": "In Stock",
+        "product_code": 2022503,
+        "reviews": ""
+    }
+    
+    
+    
+    
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "product_id": 1601,
+        "product_name": "Adata XPG Gammix D10 16GB DDR4 RAM",
+        "image": "https://webapi3.adata.com/storage/product/d10_%E7%89%B9%E8%89%B2%E5%9C%96_1_w.jpg",
+        "memory_type": "DDR4",
+        "capacity": "16GB (2 x 8GB)",
+        "speed": "3000MHz",
+        "cas_latency": "CL16",
+        "form_factor": "DIMM 288-pin",
+        "voltage": "1.2V",
+        "description": "The Adata XPG Gammix D10 RAM is built for high-performance computing. With 16GB of DDR4 memory in a 2 x 8GB configuration, it provides responsive multitasking. It operates at 3000MHz for smooth performance. The CAS latency of CL16 ensures efficient data access. This RAM module operates at a low voltage of 1.2V for energy efficiency.",
+        "price": 6200,
+        "status": "In Stock",
+        "product_code": 2022601,
+        "reviews": "4.8 stars (81 reviews)"
+    },
+    {
+        "product_id": 1602,
+        "product_name": "Adata Premier 8GB DDR3L SODIMM RAM",
+        "image": "https://4.bp.blogspot.com/-ZsYqO1ZN51M/UTBB6b_DMWI/AAAAAAAAFcQ/GOOoUGs1v0Y/s1600/IMG_8872.JPG",
+        "memory_type": "DDR3L",
+        "capacity": "8GB (1 x 8GB)",
+        "speed": "1600MHz",
+        "cas_latency": "CL11",
+        "form_factor": "SODIMM 204-pin",
+        "voltage": "1.35V",
+        "description": "The Adata Premier RAM is a reliable choice for laptops and compact systems. With 8GB of DDR3L memory, it provides sufficient memory for daily tasks. It operates at 1600MHz, ensuring responsive performance. The CAS latency of CL11 helps with efficient data access. This RAM module operates at a voltage of 1.35V for power efficiency.",
+        "price": 3000,
+        "status": "In Stock",
+        "product_code": 2022602,
+        "reviews": ""
+    },
+    {
+        "product_id": 1603,
+        "product_name": "Adata XPG Spectrix D50 32GB DDR4 RGB RAM",
+        "image": "https://www.techpowerup.com/img/FFkVnQZnw6d5h13K.jpg",
+        "memory_type": "DDR4",
+        "capacity": "32GB (2 x 16GB)",
+        "speed": "3200MHz",
+        "cas_latency": "CL16",
+        "form_factor": "DIMM 288-pin",
+        "voltage": "1.35V",
+        "description": "The Adata XPG Spectrix D50 RGB RAM module is designed for enthusiasts. With 32GB of DDR4 memory in a 2 x 16GB configuration, it provides ample multitasking capability. The 3200MHz speed ensures high performance. The CAS latency of CL16 optimizes data access efficiency. Featuring customizable RGB lighting, it adds a stylish touch to your build. This RAM module operates at a voltage of 1.35V.",
+        "price": 9500,
+        "status": "In Stock",
+        "product_code": 2022603,
+        "reviews": ""
+    }
+    
+    
+    
+]

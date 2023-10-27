@@ -1,0 +1,60 @@
+[
+    {
+        "product_id": 1801,
+        "product_name": "ASUS ROG Thor 1200W 80+ Platinum Full Modular Power Supply",
+        "image": "https://dlcdnimgs.asus.com/websites/global/products/qSd3yqxSwbgFVutp/img/ROG-THOR-1200P_KV.png",
+        "wattage": "1200W",
+        "efficiency_rating": "80+ Platinum",
+        "modularity": "Full Modular",
+        "fan_size": "135mm",
+        "protections": "OCP, OVP, OPP, SCP, UVP, OTP, NLO",
+        "frequency_range": "47-63Hz",
+        "current": "12A @ 115V, 6A @ 230V",
+        "voltage": "100-240V",
+        "description": "The ASUS ROG Thor 1200W is a high-performance full modular power supply with an 80+ Platinum efficiency rating. It delivers a powerful 1200W output for gaming and enthusiast-grade systems. The full modular design ensures easy cable management. Equipped with a 135mm fan, it offers efficient cooling and minimal noise. The power supply includes comprehensive protections for your PC components.",
+        "price":12500,
+        "status": "In Stock",
+        "product_code": 2022801,
+        "reviews": ""
+    },
+    {
+        "product_id": 1802,
+        "product_name": "ASUS TUF Gaming 750W 80+ Bronze Full Modular Power Supply",
+        "image": "https://cdn.mos.cms.futurecdn.net/AUhWmvSM75av5ZpuXjKJvT.jpg",
+        "wattage": "750W",
+        "efficiency_rating": "80+ Bronze",
+        "modularity": "Full Modular",
+        "fan_size": "120mm",
+        "protections": "OCP, OVP, OPP, SCP, UVP, OTP",
+        "frequency_range": "47-63Hz",
+        "current": "8A @ 115V, 4A @ 230V",
+        "voltage": "100-240V",
+        "description": "The ASUS TUF Gaming 750W power supply is a reliable choice for gaming systems with an 80+ Bronze efficiency rating. It provides 750W of stable power for gaming and productivity. The full modular design simplifies cable management. Equipped with a 120mm fan, it ensures efficient cooling and quiet operation. Multiple protection features are included for component safety.",
+        "price": 5400,
+        "status": "In Stock",
+        "product_code": 2022802,
+        "reviews": ""
+    },
+
+    {
+        "product_id": 1803,
+        "product_name": "ASUS Prime 500W 80+ Gold Non-Modular Power Supply",
+        "image": "https://levvvel.com/wp-content/uploads/psu-tier-list.jpg",
+        "wattage": "500W",
+        "efficiency_rating": "80+ Gold",
+        "modularity": "Non-Modular",
+        "fan_size": "120mm",
+        "protections": "OCP, OVP, OPP, SCP, UVP",
+        "frequency_range": "47-63Hz",
+        "current": "6A @ 115V, 3A @ 230V",
+        "voltage": "100-240V",
+        "description": "The ASUS Prime 500W power supply offers reliable performance with an 80+ Gold efficiency rating. It delivers 500W of stable power for standard PC setups. While non-modular, it provides cost-effective performance. The 120mm fan ensures efficient cooling with low noise. It includes essential protection features to safeguard your hardware.",
+        "price": 3200,
+        "status": "In Stock",
+        "product_code": 2022803,
+        "reviews": ""
+    }
+    
+    
+    
+]

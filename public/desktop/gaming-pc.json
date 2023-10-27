@@ -1,0 +1,55 @@
+[
+    {
+        "product_id": 1,
+        "product_name": "AMD Ryzen 7 5800X Gaming Desktop PC",
+        "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/ryzen-7-5800x-gaming-desktop-pc-0001-500x500.webp",
+        "model": "AMD Ryzen 7 5800X Gaming Desktop PC",
+        "processor": "AMD Ryzen 7 5800X",
+        "motherboard": "GIGABYTE B550M DS3H AC Micro ATX AM4 AMD Motherboard",
+        "RAM": "Team Elite Plus Red 8GB 3200MHz DDR4 U-DIMM Desktop RAM",
+        "storage": "Toshiba P300 1TB Desktop PC Internal Hard Drive HP EX900 M.2 120GB PCIe NVMe Internal SSD",
+        "graphics_card": "Colorful iGame GeForce RTX 3060 Ti Ultra W OC LHR-V 8GB GDDR6",
+        "description": "The AMD Ryzen 7 5800X Gaming Desktop PC features the powerful AMD Ryzen 7 5800X Processor paired with an AMD Ryzen 7 5800X Processor. To keep the CPU cool during intensive tasks, the DeepCool LE520 240mm All-in-one ARGB Liquid CPU Cooler is installed. It comes with Corsair DOMINATOR PLATINUM RGB 8GB DDR4 3600MHz RAM for smooth multitasking and gaming performance. The Gaming Desktop PC is equipped with an Acer FA100 512GB M.2 NVMe PCIe Gen3x4 SSD for fast and efficient storage access. This gaming desktop PC is equipped with a Colorful iGame GeForce RTX 3060 Ti Ultra W OC LHR-V 8GB GDDR6 Graphics Card. It comes in the stylish Antec DP503 Mid-Tower E-ATX Gaming Case and is powered by a reliable Antec HCG-750 Gold Series 750W Full Modular Power Supply.",
+        "price": 134000,
+        "status": "in Stoke",
+        "powerSupply":"Antec CUPRUM STRIKE CSK 450W 80 Plus Bronze Power Supply",
+        "product_code":1250,
+        "reviews": ""
+    },
+    {
+        "product_id": 2,
+        "product_name": "Intel Core i9-10900K Gaming PC",
+        "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/ryzen-5-7600x-gaming-desktop-pc-0001-500x500.webp",
+        "model": "Intel Core i9-10900K Gaming PC",
+        "processor": "Intel Core i9-10900K",
+        "motherboard": "ASUS ROG Strix Z490-E Gaming ATX LGA1200 Motherboard",
+        "RAM": "Corsair Vengeance RGB Pro 16GB 3200MHz DDR4",
+        "storage": "Samsung 970 EVO Plus 1TB NVMe SSD",
+        "graphics_card": "NVIDIA GeForce RTX 3080 10GB GDDR6X",
+        "description": "The Intel Core i9-10900K Gaming PC packs the powerful Intel Core i9-10900K processor. It's equipped with the ASUS ROG Strix Z490-E Gaming motherboard for top-tier gaming performance. The system boasts 16GB of Corsair Vengeance RGB Pro RAM and a lightning-fast 1TB Samsung 970 EVO Plus NVMe SSD. Gaming graphics are powered by an NVIDIA GeForce RTX 3080. It's all encased in a sleek NZXT H710i mid-tower case with RGB lighting for a stunning visual experience.",
+        "price": 199999,
+        "status": "in Stock",
+        "powerSupply": "Corsair RM750x 750W 80 Plus Gold Fully Modular PSU",
+        "product_code": 2001,
+        "reviews": ""
+    },
+    {
+        "product_id": 3,
+        "product_name": "AMD Ryzen 9 5900X Gaming Desktop PC",
+        "image": "https://www.startech.com.bd/image/cache/catalog/star-pc/intel/10th-gen-i5-10400f-02-500x500.webp",
+        "model": "AMD Ryzen 9 5900X Gaming Desktop PC",
+        "processor": "AMD Ryzen 9 5900X",
+        "motherboard": "MSI MAG B550 TOMAHAWK ATX AM4 Motherboard",
+        "RAM": "G.Skill Ripjaws V Series 32GB 3600MHz DDR4",
+        "storage": "Crucial P5 2TB NVMe SSD",
+        "graphics_card": "NVIDIA GeForce RTX 3070 8GB GDDR6",
+        "description": "The AMD Ryzen 9 5900X Gaming Desktop PC boasts the high-performance AMD Ryzen 9 5900X processor. It features the MSI MAG B550 TOMAHAWK motherboard for exceptional gaming capabilities. This system is loaded with 32GB of G.Skill Ripjaws V Series RAM and offers a spacious 2TB Crucial P5 NVMe SSD for rapid storage access. Gaming graphics are delivered by an NVIDIA GeForce RTX 3070. The sleek design and powerful hardware make it a top choice for gaming enthusiasts.",
+        "price": 229000,
+        "status": "in Stock",
+        "powerSupply": "EVGA 850W 80 Plus Gold Fully Modular PSU",
+        "product_code": 2002,
+        "reviews": ""
+    }
+    
+    
+]

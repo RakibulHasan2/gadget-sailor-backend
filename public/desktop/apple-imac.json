@@ -1,0 +1,52 @@
+[
+    {
+        "product_id": 101,
+        "product_name": "Apple iMac (2022) - 27-inch Retina 5K Display",
+        "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/apple-imac/imac-m1/imac-m1-005-500x500.jpg",
+        "model": "Apple iMac (2022)",
+        "display": "27-inch Retina 5K Display",
+        "processor": "Apple M1 Pro Chip with 8-core CPU",
+        "memory": "16GB RAM",
+        "storage": "512GB SSD",
+        "graphics": "AMD Radeon Pro 6600M with 8GB GDDR6",
+        "description": "The Apple iMac (2022) features a stunning 27-inch Retina 5K display and is powered by the Apple M1 Pro Chip with an 8-core CPU for exceptional performance. With 16GB of RAM and a fast 512GB SSD, it's perfect for demanding tasks. The AMD Radeon Pro 6600M ensures impressive graphics. Buy it now for an immersive computing experience.",
+        "price":159900,
+        "status": "In Stock",
+        "product_code": 2022101,
+        "reviews": "No reviews yet"
+    },
+    {
+        "product_id": 102,
+        "product_name": "Apple iMac (2022) - 24-inch Retina 4.5K Display",
+        "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/apple-imac/imac-m1-24-inch/imac-m1-24-inch-04-500x500.jpg",
+        "model": "Apple iMac (2022)",
+        "display": "24-inch Retina 4.5K Display",
+        "processor": "Apple M1 Chip with 8-core CPU",
+        "memory": "8GB RAM",
+        "storage": "256GB SSD",
+        "graphics": "7-core GPU",
+        "description": "The Apple iMac (2022) offers a vibrant 24-inch Retina 4.5K display and is powered by the Apple M1 Chip with an 8-core CPU. With 8GB of RAM and a speedy 256GB SSD, it's perfect for everyday tasks. The integrated 7-core GPU ensures smooth graphics. Get yours today for a sleek and compact computing solution.",
+        "price":99900,
+        "status": "In Stock",
+        "product_code": 2022102,
+        "reviews": "No reviews yet"
+    },
+    {
+        "product_id": 103,
+        "product_name": "Apple iMac (2021) - 27-inch Retina 5K Display",
+        "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/apple-imac/imac-m1-24-inch/imac-m1-24-inch-01-500x500.jpg",
+        "model": "Apple iMac (2021)",
+        "display": "27-inch Retina 5K Display",
+        "processor": "Intel Core i9 10th Gen 10-core CPU",
+        "memory": "32GB RAM",
+        "storage": "1TB SSD",
+        "graphics": "AMD Radeon Pro 5700 XT with 16GB GDDR6",
+        "description": "The Apple iMac (2021) boasts a brilliant 27-inch Retina 5K display and is equipped with an Intel Core i9 10th Gen 10-core CPU for powerful performance. With 32GB of RAM and a spacious 1TB SSD, it's perfect for professionals. The AMD Radeon Pro 5700 XT with 16GB GDDR6 delivers outstanding graphics. Buy it now for creative work and entertainment.",
+        "price": 209900,
+        "status": "In Stock",
+        "product_code": 2021103,
+        "reviews": "No reviews yet"
+    }
+    
+    
+]

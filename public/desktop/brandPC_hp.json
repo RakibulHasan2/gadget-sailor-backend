@@ -1,0 +1,48 @@
+[
+    {
+        "product_id": 401,
+        "product_name": "HP Desktop Setup - EliteDesk Pro Series",
+        "image": "https://www.startech.com.bd/image/cache/catalog/brand-pc/hp-aio/280-pro-g9/280-pro-g9-01-500x500.webp",
+        "model": "HP EliteDesk Pro Desktop",
+        "processor": "Intel Core i7-12700 12-core CPU",
+        "memory": "64GB DDR4 RAM",
+        "storage": "1TB NVMe SSD + 4TB HDD",
+        "graphics": "NVIDIA Quadro P2200 5GB GDDR5",
+        "description": "The HP EliteDesk Pro Series desktop setup is built for business. It's powered by an Intel Core i7-12700 12-core CPU for efficient work. With 64GB of DDR4 RAM and a combination of 1TB NVMe SSD and 4TB HDD storage, it's perfect for office tasks. The NVIDIA Quadro P2200 provides solid graphics for professional applications. Enhance your business productivity with this setup.",
+        "price":109900,
+        "status": "In Stock",
+        "product_code": 2021401,
+        "reviews": "No reviews yet"
+    },
+    {
+        "product_id": 402,
+        "product_name": "HP Gaming Desktop Setup - OMEN Series",
+        "image": "https://www.startech.com.bd/image/cache/catalog/brand-pc/hp-aio/prodesk-400-g9/prodesk-400-g9-10-500x500.webp",
+        "model": "HP OMEN Gaming Desktop",
+        "processor": "Intel Core i9-12900K 16-core CPU",
+        "memory": "32GB DDR5 RAM",
+        "storage": "2TB NVMe SSD + 2TB HDD",
+        "graphics": "NVIDIA GeForce RTX 3080 Ti 12GB GDDR6X",
+        "description": "The HP OMEN Gaming Desktop is designed for gamers. It's powered by an Intel Core i9-12900K 16-core CPU for top-tier gaming. With 32GB of DDR5 RAM and a combination of 2TB NVMe SSD and 2TB HDD storage, it's ready for extended gaming sessions. The NVIDIA GeForce RTX 3080 Ti delivers exceptional graphics. Elevate your gaming experience with this setup.",
+        "price":169900,
+        "status": "In Stock",
+        "product_code": 2021402,
+        "reviews": "No reviews yet"
+    },
+    {
+        "product_id": 403,
+        "product_name": "HP Home Office Desktop Setup - Pavilion Series",
+        "image": "https://www.startech.com.bd/image/cache/catalog/brand-pc/hp-aio/hp-280-pro/hp-280-pro-01-500x500.webp",
+        "model": "HP Pavilion Home Office Desktop",
+        "processor": "Intel Core i5-11400 6-core CPU",
+        "memory": "16GB DDR4 RAM",
+        "storage": "512GB NVMe SSD + 1TB HDD",
+        "graphics": "Intel UHD Graphics 730",
+        "description": "The HP Pavilion Home Office desktop setup is perfect for remote work. It's equipped with an Intel Core i5-11400 6-core CPU for productivity. With 16GB of DDR4 RAM and a combination of 512GB NVMe SSD and 1TB HDD storage, it's ideal for office tasks. The integrated Intel UHD Graphics 730 provides clear visuals. Boost your work-from-home setup with this solution.",
+        "price":74900,
+        "status": "In Stock",
+        "product_code": 2021403,
+        "reviews": "No reviews yet"
+    }
+    
+]

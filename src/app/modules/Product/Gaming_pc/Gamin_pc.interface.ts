@@ -1,5 +1,5 @@
 import { Model } from 'mongoose';
-export type IProducts = {
+export type IGamingPc = {
   //common components for all data
   categoryName: string;
   sub_categoryName: string;
@@ -12,12 +12,6 @@ export type IProducts = {
   product_code: number
   status:string;
   reviews: string[];
-  //interface for imac
-  display: string;
-  processor: string;
-  memory: string;
-  storage: string;
-  graphics: string;
   //interface for gaming pc
   motherboard: string;
   RAM: string;
@@ -25,4 +19,4 @@ export type IProducts = {
   powerSupply: string;
 }
 
-export type ProductModel = Model<IProducts, Record<string, unknown>>;
+export type gamingPcModel = Model<IGamingPc, Record<string, unknown>>;

@@ -1,0 +1,53 @@
+[
+    {
+        "product_id": 9201,
+        "product_name": "Logitech C920 HD Pro Webcam",
+        "image": "https://i0.wp.com/cdnssl.ubergizmo.com/wp-content/uploads/2012/01/Logitech-HD-Pro-Webcam-C920-review-04.jpg",
+        "resolution": "Full HD 1080p",
+        "frame_rate": "30 fps",
+        "microphone": "Dual stereo microphones",
+        "connection": "USB 2.0",
+        "focus": "Autofocus",
+        "low_light": "Low-light correction",
+        "description": "The Logitech C920 HD Pro Webcam delivers sharp, full HD 1080p video with clear stereo audio. It's great for video conferencing and streaming. With automatic low-light correction, your video quality remains consistent even in dimly lit environments. The built-in dual microphones capture your voice in natural stereo sound.",
+        "price": 7999,
+        "status": "In Stock",
+        "product_code": 2029201,
+        "reviews": "4.8 (4621 reviews)"
+    },
+    {
+        "product_id": 9202,
+        "product_name": "Microsoft LifeCam HD-3000 Webcam",
+        "image": "https://pictures-nigeria.jijistatic.com/113462578_NjIwLTQxMy1lMjg2M2U0NDBm.webp",
+        "resolution": "720p HD",
+        "frame_rate": "30 fps",
+        "microphone": "Built-in noise-canceling microphone",
+        "connection": "USB 2.0",
+        "focus": "Fixed focus",
+        "low_light": "TrueColor technology",
+        "description": "The Microsoft LifeCam HD-3000 offers 720p HD video for clear calls and video recording. It features a built-in noise-canceling microphone for clear audio. With TrueColor technology, the camera automatically adjusts exposure to deliver bright and colorful video, even in low light conditions.",
+        "price": 2999,
+        "status": "In Stock",
+        "product_code": 2029202,
+        "reviews": "4.4 (2057 reviews)"
+    },
+
+    {
+        "product_id": 9203,
+        "product_name": "Razer Kiyo Streaming Webcam",
+        "image": "https://assets2.razerzone.com/images/og-image/razer-kiyo-x-og-image.png",
+        "resolution": "1080p at 30 fps / 720p at 60 fps",
+        "microphone": "Integrated ring light with adjustable brightness",
+        "connection": "USB 2.0",
+        "focus": "Autofocus",
+        "low_light": "Adjustable ring light for low-light conditions",
+        "description": "The Razer Kiyo is designed for streaming and content creation. It provides 1080p video at 30 fps or 720p at 60 fps. The integrated ring light with adjustable brightness ensures you're well-lit in any lighting condition. The camera also features a built-in microphone for clear audio during your streams.",
+        "price": 9999,
+        "status": "In Stock",
+        "product_code": 2029203,
+        "reviews": "4.7 (3154 reviews)"
+        }
+    
+    
+    
+]

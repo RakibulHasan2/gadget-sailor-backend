@@ -1,0 +1,52 @@
+[
+    {
+        "product_id": 8101,
+        "product_name": "Blue Yeti USB Microphone",
+        "image": "https://www.soundguys.com/wp-content/uploads/2022/01/blue-yeti-nano-product-image.jpg",
+        "type": "Condenser",
+        "connectivity": "USB",
+        "pickup_pattern": "Multi-pattern (cardioid, bidirectional, omnidirectional, stereo)",
+        "frequency_response": "20Hz - 20kHz",
+        "description": "The Blue Yeti USB Microphone is a versatile condenser microphone suitable for podcasting, streaming, and recording. It features four pickup patterns, including cardioid, bidirectional, omnidirectional, and stereo. With a wide frequency response range, it captures clear and detailed audio. Whether you're recording a solo podcast or conducting interviews, the Blue Yeti offers professional-grade sound quality.",
+        "price": 1299,
+        "status": "In Stock",
+        "product_code": 2028101,
+        "reviews": "4.9 (5872 reviews)",
+        "features": "Adjustable stand, headphone monitoring, mute button, gain control."
+    },
+
+    {
+        "product_id": 8102,
+        "product_name": "Audio-Technica AT2020 Cardioid Condenser Microphone",
+        "image": "https://sm.ign.com/t/ign_me/review/a/audio-tech/audio-technica-at2020-microphone-review_kbvf.1024.jpg",
+        "type": "Condenser",
+        "connectivity": "XLR",
+        "pickup_pattern": "Cardioid",
+        "frequency_response": "20Hz - 20kHz",
+        "description": "The Audio-Technica AT2020 is a reliable cardioid condenser microphone designed for studio recording and live sound applications. With a cardioid pickup pattern, it isolates sound sources from the sides and rear while capturing your voice or instrument accurately. Its wide frequency response ensures high-quality audio recording.",
+        "price": 9999,
+        "status": "In Stock",
+        "product_code": 2028102,
+        "reviews": "4.7 (4121 reviews)",
+        "features": "Pivoting stand mount, rugged construction, ideal for vocals and acoustic instruments."
+    },
+
+    {
+        "product_id": 8103,
+        "product_name": "Rode NT-USB Mini Studio-Quality USB Microphone",
+        "image": "https://www.glazerscamera.com/cdn/shop/products/rode-nt-usb-mini-psa-1-intermediate-insitu-2-february-2022-2000x1334-rgb_1050x700.jpg?v=1664845843    ",
+        "type": "Condenser",
+        "connectivity": "USB",
+        "pickup_pattern": "Cardioid",
+        "frequency_response": "20Hz - 20kHz",
+        "description": "The Rode NT-USB Mini is a studio-quality USB microphone designed for content creation and podcasting. Its cardioid pickup pattern focuses on your voice while minimizing background noise. With a wide frequency response range, it delivers crisp and clear audio. The compact design and USB connectivity make it easy to set up and start recording.",
+        "price": 6999,
+        "status": "In Stock",
+        "product_code": 2028103,
+        "reviews": "4.8 (2955 reviews)",
+        "features": "Desk stand with magnetic base, headphone output, studio-grade sound quality."
+    }
+    
+    
+    
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "product_id": 2601,
+        "product_name": "Revenger Titan X ATX Mid Tower Gaming Casing",
+        "image": "https://m.media-amazon.com/images/I/61nQGE5dEhL.jpg",
+        "type": "ATX Mid Tower",
+        "compatibility": "ATX, Micro ATX, Mini-ITX",
+        "expansion_slots": 7,
+        "drive_bays": "2 x 3.5\", 2 x 2.5\"",
+        "cooling_support": "Front: 3 x 120mm, Rear: 1 x 120mm",
+        "front_panel_ports": "USB 3.0 x 2, USB 2.0 x 2, Audio In/Out",
+        "color": "Black",
+        "weight": "7.8 kg",
+        "dimensions": "450 x 220 x 490 mm",
+        "fan_support": "Top: 2 x 120mm or 140mm, Bottom: 2 x 120mm",
+        "radiator_support": "Front: Up to 360mm, Rear: 120mm",
+        "price": 5200,
+        "status": "In Stock",
+        "product_code": 2023601,
+        "reviews": ""
+    },
+    {
+        "product_id": 2602,
+        "product_name": "Revenger Stealth Mini-ITX Slim Casing",
+        "image": "https://www.primeabgb.com/wp-content/uploads/2020/09/SilverStone-Slim-Mini-ITX-Case-with-RGB-Light-Strip-RVZ03B-ARGB.jpg",
+        "type": "Mini-ITX Slim",
+        "compatibility": "Mini-ITX",
+        "expansion_slots": 2,
+        "drive_bays": "1 x 2.5 inch",
+        "cooling_support": "None (Slim Form Factor)",
+        "front_panel_ports": "USB 3.0 x 1, Audio In/Out",
+        "color": "Silver",
+        "weight": "3.2 kg",
+        "dimensions": "340 x 100 x 330 mm",
+        "fan_support": "N/A",
+        "radiator_support": "N/A",
+        "price": 3100,
+        "status": "In Stock",
+        "product_code": 2023602,
+        "reviews": ""
+    },
+
+    {
+        "product_id": 2603,
+        "product_name": "Revenger Enigma RGB ATX Mid Tower Casing",
+        "image": "https://www.rmtechbd.com/image/cache/catalog/Component/Casing/Revenger/revenger%20ex6-476x476-450x450.png",
+        "type": "ATX Mid Tower",
+        "compatibility": "ATX, Micro ATX, Mini-ITX",
+        "expansion_slots": 7,
+        "drive_bays": "2 x 3.5\", 2 x 2.5\"",
+        "cooling_support": "Front: 3 x 120mm, Rear: 1 x 120mm, RGB Lighting",
+        "front_panel_ports": "USB 3.0 x 2, USB 2.0 x 2, Audio In/Out",
+        "color": "Black",
+        "weight": "8.3 kg",
+        "dimensions": "480 x 230 x 500 mm",
+        "fan_support": "Top: 2 x 120mm or 140mm, Bottom: 2 x 120mm",
+        "radiator_support": "Front: Up to 360mm, Rear: 120mm",
+        "price": 5700,
+        "status": "In Stock",
+        "product_code": 2023603,
+        "reviews": ""
+    }
+    
+    
+    
+]

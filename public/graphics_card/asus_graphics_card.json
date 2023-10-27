@@ -1,0 +1,52 @@
+[
+    {
+        "product_id": 1301,
+        "product_name": "ASUS ROG Strix GeForce RTX 3080 Gaming Graphics Card",
+        "image": "https://www.wepc.com/wp-content/uploads/2022/01/Asus-RTX-3080-12GB-2-768x512.jpg",
+        "chipset": "NVIDIA GeForce RTX 3080",
+        "memory_size": "10GB GDDR6X",
+        "memory_bus": "320-bit",
+        "core_clock": "1740 MHz",
+        "ray_tracing_cores": "68",
+        "ray_tracing_performance": "58 TFLOPS",
+        "description": "The ASUS ROG Strix GeForce RTX 3080 is a high-end gaming graphics card. It boasts 10GB of GDDR6X memory with a wide 320-bit memory bus for high bandwidth. With a core clock of 1740 MHz, it offers exceptional gaming performance. It features 68 ray tracing cores, delivering a staggering 58 TFLOPS of ray tracing performance.",
+        "price": 55900,
+        "status": "In Stock",
+        "product_code": 2022301,
+        "reviews": ""
+    },
+    {
+        "product_id": 1302,
+        "product_name": "ASUS TUF Gaming GeForce GTX 1660 Super Graphics Card",
+        "image": "https://techbroll.com/wp-content/uploads/2020/01/vlc_ZiwXi3wN9b.jpg",
+        "chipset": "NVIDIA GeForce GTX 1660 Super",
+        "memory_size": "6GB GDDR6",
+        "memory_bus": "192-bit",
+        "core_clock": "1530 MHz",
+        "ray_tracing_cores": "Not Applicable",
+        "ray_tracing_performance": "Not Applicable",
+        "description": "The ASUS TUF Gaming GeForce GTX 1660 Super is a budget-friendly gaming graphics card. With 6GB of GDDR6 memory and a 192-bit memory bus, it offers great performance for its class. Its core clock of 1530 MHz ensures smooth gaming experiences, although it does not feature ray tracing cores or ray tracing performance.",
+        "price": 19900,
+        "status": "In Stock",
+        "product_code": 2022302,
+        "reviews": ""
+    },
+    {
+        "product_id": 1303,
+        "product_name": "ASUS Dual GeForce GT 1030 Graphics Card",
+        "image": "https://cdn.videocardz.com/1/2022/06/GTX1630-hero.jpg",
+        "chipset": "NVIDIA GeForce GT 1030",
+        "memory_size": "2GB GDDR5",
+        "memory_bus": "64-bit",
+        "core_clock": "1266 MHz",
+        "ray_tracing_cores": "Not Applicable",
+        "ray_tracing_performance": "Not Applicable",
+        "description": "The ASUS Dual GeForce GT 1030 is an entry-level graphics card suitable for light gaming and media tasks. It comes with 2GB of GDDR5 memory and a 64-bit memory bus for basic gaming needs. Its core clock of 1266 MHz provides decent performance for everyday use, though it lacks ray tracing capabilities.",
+        "price": 8900,
+        "status": "In Stock",
+        "product_code": 2022303,
+        "reviews": ""
+    }
+    
+    
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "product_id": 8001,
+        "product_name": "Corsair K95 RGB Platinum XT Mechanical Gaming Keyboard",
+        "image": "https://img.bdshop.com/ib/4Ho34YOlmj.jpg",
+        "keyboard_type": "Mechanical",
+        "key_switches": "Cherry MX Brown",
+        "backlighting": "RGB",
+        "macro_keys": "6 inch",
+        "features": "Detachable wrist rest, dedicated multimedia controls, customizable RGB lighting, 8MB onboard profile storage",
+        "description": "The Corsair K95 RGB Platinum XT is a high-performance mechanical gaming keyboard. It features Cherry MX Brown key switches for tactile feedback and RGB backlighting for customizable lighting effects. With six dedicated macro keys, you can program complex commands. The keyboard includes a detachable wrist rest, dedicated multimedia controls, and 8MB onboard profile storage for your gaming settings.",
+        "price": 19999,
+        "status": "In Stock",
+        "product_code": 2028001,
+        "reviews": "4.8 (1698 reviews)"
+    },
+    {
+        "product_id": 8002,
+        "product_name": "Razer BlackWidow Elite Mechanical Gaming Keyboard",
+        "image": "https://cdn.mos.cms.futurecdn.net/BsFJ6fBfhLaGbhRLwgHSFY.jpg",
+        "keyboard_type": "Mechanical",
+        "key_switches": "Razer Green",
+        "backlighting": "Chroma RGB",
+        "macro_keys": "None",
+        "features": "Magnetic wrist rest, dedicated media controls, customizable Chroma RGB lighting, USB and audio pass-through",
+        "description": "The Razer BlackWidow Elite is a premium mechanical gaming keyboard with Razer Green key switches for precise key presses. Its Chroma RGB backlighting allows for extensive customization. The keyboard includes a comfortable magnetic wrist rest, dedicated media controls, and convenient USB and audio pass-through ports for enhanced connectivity.",
+        "price": 15999,
+        "status": "In Stock",
+        "product_code": 2028002,
+        "reviews": "4.7 (1365 reviews)"
+    },
+    {
+        "product_id": 8003,
+        "product_name": "Logitech G Pro X Mechanical Gaming Keyboard",
+        "image": "https://assets.hardwarezone.com/img/2019/10/logitech-g-pro-x-keyboard.jpg",
+        "keyboard_type": "Mechanical",
+        "key_switches": "Hot-swappable GX switches",
+        "backlighting": "RGB",
+        "macro_keys": "None",
+        "features": "Compact design, customizable RGB lighting, GX switch hot-swappable, onboard profile storage",
+        "description": "The Logitech G Pro X Mechanical Gaming Keyboard is designed for competitive gamers. It features hot-swappable GX switches for quick customization. Its compact design ensures portability. The keyboard offers customizable RGB lighting and onboard profile storage for personalized gaming settings.",
+        "price": 12999,
+        "status": "In Stock",
+        "product_code": 2028003,
+        "reviews": "4.6 (1190 reviews)"
+    }
+    
+    
+    
+]

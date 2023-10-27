@@ -1,0 +1,68 @@
+[
+    {
+        "product_id": 3101,
+        "product_name": "Max Green MG1500VA UPS",
+        "image": "https://www.startech.com.bd/image/cache/catalog/ups/maxgreen/mgo-w3kl/mgo-w3kl-001-500x500.png",
+        "capacity": "1500VA / 900W",
+        "battery_runtime": "Up to 120 minutes",
+        "outlets": "8 Outlets (4 Battery Backup, 4 Surge Protection)",
+        "features": "Simulated Sine Wave, Automatic Voltage Regulation, LED Display, USB Charging Port",
+        "frequency": "50/60 Hz",
+        "battery": "Sealed Lead-Acid",
+        "noise_level": "Less than 45 dB",
+        "color": "Black",
+        "weight": "9.8 kg",
+        "dimensions": "340 x 170 x 160 mm",
+        "description": "The Max Green MG1500VA UPS provides reliable power backup for your devices. With a capacity of 1500VA and 900W, it ensures extended battery runtime of up to 120 minutes. It offers 8 outlets with a combination of battery backup and surge protection. Features include simulated sine wave output, automatic voltage regulation, an LED display, and a USB charging port. This UPS operates at a frequency of 50/60 Hz and uses a sealed lead-acid battery. It operates quietly with a noise level of less than 45 dB. The UPS is sleek and compact, weighing 9.8 kg and measuring 340 x 170 x 160 mm.",
+        "price": 6500,
+        "status": "In Stock",
+        "product_code": 2024101,
+        "reviews": ""
+    },
+ 
+    {
+        "product_id": 3102,
+        "product_name": "Max Green MG1000VA UPS",
+        "image": "https://www.startech.com.bd/image/cache/catalog/ups/maxgreen/mgoe-w1ks-1kva/mgoe-w1ks-1kva-01-500x500.webp",
+        "capacity": "1000VA / 600W",
+        "battery_runtime": "Up to 90 minutes",
+        "outlets": "6 Outlets (3 Battery Backup, 3 Surge Protection)",
+        "features": "Simulated Sine Wave, AVR, LCD Display, USB Charging Port",
+        "frequency": "50/60 Hz",
+        "battery": "Sealed Lead-Acid",
+        "noise_level": "Less than 40 dB",
+        "color": "Black",
+        "weight": "8.2 kg",
+        "dimensions": "320 x 150 x 140 mm",
+        "description": "The Max Green MG1000VA UPS provides reliable power backup for your devices. With a capacity of 1000VA and 600W, it ensures extended battery runtime of up to 90 minutes. It offers 6 outlets with a combination of battery backup and surge protection. Features include simulated sine wave output, automatic voltage regulation (AVR), an LCD display, and a USB charging port. This UPS operates at a frequency of 50/60 Hz and uses a sealed lead-acid battery. It operates quietly with a noise level of less than 40 dB. The UPS is sleek and compact, weighing 8.2 kg and measuring 320 x 150 x 140 mm.",
+        "price": 5500,
+        "status": "In Stock",
+        "product_code": 2024102,
+        "reviews": ""
+    }
+    ,
+    {
+        "product_id": 3103,
+        "product_name": "Max Green MG500VA UPS",
+        "image": "https://www.cloud.ryanscomputers.com/cdn/products/main/maxgreen-mg-li-eap-1500va-1500va-offline-ups-with-11651139979.webp",
+        "capacity": "500VA / 300W",
+        "battery_runtime": "Up to 60 minutes",
+        "outlets": "4 Outlets (2 Battery Backup, 2 Surge Protection)",
+        "features": "Simulated Sine Wave, AVR, LED Indicators, USB Charging Port",
+        "frequency": "50/60 Hz",
+        "battery": "Sealed Lead-Acid",
+        "noise_level": "Less than 35 dB",
+        "color": "Black",
+        "weight": "6.5 kg",
+        "dimensions": "290 x 130 x 120 mm",
+        "description": "The Max Green MG500VA UPS provides reliable power backup for your devices. With a capacity of 500VA and 300W, it ensures extended battery runtime of up to 60 minutes. It offers 4 outlets with a combination of battery backup and surge protection. Features include simulated sine wave output, automatic voltage regulation (AVR), LED indicators, and a USB charging port. This UPS operates at a frequency of 50/60 Hz and uses a sealed lead-acid battery. It operates quietly with a noise level of less than 35 dB. The UPS is sleek and compact, weighing 6.5 kg and measuring 290 x 130 x 120 mm.",
+        "price": 4000,
+        "status": "In Stock",
+        "product_code": 2024103,
+        "reviews": ""
+    }
+    
+
+    
+    
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "product_id": 1901,
+        "product_name": "Toshiba P300 2TB 3.5\" 7200 RPM SATA III Internal HDD",
+        "image": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/2183fdbe594dc54473f1710a73c23bee/original.jpg",
+        "capacity": "2TB",
+        "rotation_speed": "7200 RPM",
+        "interface": "SATA III (6.0 Gb/s)",
+        "cache": "64MB",
+        "form_factor": "3.5-inch",
+        "description": "The Toshiba P300 2TB HDD is a high-capacity storage solution with a 7200 RPM rotational speed, ensuring fast data access. It utilizes a SATA III interface for quick data transfers. With a 64MB cache, it offers smooth performance for gaming and multimedia. The 3.5-inch form factor makes it suitable for desktop PCs, workstations, and NAS systems.",
+        "price": 6500,
+        "status": "In Stock",
+        "product_code": 2022901,
+        "reviews": ""
+    },
+    {
+        "product_id": 1902,
+        "product_name": "Toshiba X300 6TB 3.5\" 7200 RPM SATA III Internal HDD",
+        "image": "https://c1.neweggimages.com/ProductImage/22-149-629-V01.jpg",
+        "capacity": "6TB",
+        "rotation_speed": "7200 RPM",
+        "interface": "SATA III (6.0 Gb/s)",
+        "cache": "128MB",
+        "form_factor": "3.5-inch",
+        "description": "The Toshiba X300 6TB HDD provides ample storage capacity and delivers data at a 7200 RPM speed. Its SATA III interface enables high-speed data transfers. With a large 128MB cache, it's ideal for gaming, content creation, and large file storage. The 3.5-inch form factor is suitable for desktop PCs and workstations.",
+        "price": 10800,
+        "status": "In Stock",
+        "product_code": 2022902,
+        "reviews": ""
+    },
+    {
+        "product_id": 1903,
+        "product_name": "Toshiba N300 4TB 3.5\" 7200 RPM SATA III NAS Internal HDD",
+        "image": "https://storage.toshiba.com/images/consumer-hdd-internal/banner-n300-mb.jpg",
+        "capacity": "4TB",
+        "rotation_speed": "7200 RPM",
+        "interface": "SATA III (6.0 Gb/s)",
+        "cache": "128MB",
+        "form_factor": "3.5-inch",
+        "description": "The Toshiba N300 4TB HDD is designed for NAS (Network-Attached Storage) systems. With a 7200 RPM rotation speed and a SATA III interface, it's optimized for continuous and fast data access. The large 128MB cache ensures smooth performance in a NAS environment. It's a reliable choice for network storage solutions.",
+        "price":8200,
+        "status": "In Stock",
+        "product_code": 2022903,
+        "reviews": ""
+    }
+    
+]

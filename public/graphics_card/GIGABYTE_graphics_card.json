@@ -1,0 +1,54 @@
+[
+    {
+        "product_id": 1401,
+        "product_name": "GIGABYTE GeForce RTX 3070 Gaming OC Graphics Card",
+        "image": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/2102/innergigabyteimages/eagle/03.jpg",
+        "chipset": "NVIDIA GeForce RTX 3070",
+        "memory_size": "8GB GDDR6",
+        "memory_bus": "256-bit",
+        "core_clock": "1500 MHz",
+        "ray_tracing_cores": "46",
+        "ray_tracing_performance": "48 TFLOPS",
+        "description": "The GIGABYTE GeForce RTX 3070 Gaming OC is a powerful gaming graphics card with 8GB of GDDR6 memory and a wide 256-bit memory bus for high bandwidth. It features a core clock of 1500 MHz for exceptional gaming performance and includes 46 ray tracing cores for 48 TFLOPS of ray tracing performance.",
+        "price": 39900,
+        "status": "In Stock",
+        "product_code": 2022401,
+        "reviews": ""
+    },
+    
+    {
+        "product_id": 1402,
+        "product_name": "GIGABYTE Radeon RX 6700 XT Gaming OC Graphics Card",
+        "image": "https://www.techspot.com/articles-info/2216/images/radeon-6700-8.jpg",
+        "chipset": "AMD Radeon RX 6700 XT",
+        "memory_size": "12GB GDDR6",
+        "memory_bus": "192-bit",
+        "core_clock": "2424 MHz",
+        "ray_tracing_cores": "Not Applicable",
+        "ray_tracing_performance": "Not Applicable",
+        "description": "The GIGABYTE Radeon RX 6700 XT Gaming OC is a high-performance AMD graphics card. With 12GB of GDDR6 memory and a 192-bit memory bus, it offers excellent gaming performance. Its core clock of 2424 MHz ensures smooth gameplay, although it does not feature ray tracing cores or ray tracing performance.",
+        "price": 28900,
+        "status": "In Stock",
+        "product_code": 2022402,
+        "reviews": ""
+    },
+
+    {
+        "product_id": 1403,
+        "product_name": "GIGABYTE GeForce GT 710 Low Profile Graphics Card",
+        "image": "https://i.ytimg.com/vi/_ciSof5Sf6A/hqdefault.jpg",
+        "chipset": "NVIDIA GeForce GT 710",
+        "memory_size": "2GB DDR3",
+        "memory_bus": "64-bit",
+        "core_clock": "954 MHz",
+        "ray_tracing_cores": "Not Applicable",
+        "ray_tracing_performance": "Not Applicable",
+        "description": "The GIGABYTE GeForce GT 710 is a low-profile graphics card suitable for basic computing needs. It comes with 2GB of DDR3 memory and a 64-bit memory bus for everyday tasks. Its core clock of 954 MHz provides decent performance for office and multimedia use, but it does not support ray tracing.",
+        "price": 4900,
+        "status": "In Stock",
+        "product_code": 2022403,
+        "reviews": ""
+    }
+    
+    
+]
