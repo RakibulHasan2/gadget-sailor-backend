@@ -1,10 +1,11 @@
-// import express from 'express';
-// import { productsController } from '../Product.controller';
+import express from 'express';
 
 
 
-// const router = express.Router();
 
-// router.post('/add-product',productsController.createProduct);
 
-// export const ProductsRoute = router;
+const router = express.Router();
+
+
+
+export const ImacRoute = router;
