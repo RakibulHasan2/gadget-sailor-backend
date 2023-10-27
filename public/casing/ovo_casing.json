@@ -1,0 +1,73 @@
+[
+    {
+        "product_id": 2501,
+        "product_name": "OVO Spacewalker ATX Mid Tower Gaming Casing",
+        "image": "https://www.techlandbd.com/image/catalog/Casing/ovo/OVO%20V335D-11.jpg",
+        "type": "ATX Mid Tower",
+        "compatibility": "ATX, Micro ATX, Mini-ITX",
+        "expansion_slots": 7,
+        "drive_bays": "1 x 2.5 inch",
+        "cooling_support": "Front: 3 x 120mm, Rear: 1 x 120mm",
+        "front_panel_ports": "USB 3.0 x 1, USB 2.0 x 2, Audio In/Out",
+        "color": "Black",
+        "weight": "6.2 kg",
+        "dimensions": "440 x 210 x 450 mm",
+        "fan_support": "Top: 2 x 120mm or 140mm, Bottom: 2 x 120mm",
+        "radiator_support": "Front: Up to 360mm, Rear: 120mm",
+        "description": "The OVO Spacewalker ATX Mid Tower Gaming Casing is designed for enthusiasts. It's an ATX Mid Tower case compatible with ATX, Micro ATX, and Mini-ITX motherboards. With 7 expansion slots and support for 1 x 2.5-inch drive bay, it offers flexibility. This casing features cooling support with three 120mm fans in the front and one 120mm fan at the rear. It includes USB 3.0 x 1, USB 2.0 x 2, and Audio In/Out ports in the front panel. The black casing weighs 6.2 kg and has dimensions of 440 x 210 x 450 mm. Additionally, it supports top fans (2 x 120mm or 140mm) and bottom fans (2 x 120mm) with radiator support in the front (up to 360mm) and rear (120mm). This casing is perfect for gamers and PC enthusiasts.",
+        "price": 4500,
+        "status": "In Stock",
+        "product_code": 2023501,
+        "reviews": ""
+    }
+    ,
+
+    {
+        "product_id": 2502,
+        "product_name": "OVO Stellar Eclipse Mini-ITX Slim Casing",
+        "image": "https://www.techlandbd.com/image/catalog/Casing/ovo/E-335EB/OVO%20E-335EB%20case.jpg",
+        "type": "Mini-ITX Slim",
+        "compatibility": "Mini-ITX",
+        "expansion_slots": 2,
+        "drive_bays": "1 x 2.5 inch",
+        "cooling_support": "None (Slim Form Factor)",
+        "front_panel_ports": "USB 3.0 x 1, Audio In/Out",
+        "color": "Black",
+        "weight": "3.4 kg",
+        "dimensions": "330 x 94 x 330 mm",
+        "fan_support": "N/A",
+        "radiator_support": "N/A",
+        "description": "The OVO Stellar Eclipse Mini-ITX Slim Casing is a compact and stylish choice for Mini-ITX builds. With 2 expansion slots and 1 x 2.5-inch drive bay, it's designed for space-efficient configurations. This slim casing doesn't support additional cooling fans due to its slim form factor. The front panel features USB 3.0 x 1 and Audio In/Out ports. It comes in an attractive black color and has a weight of 3.4 kg with dimensions of 330 x 94 x 330 mm. While it doesn't support additional fans or radiators, it's a sleek choice for minimalistic Mini-ITX setups.",
+        "price": 2800,
+        "status": "In Stock",
+        "product_code": 2023502,
+        "reviews": ""
+    }
+    ,
+
+    {
+        "product_id": 2503,
+        "product_name": "OVO Aurora RGB ATX Mid Tower Casing",
+        "image": "https://www.techlandbd.com/image/catalog/Casing/ovo/ovo-e335d-mid-tower-gaming-rgb-case-01.jpg",
+        "type": "ATX Mid Tower",
+        "compatibility": "ATX, Micro ATX, Mini-ITX",
+        "expansion_slots": 7,
+        "drive_bays": "1 x 2.5 inch",
+        "cooling_support": "Front: 3 x 120mm, Rear: 1 x 120mm, RGB Lighting",
+        "front_panel_ports": "USB 3.0 x 2, USB 2.0 x 2, Audio In/Out",
+        "color": "Black",
+        "weight": "7.5 kg",
+        "dimensions": "470 x 220 x 490 mm",
+        "fan_support": "Top: 2 x 120mm or 140mm, Bottom: 2 x 120mm",
+        "radiator_support": "Front: Up to 360mm, Rear: 120mm",
+        "description": "The OVO Aurora RGB ATX Mid Tower Casing is built for gaming and aesthetics. It's an ATX Mid Tower case compatible with ATX, Micro ATX, and Mini-ITX motherboards. With 7 expansion slots and 1 x 2.5-inch drive bay, it's versatile. This casing features effective cooling support with three 120mm fans in the front and one 120mm fan at the rear, complemented by captivating RGB lighting. The front panel includes USB 3.0 x 2, USB 2.0 x 2, and Audio In/Out ports. The black casing weighs 7.5 kg and has dimensions of 470 x 220 x 490 mm. It supports top fans (2 x 120mm or 140mm) and bottom fans (2 x 120mm) with radiator support in the front (up to 360mm) and rear (120mm). This casing is perfect for gamers who want style and performance.",
+        "price": 5500,
+        "status": "In Stock",
+        "product_code": 2023503,
+        "reviews": ""
+    }
+    
+    
+    
+    
+]

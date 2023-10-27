@@ -1,0 +1,61 @@
+[
+    {
+        "product_id": 8611,
+        "product_name": "Audio-Technica ATH-M50x Studio Headphones",
+        "image": "https://www.soundguys.com/wp-content/uploads/2022/03/audio-technica-ath-m50x-center-scaled.jpg",
+        "type": "Over-Ear",
+        "connectivity": "Wired (3.5mm detachable cable)",
+        "sound_quality": "Exceptional clarity, extended frequency range",
+        "noise_isolation": "Professional-grade earpad and robust construction",
+        "color": "Black",
+        "weight": "Approx. 285g",
+        "price": 1999,
+        "status": "In Stock",
+        "product_code": 2028611,
+        "reviews": "",
+        "frequency_range": "15Hz - 28kHz",
+        "sensitivity": "98 dB",
+        "description": "The Audio-Technica ATH-M50x delivers studio-quality sound with a wide frequency range and exceptional sensitivity. It's designed for professionals seeking top-tier audio accuracy and noise isolation."
+    }
+    ,
+
+    {
+        "product_id": 8612,
+        "product_name": "Sennheiser HD 600 Open-Back Headphones",
+        "image": "https://robbreport.com/wp-content/uploads/2023/02/senn01.jpg?w=1000",
+        "type": "Over-Ear (Open-Back)",
+        "connectivity": "Wired (3.5mm jack)",
+        "sound_quality": "High-resolution audio, advanced diaphragm design",
+        "controls": "Inline volume control",
+        "color": "Matte Grey",
+        "weight": "Approx. 260g",
+        "price": 3499,
+        "status": "In Stock",
+        "product_code": 2028612,
+        "reviews": "",
+        "frequency_range": "12Hz - 40.5kHz",
+        "sensitivity": "97 dB",
+        "description": "The Sennheiser HD 600 delivers exceptional sound quality with a broad frequency range and remarkable sensitivity. Its open-back design ensures natural sound reproduction for audiophiles."
+    },
+
+    {
+        "product_id": 8613,
+        "product_name": "Beyerdynamic DT 770 PRO Studio Headphones",
+        "image": "https://www.soundguys.com/wp-content/uploads/2018/01/beyerdynamic-dt-770-studio-80-ohm-wear.jpg",
+        "type": "Over-Ear",
+        "connectivity": "Wired (3.5mm coiled cable)",
+        "sound_quality": "High-resolution audio, precise bass reflex system",
+        "controls": "N/A",
+        "color": "Matte Black",
+        "weight": "Approx. 270g",
+        "price": 1690,
+        "status": "In Stock",
+        "product_code": 2028613,
+        "reviews": "",
+        "frequency_range": "5Hz - 35kHz",
+        "sensitivity": "96 dB",
+        "description": "The Beyerdynamic DT 770 PRO offers excellent sound quality with a broad frequency range and precise bass response. Its robust design makes it a favorite among studio professionals."
+    }
+    
+    
+]

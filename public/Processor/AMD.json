@@ -1,0 +1,55 @@
+[
+    {
+        "product_id": 901,
+        "product_name": "AMD Ryzen 9 5900X Processor",
+        "image": "https://www.techspot.com/images2/news/bigimage/2020/11/2020-11-05-image-52.jpg",
+        "series": "AMD Ryzen 9",
+        "cores": 12,
+        "threads": 24,
+        "base_clock": "3.7 GHz",
+        "max_boost_clock": "4.8 GHz",
+        "cache": "70MB",
+        "socket": "AM4",
+        "description": "The AMD Ryzen 9 5900X is a high-performance processor with 12 cores and 24 threads. It offers a base clock of 3.7 GHz and a max boost clock of 4.8 GHz for exceptional speed. With 70MB of cache, it delivers rapid data access. Compatible with the AM4 socket, it's perfect for gaming and content creation.",
+        "price":44900,
+        "status": "In Stock",
+        "product_code": 2021901,
+        "reviews": ""
+    },
+    {
+        "product_id": 902,
+        "product_name": "AMD Ryzen 7 5800X Processor",
+        "image": "https://cdn.mos.cms.futurecdn.net/8XxF5qpKDPRWW8he2GroJR.jpg",
+        "series": "AMD Ryzen 7",
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.8 GHz",
+        "max_boost_clock": "4.7 GHz",
+        "cache": "36MB",
+        "socket": "AM4",
+        "description": "The AMD Ryzen 7 5800X is a high-performance 8-core processor with 16 threads. It provides a base clock of 3.8 GHz and a max boost clock of 4.7 GHz for speedy computing. With 36MB of cache, it ensures efficient data access. It's compatible with the AM4 socket and suitable for gaming and multitasking.",
+        "price": 28900,
+        "status": "In Stock",
+        "product_code": 2021902,
+        "reviews": ""
+    },
+    
+    {
+        "product_id": 903,
+        "product_name": "AMD Ryzen 5 5600X Processor",
+        "image": "https://www.techspot.com/articles-info/2135/images/2020-11-08-image-2.jpg",
+        "series": "AMD Ryzen 5",
+        "cores": 6,
+        "threads": 12,
+        "base_clock": "3.7 GHz",
+        "max_boost_clock": "4.6 GHz",
+        "cache": "35MB",
+        "socket": "AM4",
+        "description": "The AMD Ryzen 5 5600X is a 6-core processor with 12 threads, offering a base clock of 3.7 GHz and a max boost clock of 4.6 GHz for efficient performance. It features 35MB of cache for quick data retrieval. Compatible with the AM4 socket, it's a great choice for budget-friendly gaming and productivity.",
+        "price":19900,
+        "status": "In Stock",
+        "product_code": 2021903,
+        "reviews": ""
+    }
+    
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "product_id": 501,
+        "product_name": "Dell XPS 13 - Ultrabook",
+        "image": "https://www.custommacbd.com/cdn/shop/products/8150aQHMSML._AC_SL1500_da39eebc-e743-4bab-9894-acd5bd071eb9_1200x1200.jpg?v=1636109420",
+        "model": "Dell XPS 13",
+        "processor": "Intel Core i7-1165G7",
+        "memory": "16GB LPDDR4x RAM",
+        "storage": "512GB NVMe SSD",
+        "display": "13.4-inch 4K InfinityEdge Touch Display",
+        "description": "The Dell XPS 13 Ultrabook is an ultra-slim and lightweight laptop. It features a stunning 4K touchscreen display for crisp visuals. Powered by an Intel Core i7 processor and equipped with a fast 512GB SSD, it ensures top-notch performance. With long-lasting battery life, it's perfect for on-the-go professionals.",
+        "price":114900,
+        "status": "In Stock",
+        "product_code": 2021501,
+        "reviews": ""
+    },
+    {
+        "product_id": 502,
+        "product_name": "Dell Inspiron 15 - Performance Laptop",
+        "image": "https://cdn.pickr.com.au/wp-content/uploads/2017/01/dell-inspiron-15-7000-gaming-laptop-ces-2017-03.jpg",
+        "model": "Dell Inspiron 15",
+        "processor": "Intel Core i5-11300H",
+        "memory": "8GB DDR4 RAM",
+        "storage": "256GB NVMe SSD + 1TB HDD",
+        "display": "15.6-inch Full HD Display",
+        "description": "The Dell Inspiron 15 is a high-performance laptop featuring an Intel Core i5 CPU, ample RAM for multitasking, and dual storage options (SSD + HDD). The large Full HD display provides a great visual experience, and Dell Cinema audio enhancements enhance your multimedia experience.",
+        "price": 69900,
+        "status": "In Stock",
+        "product_code": 2021502,
+        "reviews": ""
+    },
+    {
+        "product_id": 503,
+        "product_name": "Dell G5 15 - Gaming Laptop",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTMOlLspSrbJGK43PYTgtG1ua7FQcaBwMlrQ&usqp=CAU",
+        "model": "Dell G5 15",
+        "processor": "Intel Core i7-9750H",
+        "memory": "16GB DDR4 RAM",
+        "storage": "512GB NVMe SSD",
+        "display": "15.6-inch Full HD 144Hz Display",
+        "description": "The Dell G5 15 is a gaming laptop powered by a high-performance Intel Core i7 processor. It features a high-speed 144Hz refresh rate display for smooth gaming. With ample RAM and fast SSD storage, it's designed for gaming performance. NVIDIA GeForce GTX graphics deliver impressive visuals for your games.",
+        "price": 90900,
+        "status": "In Stock",
+        "product_code": 2021503,
+        "reviews": ""
+    }
+        
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "product_id": 301,
+        "product_name": "Dell Desktop Setup - OptiPlex Pro Series",
+        "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/brand-pc/dell/vostro-3888mt/vostro-3888mt-03-500x500.webp",
+        "model": "Dell OptiPlex Pro Desktop",
+        "processor": "Intel Core i7-11700 8-core CPU",
+        "memory": "32GB DDR4 RAM",
+        "storage": "1TB NVMe SSD + 2TB HDD",
+        "graphics": "NVIDIA GeForce GT 1030 2GB GDDR5",
+        "description": "The Dell OptiPlex Pro Series desktop setup is built for business. It's powered by an Intel Core i7-11700 8-core CPU for efficient work. With 32GB of DDR4 RAM and a combination of 1TB NVMe SSD and 2TB HDD storage, it's perfect for office tasks. The NVIDIA GeForce GT 1030 provides decent graphics. Enhance your business productivity with this setup.",
+        "price":99900,
+        "status": "In Stock",
+        "product_code": 2021301,
+        "reviews": "No reviews yet"
+    },
+    {
+        "product_id": 302,
+        "product_name": "Dell Gaming Desktop Setup - Alienware Aurora R12",
+        "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/brand-pc/dell/vostro-3888mt/vostro-3888mt-03-500x500.webp",
+        "model": "Dell Alienware Aurora R12 Gaming Desktop",
+        "processor": "Intel Core i9-12900KF 16-core CPU",
+        "memory": "64GB DDR5 RAM",
+        "storage": "2TB NVMe SSD + 4TB HDD",
+        "graphics": "NVIDIA GeForce RTX 3090 24GB GDDR6X",
+        "description": "The Dell Alienware Aurora R12 is designed for gamers. It's powered by an Intel Core i9-12900KF 16-core CPU for top-tier gaming. With 64GB of DDR5 RAM and a combination of 2TB NVMe SSD and 4TB HDD storage, it's ready for extended gaming sessions. The NVIDIA GeForce RTX 3090 delivers exceptional graphics. Elevate your gaming experience with this setup.",
+        "price":199900,
+        "status": "In Stock",
+        "product_code": 2021302,
+        "reviews": "No reviews yet"
+    },
+    
+    {
+        "product_id": 303,
+        "product_name": "Dell Home Office Desktop Setup - Inspiron Series",
+        "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/brand-pc/dell/vostro-3888mt/vostro-3888mt-03-500x500.webp",
+        "model": "Dell Inspiron Home Office Desktop",
+        "processor": "Intel Core i5-10400 6-core CPU",
+        "memory": "16GB DDR4 RAM",
+        "storage": "512GB NVMe SSD + 1TB HDD",
+        "graphics": "Intel UHD Graphics 630",
+        "description": "The Dell Inspiron Home Office desktop setup is perfect for remote work. It's equipped with an Intel Core i5-10400 6-core CPU for productivity. With 16GB of DDR4 RAM and a combination of 512GB NVMe SSD and 1TB HDD storage, it's ideal for office tasks. The integrated Intel UHD Graphics 630 provides clear visuals. Boost your work-from-home setup with this solution.",
+        "price":64900,
+        "status": "In Stock",
+        "product_code": 2021303,
+        "reviews": "No reviews yet"
+    }
+    
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "product_id": 2901,
+        "product_name": "LG 27UK850-W 27\" 4K UHD IPS Monitor",
+        "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/71c76a55-2475-4f44-b509-9a8b6ed1f0c3/md05913416-27UK850-Z6-jpg",
+        "screen_size": "27 inches",
+        "resolution": "3840 x 2160 (4K UHD)",
+        "panel_type": "IPS",
+        "refresh_rate": "60Hz",
+        "response_time": "5ms",
+        "features": "HDR10, USB-C, sRGB 99%, On-Screen Control, Color Calibrated",
+        "connectivity": "HDMI x 2, DisplayPort x 1, USB-C x 1, USB 3.0 x 2",
+        "color": "White",
+        "price": 11000,
+        "status": "In Stock",
+        "product_code": 2023901,
+        "reviews": ""
+    },
+
+    {
+        "product_id": 2902,
+        "product_name": "LG 34GN850-B 34\" Ultrawide QHD Nano IPS Gaming Monitor",
+        "image": "https://i.rtings.com/assets/products/7A4bsXUk/lg-34gn850-b/design-small.jpg",
+        "screen_size": "34 inches",
+        "resolution": "3440 x 1440 (Ultrawide QHD)",
+        "panel_type": "Nano IPS",
+        "refresh_rate": "160Hz",
+        "response_time": "1ms",
+        "features": "NVIDIA G-Sync Compatible, VESA DisplayHDR 400, Sphere Lighting 2.0, Custom Gaming Modes",
+        "connectivity": "HDMI x 2, DisplayPort x 1, USB 3.0 x 2",
+        "color": "Black",
+        "price": 16000,
+        "status": "In Stock",
+        "product_code": 2023902,
+        "reviews": ""
+    },
+
+    {
+        "product_id": 2903,
+        "product_name": "LG 24MK400H-B 24\" HD LED Monitor",
+        "image": "https://www.lg.com/id/images/TV/features/22MK400H-B_MonitorLED_ftr01_D2.jpg",
+        "screen_size": "24 inches",
+        "resolution": "1366 x 768 (HD)",
+        "panel_type": "LED",
+        "refresh_rate": "75Hz",
+        "response_time": "2ms",
+        "features": "Reader Mode, Color Weakness Mode, Flicker Safe, Smart Energy Saving",
+        "connectivity": "HDMI x 1, VGA x 1",
+        "color": "Black",
+        "price": 3200,
+        "status": "In Stock",
+        "product_code": 2023903,
+        "reviews": ""
+    }
+    
+    
+    
+]
