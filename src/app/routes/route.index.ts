@@ -2,8 +2,9 @@ import express from 'express';
 import { UserRoute } from './../modules/users/user.route';
 import { CategoriesRoute } from '../modules/categories/categories..route';
 import { subCategoriesRoute } from '../modules/sub_categories/sub_categories.route';
-import { ImacRoute } from '../modules/Product/imac/imac.route';
-import { GamingPcRoute } from '../modules/Product/Gaming_pc/Gaming_pc.route';
+// import { ProductsRoute } from '../modules/Product/imac/imac.route';
+// import { GamingPcRoute } from '../modules/Product/Gaming_pc/Gaming_pc.route';
+import { processorRoute } from '../modules/Product/processor/processor.route';
 
 const router = express.Router();
 
@@ -20,9 +21,17 @@ const moduleRoutes = [
     path: '/',
     route: subCategoriesRoute
   },
+  // {
+  //   path: '/',
+  //   route: ProductsRoute
+  // },
+  // {
+  //   path: '/',
+  //   route: GamingPcRoute
+  // },
   {
     path: '/',
-    route: ImacRoute
+    route: ProductsRoute
   },
   {
     path: '/',

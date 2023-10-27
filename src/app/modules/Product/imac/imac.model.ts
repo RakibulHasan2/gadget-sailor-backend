@@ -2,6 +2,7 @@ import { Schema, model } from 'mongoose';
 import { IImac,  imacModel } from './imac.interface';
 
 
+
 const imacSchema = new Schema<IImac>(
     {
         categoryName: {

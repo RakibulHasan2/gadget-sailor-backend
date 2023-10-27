@@ -1,4 +1,3 @@
-import mongoose from "mongoose";
 import { IUsers } from "./user.interface";
 import { Users } from "./user.model";
 
@@ -59,7 +58,6 @@ const getDeleteUsers = async (id: string): Promise<IUsers | null> => {
 export const UsersService = {
     createUsers,
     getAllUsers,
-    // getUserByEmail,
     getDeleteUsers,
     UpdateUser,
     getUserById

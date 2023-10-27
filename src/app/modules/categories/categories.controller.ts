@@ -6,24 +6,24 @@ import httpStatus from "http-status";
 import { ICategory } from "./categories.interface";
 
 const createCategories = catchAsync(async (req: Request, res: Response) => {
-    const { ...categoryData } = req.body;
-    const result = await CategoriesService.createCategories(categoryData);
-  
-    sendResponse(res, {
-      statusCode: httpStatus.OK,
-      success: true,
-      message: 'category is Created successfully',
-      data: result,
-    });
+  const { ...categoryData } = req.body;
+  const result = await CategoriesService.createCategories(categoryData);
+
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'category is Created successfully',
+    data: result,
   });
+});
 
-  const getAllCategories = async (req: Request, res: Response) => {
+const getAllCategories = async (req: Request, res: Response) => {
 
-    // Call the getAllCategories function to retrieve all users
-    const result = await CategoriesService.getAllCategories();
-   
-    // Send the categories as a JSON response
-    sendResponse<ICategory[]>(res, {
+  // Call the getAllCategories function to retrieve all users
+  const result = await CategoriesService.getAllCategories();
+
+  // Send the categories as a JSON response
+  sendResponse<ICategory[]>(res, {
     statusCode: httpStatus.OK,
     success: true,
     message: 'category retrieved successfully',
@@ -31,9 +31,9 @@ const createCategories = catchAsync(async (req: Request, res: Response) => {
   });
 };
 
-//controller for get category by id
+//controller for get category by id (updated by marzia)
 const getSingleCategory = catchAsync(async (req: Request, res: Response) => {
-  const id  = req.params.id;
+  const id = req.params.id;
   const result = await CategoriesService.getSingleCategory(id);
   sendResponse<ICategory>(res, {
     statusCode: httpStatus.OK,
@@ -43,8 +43,8 @@ const getSingleCategory = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-  export const categoriesController = {
-    createCategories,
-    getAllCategories,
-    getSingleCategory
-  };
+export const categoriesController = {
+  createCategories,
+  getAllCategories,
+  getSingleCategory
+};
