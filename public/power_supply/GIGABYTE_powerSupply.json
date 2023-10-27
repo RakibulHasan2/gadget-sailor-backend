@@ -1,0 +1,59 @@
+[
+    {
+        "product_id": 1701,
+        "product_name": "GIGABYTE AORUS P850W 80+ Platinum Modular Power Supply",
+        "image": "https://global.aorus.com/upload/Admin/images/2021_0811_gigabyte-0299%20(1)%20(2).jpg",
+        "wattage": "850W",
+        "efficiency_rating": "80+ Platinum",
+        "modularity": "Fully Modular",
+        "fan_size": "135mm",
+        "protections": "OCP, OVP, OPP, SCP, UVP, OTP, NLO",
+        "frequency_range": "47-63Hz",
+        "current": "10A @ 115V, 5A @ 230V",
+        "voltage": "100-240V",
+        "description": "The GIGABYTE AORUS P850W is a high-performance modular power supply with an 80+ Platinum efficiency rating. It provides a stable power output of 850W for gaming and high-end PC builds. The fully modular design allows easy cable management. Equipped with a 135mm smart fan, it ensures quiet and efficient cooling. It includes a range of protection features to safeguard your components.",
+        "price": 9900,
+        "status": "In Stock",
+        "product_code": 2022701,
+        "reviews": ""
+    },
+
+    {
+        "product_id": 1702,
+        "product_name": "GIGABYTE B700H 80+ Bronze Semi-Modular Power Supply",
+        "image": "https://www.techcenturion.com/wp-content/uploads/2019/12/Gigabyte-B700H-Box-Front.jpg",
+        "wattage": "700W",
+        "efficiency_rating": "80+ Bronze",
+        "modularity": "Semi-Modular",
+        "fan_size": "120mm",
+        "protections": "OCP, OVP, OPP, SCP, UVP, OTP",
+        "frequency_range": "47-63Hz",
+        "current": "8A @ 115V, 4A @ 230V",
+        "voltage": "100-240V",
+        "description": "The GIGABYTE B700H is a reliable power supply with an 80+ Bronze efficiency rating. It offers a power output of 700W, suitable for mainstream gaming and productivity PCs. The semi-modular design balances convenience and cable management. With a 120mm fan, it provides efficient cooling and quiet operation. Multiple protection mechanisms ensure component safety.",
+        "price": 4200,
+        "status": "In Stock",
+        "product_code": 2022702,
+        "reviews": ""
+    },
+    {
+        "product_id": 1703,
+        "product_name": "GIGABYTE P450B 80+ Bronze Power Supply",
+        "image": "https://cdn.mos.cms.futurecdn.net/n8rAWVZEUZcdnBAk4WgPg3.jpg",
+        "wattage": "450W",
+        "efficiency_rating": "80+ Bronze",
+        "modularity": "Non-Modular",
+        "fan_size": "120mm",
+        "protections": "OCP, OVP, OPP, SCP, UVP",
+        "frequency_range": "47-63Hz",
+        "current": "5A @ 115V, 3A @ 230V",
+        "voltage": "100-240V",
+        "description": "The GIGABYTE P450B is an affordable power supply with an 80+ Bronze efficiency rating. It offers 450W of stable power for basic PC setups. While non-modular, it provides reliable performance and cost-effectiveness. The 120mm fan ensures efficient cooling with low noise. Essential protections are included to safeguard your hardware.",
+        "price":2800,
+        "status": "In Stock",
+        "product_code": 2022703,
+        "reviews": ""
+    }
+    
+    
+]

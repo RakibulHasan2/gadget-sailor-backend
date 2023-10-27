@@ -1,0 +1,53 @@
+[
+    {
+        "product_id": 4201,
+        "product_name": "Dell KB216 Wired Keyboard",
+        "image": "https://i.rtings.com/assets/products/grP7vfOK/dell-kb216/design-medium.jpg",
+        "keyboard_type": "Membrane",
+        "key_switches": "Membrane",
+        "layout": "Full-Size with Numeric Keypad",
+        "connectivity": "Wired USB",
+        "compatibility": "Windows and Linux",
+        "description": "The Dell KB216 Wired Keyboard is a reliable and affordable input device. It features a full-size layout with a numeric keypad, making it suitable for various tasks. The keyboard uses membrane key switches for comfortable typing. It connects via a standard USB interface and is compatible with both Windows and Linux operating systems.",
+        "price": 1900,
+        "status": "In Stock",
+        "product_code": 2024501,
+        "reviews": ""
+    },
+    
+    {
+        "product_id": 4202,
+        "product_name": "Logitech K780 Multi-Device Wireless Keyboard",
+        "image": "https://i.rtings.com/assets/products/XuDDq8CC/logitech-k780/design-medium.jpg",
+        "keyboard_type": "Membrane",
+        "key_switches": "Membrane",
+        "layout": "Full-Size with Numeric Keypad",
+        "connectivity": "Wireless (Bluetooth/USB Unifying Receiver)",
+        "compatibility": "Windows, macOS, Android, iOS",
+        "description": "The Logitech K780 Multi-Device Wireless Keyboard is a versatile input device designed for multi-device usage. Its full-size layout includes a numeric keypad for enhanced productivity. The keyboard uses membrane key switches for comfortable typing. It connects wirelessly via Bluetooth or USB Unifying Receiver, making it compatible with Windows, macOS, Android, and iOS devices.",
+        "price": 7000,
+        "status": "In Stock",
+        "product_code": 2024502,
+        "reviews": ""
+    },
+    
+    {
+        "product_id": 4203,
+        "product_name": "Microsoft Ergonomic Wired Keyboard",
+        "image": "https://i.rtings.com/assets/products/bSrxGgja/microsoft-surface-ergonomic-keyboard/design-medium.jpg",
+        "keyboard_type": "Membrane",
+        "key_switches": "Membrane",
+        "layout": "Full-Size with Split Design",
+        "connectivity": "Wired USB",
+        "compatibility": "Windows",
+        "description": "The Microsoft Ergonomic Wired Keyboard offers a comfortable typing experience with its split design. This full-size keyboard is equipped with membrane key switches for a soft and quiet keystroke. It connects through a standard USB interface and is optimized for Windows users. Its ergonomic design promotes a more natural hand position while typing.",
+        "price": 4000,
+        "status": "In Stock",
+        "product_code": 2024503,
+        "reviews": ""
+    }
+    
+    
+    
+    
+]

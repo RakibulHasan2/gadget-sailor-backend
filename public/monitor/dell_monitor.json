@@ -1,0 +1,58 @@
+[
+    {
+        "product_id": 2801,
+        "product_name": "Dell Ultrasharp U2719D 27\" LED Monitor",
+        "image": "https://static.bhphoto.com/images/fb/1254756.jpg",
+        "screen_size": "27 inches",
+        "resolution": "2560 x 1440 (WQHD)",
+        "panel_type": "IPS",
+        "refresh_rate": "60Hz",
+        "response_time": "5ms",
+        "features": "InfinityEdge Display, Color Accuracy, TUV Certified Flicker-Free Screen, ComfortView, DisplayPort Daisy Chain",
+        "connectivity": "DisplayPort x 2, HDMI x 1, USB 3.0 x 4",
+        "color": "Black",
+        "price": 9000,
+        "status": "In Stock",
+        "product_code": 2023801,
+        "reviews": ""
+    },
+
+    {
+        "product_id": 2802,
+        "product_name": "Dell Alienware AW3418DW 34\" Curved Gaming Monitor",
+        "image": "https://cdn.mos.cms.futurecdn.net/dDXnAtEMzyfCai5gK9NQbR.jpg",
+        "screen_size": "34 inches",
+        "resolution": "3440 x 1440 (WQHD)",
+        "panel_type": "IPS",
+        "refresh_rate": "120Hz",
+        "response_time": "4ms",
+        "features": "NVIDIA G-Sync, AlienFX Custom Lighting, Alienware On-Screen Display, Wide Color Gamut",
+        "connectivity": "DisplayPort x 1, HDMI x 1, USB 3.0 x 4",
+        "color": "Epic Silver",
+        "price": 14000,
+        "status": "In Stock",
+        "product_code": 2023802,
+        "reviews": ""
+    },
+
+    {
+        "product_id": 2803,
+        "product_name": "Dell S2719DGF 27\" FreeSync Gaming Monitor",
+        "image": "https://m.media-amazon.com/images/I/81JAaWg2e9L._AC_UF1000,1000_QL80_.jpg",
+        "screen_size": "27 inches",
+        "resolution": "2560 x 1440 (QHD)",
+        "panel_type": "TN",
+        "refresh_rate": "155Hz",
+        "response_time": "1ms",
+        "features": "AMD FreeSync, Dark Stabilizer, Virtually Borderless Design, Customizable Presets",
+        "connectivity": "HDMI x 2, DisplayPort x 1, USB 3.0 x 4",
+        "color": "Black",
+        "price": 7500,
+        "status": "In Stock",
+        "product_code": 2023803,
+        "reviews": ""
+    }
+    
+    
+    
+]

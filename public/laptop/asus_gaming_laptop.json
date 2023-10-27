@@ -1,0 +1,48 @@
+[
+    {
+        "product_id": 702,
+        "product_name": "ASUS ROG Zephyrus G14 - Gaming Laptop",
+        "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202111/Asus_ROG_Zephyrus_G14_Alan_Wal.jpg",
+        "model": "ASUS ROG Zephyrus G14",
+        "processor": "AMD Ryzen 9 5900HS",
+        "memory": "32GB DDR4 RAM",
+        "storage": "1TB NVMe SSD",
+        "display": "14-inch QHD 120Hz Display",
+        "description": "The ASUS ROG Zephyrus G14 is a gaming powerhouse. It's equipped with an AMD Ryzen 9 CPU and 32GB of DDR4 RAM for gaming excellence. The 14-inch QHD display with a 120Hz refresh rate offers smooth gaming visuals. With a 1TB SSD, it ensures fast game loading and multitasking.",
+        "price": 139900,
+        "status": "In Stock",
+        "product_code": 2021702,
+        "reviews": ""
+    },
+    {
+        "product_id": 705,
+        "product_name": "ASUS TUF A15 - Gaming Laptop",
+        "image": "https://images.hindustantimes.com/tech/img/2020/06/10/960x540/20200528_003630_1591756296188_1591756305393.jpg",
+        "model": "ASUS TUF A15",
+        "processor": "AMD Ryzen 9 5900HX",
+        "memory": "32GB DDR4 RAM",
+        "storage": "1TB NVMe SSD",
+        "display": "15.6-inch Full HD 144Hz Display",
+        "description": "The ASUS TUF A15 is a robust gaming laptop designed for intense gaming sessions. It's equipped with an AMD Ryzen 9 CPU and 32GB of DDR4 RAM for exceptional gaming performance. The 15.6-inch Full HD display with a 144Hz refresh rate offers smooth visuals. With a fast 1TB SSD, it ensures quick game loading and multitasking.",
+        "price":129900,
+        "status": "In Stock",
+        "product_code": 2021705,
+        "reviews": ""
+    },
+    {
+        "product_id": 706,
+        "product_name": "ASUS ROG Strix Scar 17 - Gaming Laptop",
+        "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/1_Untitled_8_5_6.jpg",
+        "model": "ASUS ROG Strix Scar 17",
+        "processor": "Intel Core i9-11980HK",
+        "memory": "64GB DDR4 RAM",
+        "storage": "2TB NVMe SSD + 1TB HDD",
+        "display": "17.3-inch QHD 360Hz Display",
+        "description": "The ASUS ROG Strix Scar 17 is a high-end gaming laptop for serious gamers. It's powered by an Intel Core i9 CPU and boasts a massive 64GB of DDR4 RAM for superior gaming performance. The 17.3-inch QHD display with a 360Hz refresh rate offers stunning visuals. With a large 2TB SSD and an additional 1TB HDD, it provides ample storage for games and files.",
+        "price": 179900,
+        "status": "In Stock",
+        "product_code": 2021706,
+        "reviews": ""
+    }
+    
+]

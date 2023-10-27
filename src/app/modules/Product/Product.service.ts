@@ -1,8 +1,9 @@
 import config from "../../../config";
-import { IProducts } from "./Product.interface";
-import { Products } from "./Product.model";
+import { IGamingPc } from "./Gaming_pc/Gamin_pc.interface";
+import { IImac } from "./imac/imac.interface";
+import { Products } from "./imac/imac.model";
 
-const createProduct = async (payload: IProducts): Promise<IProducts | null> => {
+const createProduct = async (payload: IImac | IGamingPc): Promise<IImac|IGamingPc | null> => {
     const min = 100000;
     const max = 999999;
     if (!payload.status) {

@@ -1,0 +1,51 @@
+[
+    {
+        "product_id": 9001,
+        "product_name": "SteelSeries Arctis 7 Wireless Gaming Headset",
+        "image": "https://www.soundguys.com/wp-content/uploads/2020/10/Arctis-7-out-of-the-box.jpeg",
+        "headphone_type": "Over-Ear",
+        "connection_type": "2.4 GHz Wireless",
+        "sound_quality": "DTS Headphone:X 2.0",
+        "microphone": "ClearCast Bidirectional",
+        "features": "Lossless 2.4 GHz wireless, 24-hour battery life, noise-canceling, on-ear controls",
+        "description": "The SteelSeries Arctis 7 is a wireless gaming headset designed for immersive gaming. It offers lossless 2.4 GHz wireless connectivity for lag-free audio. With DTS Headphone:X 2.0, you'll experience 3D surround sound. The ClearCast microphone ensures crystal-clear communication. Enjoy 24-hour battery life and on-ear controls for a seamless gaming experience.",
+        "price": 149.99,
+        "status": "In Stock",
+        "product_code": 2029001,
+        "reviews": "4.6 (2154 reviews)"
+    },
+    {
+        "product_id": 9002,
+        "product_name": "HyperX Cloud II Gaming Headset",
+        "image": "https://assets1.ignimgs.com/2017/01/20/kingston-headset-1280-1484940785968_160w.jpg?width=1280",
+        "headphone_type": "Over-Ear",
+        "connection_type": "Wired (USB)",
+        "sound_quality": "7.1 Surround Sound",
+        "microphone": "Detachable Noise-Canceling",
+        "features": "Memory foam ear cushions, durable aluminum frame, virtual 7.1 surround sound, in-line audio control",
+        "description": "The HyperX Cloud II Gaming Headset is a wired headset known for its comfort and audio quality. With memory foam ear cushions, you can game for hours without discomfort. It features 7.1 virtual surround sound for an immersive gaming experience. The detachable noise-canceling microphone ensures clear communication, and the in-line audio control provides quick adjustments.",
+        "price": 99.99,
+        "status": "In Stock",
+        "product_code": 2029002,
+        "reviews": "4.8 (3058 reviews)"
+    },
+
+    {
+        "product_id": 9003,
+        "product_name": "Razer Kraken X Ultralight Gaming Headset",
+        "image": "https://assets2.razerzone.com/images/og-image/razer-kraken-v3-x-OGimg.png",
+        "headphone_type": "Over-Ear",
+        "connection_type": "Wired (3.5mm)",
+        "sound_quality": "7.1 Surround Sound",
+        "microphone": "Cardioid Bendable Microphone",
+        "features": "Ultra-lightweight design, bendable noise-canceling mic, 7.1 surround sound",
+        "description": "The Razer Kraken X is an ultralight gaming headset designed for comfort and performance. Its ultra-lightweight design ensures you can wear it for extended gaming sessions. The 7.1 surround sound offers an immersive audio experience. The cardioid bendable microphone provides noise-canceling clarity for voice communication.",
+        "price": 49.99,
+        "status": "In Stock",
+        "product_code": 2029003,
+        "reviews": "4.5 (1550 reviews)"
+    }
+    
+    
+    
+]

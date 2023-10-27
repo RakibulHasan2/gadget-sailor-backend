@@ -1,0 +1,50 @@
+[
+    {
+        "product_id": 801,
+        "product_name": "Lenovo Legion 5 - Gaming Laptop",
+        "image": "https://images.firstpost.com/wp-content/uploads/2021/08/Lenovo-Legion-5-Pro-review-1.jpg",
+        "model": "Lenovo Legion 5",
+        "processor": "AMD Ryzen 7 5800H",
+        "memory": "16GB DDR4 RAM",
+        "storage": "512GB NVMe SSD",
+        "display": "15.6-inch Full HD 144Hz Display",
+        "description": "The Lenovo Legion 5 is a powerful gaming laptop. It's equipped with an AMD Ryzen 7 CPU and 16GB of DDR4 RAM for smooth gaming performance. The 15.6-inch Full HD display with a 144Hz refresh rate offers fast and vibrant visuals. With a 512GB SSD, it ensures quick game loading and multitasking.",
+        "price": 109900,
+        "status": "In Stock",
+        "product_code": 2021801,
+        "reviews": "4.7 stars (39 reviews)"
+    },
+    {
+        "product_id": 802,
+        "product_name": "Lenovo IdeaPad L340 - Gaming Laptop",
+        "image": "https://static.toiimg.com/thumb/msid-53048412,width-1070,height-580,imgsize-49880,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        "model": "Lenovo IdeaPad L340",
+        "processor": "Intel Core i5-9300H",
+        "memory": "8GB DDR4 RAM",
+        "storage": "256GB NVMe SSD + 1TB HDD",
+        "display": "15.6-inch Full HD IPS Display",
+        "description": "The Lenovo IdeaPad L340 is a budget-friendly gaming laptop. It's powered by an Intel Core i5 CPU and 8GB of DDR4 RAM for decent gaming performance. The 15.6-inch Full HD IPS display provides clear visuals. With dual storage options (256GB SSD + 1TB HDD), it offers ample space for games and files.",
+        "price":64900,
+        "status": "In Stock",
+        "product_code": 2021802,
+        "reviews": "4.4 stars (36 reviews)"
+    },
+    {
+        "product_id": 803,
+        "product_name": "Lenovo Legion 7 - Premium Gaming Laptop",
+        "image": "https://www.lenovo.com/medias/lenovo-gaming-legion-7-series-feature-3.jpg?context=bWFzdGVyfHJvb3R8MTg4NTc1fGltYWdlL2pwZWd8aDY1L2g4Mi8xMDg3NzYwODU1ODYyMi5qcGd8NzY2Y2I3OWQ2MDQxOGRiODY5MjEzZjM5NDBmNmYwOGUzZTY2NzhmMmI4YjQ4MmNkYWM5NTcyOGUyOGM1NTY5Mw",
+        "model": "Lenovo Legion 7",
+        "processor": "Intel Core i9-11980HK",
+        "memory": "32GB DDR4 RAM",
+        "storage": "1TB NVMe SSD",
+        "display": "17.3-inch QHD 165Hz Display",
+        "description": "The Lenovo Legion 7 is a premium gaming laptop for serious gamers. It's powered by an Intel Core i9 CPU and boasts 32GB of DDR4 RAM for superior gaming performance. The 17.3-inch QHD display with a 165Hz refresh rate offers stunning visuals. With a fast 1TB SSD, it ensures quick game loading and multitasking.",
+        "price": 149900,
+        "status": "In Stock",
+        "product_code": 2021803,
+        "reviews": ""
+    }
+    
+    
+    
+]

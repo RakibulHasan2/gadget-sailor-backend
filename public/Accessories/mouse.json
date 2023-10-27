@@ -1,0 +1,48 @@
+[
+    {
+        "product_id": 4301,
+        "product_name": "Logitech M720 Triathlon Wireless Mouse",
+        "image": "https://i.rtings.com/assets/products/HyFtGnSz/logitech-m720-triathlon/design-medium.jpg",
+        "mouse_type": "Wireless Optical Mouse",
+        "connectivity": "Bluetooth, USB Receiver",
+        "compatibility": "Windows, macOS, Linux",
+        "special_features": "Hyper-Fast Scrolling, Easy-Switch Buttons, Long Battery Life",
+        "description": "The Logitech M720 Triathlon is a versatile wireless mouse designed for multi-device productivity. It features hyper-fast scrolling, making it easy to switch between applications and documents. With easy-switch buttons, you can seamlessly switch between three connected devices. Its long battery life ensures uninterrupted usage. Compatible with Windows, macOS, and Linux, it's the perfect companion for busy professionals.",
+        "price": 4999,
+        "status": "In Stock",
+        "product_code": 2024601,
+        "reviews": ""
+    },
+
+    {
+        "product_id": 4302,
+        "product_name": "Microsoft Basic Optical Mouse",
+        "image": "https://www.bayreviews.com/storage/24030657.jpg",
+        "mouse_type": "Wired Optical Mouse",
+        "connectivity": "USB",
+        "compatibility": "Windows",
+        "special_features": "Plug-and-Play, Ambidextrous Design",
+        "description": "The Microsoft Basic Optical Mouse is a straightforward and reliable wired mouse. It features a simple plug-and-play setup for Windows users. Its ambidextrous design ensures comfortable use for both left and right-handed individuals. This mouse is an affordable and practical choice for everyday computing needs.",
+        "price": 1299,
+        "status": "In Stock",
+        "product_code": 2024602,
+        "reviews": ""
+    },
+    {
+        "product_id": 4303,
+        "product_name": "HP X500 Wired Mouse",
+        "image": "https://product-images.eetgroup.com/images/700px_jpg/RP000347611482.jpg",
+        "mouse_type": "Wired Optical Mouse",
+        "connectivity": "USB",
+        "compatibility": "Windows, macOS, Linux",
+        "special_features": "Symmetrical Design, 3 Buttons, Scroll Wheel",
+        "description": "The HP X500 Wired Mouse is a reliable and functional input device. With its symmetrical design, it's comfortable for both left and right-handed users. The mouse features three buttons and a scroll wheel for easy navigation. It is compatible with Windows, macOS, and Linux, making it a versatile choice for various operating systems.",
+        "price": 999,
+        "status": "In Stock",
+        "product_code": 2024603,
+        "reviews": ""
+    }
+    
+    
+    
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "product_id": 1001,
+        "product_name": "Intel Core i9-11900K Processor",
+        "image": "https://cdn.mos.cms.futurecdn.net/4k42y589t5urHTAm69WmZT.jpg",
+        "series": "Intel Core i9",
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.5 GHz",
+        "max_boost_clock": "5.3 GHz",
+        "cache": "16MB",
+        "socket": "LGA 1200",
+        "description": "The Intel Core i9-11900K is a high-end processor with 8 cores and 16 threads. It boasts a base clock of 3.5 GHz and an impressive max boost clock of 5.3 GHz for rapid computing. With 16MB of cache, it delivers quick data access. It's compatible with the LGA 1200 socket and ideal for gaming and content creation.",
+        "price": 45900,
+        "status": "In Stock",
+        "product_code": 2022001,
+        "reviews": "4.9 stars (70 reviews)"
+    },
+    {
+        "product_id": 1002,
+        "product_name": "Intel Core i7-11700K Processor",
+        "image": "https://cdn.mos.cms.futurecdn.net/3T8hBg5pRLygqowf7euksA.jpg",
+        "series": "Intel Core i7",
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.6 GHz",
+        "max_boost_clock": "5.0 GHz",
+        "cache": "16MB",
+        "socket": "LGA 1200",
+        "description": "The Intel Core i7-11700K is a high-performance processor with 8 cores and 16 threads. It offers a base clock of 3.6 GHz and a max boost clock of 5.0 GHz for speedy computing. With 16MB of cache, it ensures efficient data access. It's compatible with the LGA 1200 socket and suitable for gaming and multitasking.",
+        "price": 32900,
+        "status": "In Stock",
+        "product_code": 2022002,
+        "reviews": ""
+    },
+    
+    {
+        "product_id": 1003,
+        "product_name": "Intel Core i5-11400 Processor",
+        "image": "https://www.techspot.com/images/products/2021/processors/intel/org/2021-04-12-product-7-j_1100.webp",
+        "series": "Intel Core i5",
+        "cores": 6,
+        "threads": 12,
+        "base_clock": "2.6 GHz",
+        "max_boost_clock": "4.4 GHz",
+        "cache": "12MB",
+        "socket": "LGA 1200",
+        "description": "The Intel Core i5-11400 is a 6-core processor with 12 threads, offering a base clock of 2.6 GHz and a max boost clock of 4.4 GHz for efficient performance. It features 12MB of cache for quick data retrieval. Compatible with the LGA 1200 socket, it's a great choice for budget-friendly gaming and productivity.",
+        "price": 17900,
+        "status": "In Stock",
+        "product_code": 2022003,
+        "reviews": ""
+    }
+    
+]
