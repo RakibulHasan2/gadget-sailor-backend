@@ -58,7 +58,6 @@ const getDeleteUsers = async (id: string): Promise<IUsers | null> => {
 export const UsersService = {
     createUsers,
     getAllUsers,
-    // getUserByEmail,
     getDeleteUsers,
     UpdateUser,
     getUserById

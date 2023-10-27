@@ -1,5 +1,5 @@
 import { Schema, model } from 'mongoose';
-import { IProcessor, IProcessorModel } from './processor.interface';
+import { IProcessor, IProcessorModel,} from './processor.interface';
 
 
 
@@ -85,4 +85,4 @@ const processorSchema = new Schema<IProcessor>(
         },
     }
 );
-export const Products = model<IProcessor, IProcessorModel>('Products', processorSchema);
+export const Processor = model<IProcessor, IProcessorModel>('Products', processorSchema);

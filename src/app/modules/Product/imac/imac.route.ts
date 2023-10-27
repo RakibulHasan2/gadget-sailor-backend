@@ -1,10 +1,10 @@
-import express from 'express';
-import { productsController } from '../Product.controller';
+// import express from 'express';
+// import { productsController } from '../Product.controller';
 
 
 
-const router = express.Router();
+// const router = express.Router();
 
-router.post('/add-product',productsController.createProduct);
+// router.post('/add-product',productsController.createProduct);
 
-export const ProductsRoute = router;
+// export const ProductsRoute = router;
