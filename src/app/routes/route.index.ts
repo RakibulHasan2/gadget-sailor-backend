@@ -31,11 +31,7 @@ const moduleRoutes = [
   // },
   {
     path: '/',
-    route: ProductsRoute
-  },
-  {
-    path: '/',
-    route: GamingPcRoute
+    route: processorRoute
   }
 ];
 
