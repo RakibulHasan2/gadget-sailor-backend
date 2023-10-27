@@ -1,0 +1,50 @@
+[
+    {
+        "product_id": 2301,
+        "product_name": "Kingston A2000 1TB NVMe M.2 Internal SSD",
+        "image": "https://cdn.mos.cms.futurecdn.net/94jBfsbJ83GTaSDDLn8xY6-1200-80.jpg",
+        "capacity": "1TB",
+        "interface": "PCIe NVMe",
+        "read_speed": "Up to 2200 MB/s",
+        "write_speed": "Up to 2000 MB/s",
+        "form_factor": "M.2 2280",
+        "description": "The Kingston A2000 1TB NVMe SSD is a high-speed storage solution with PCIe NVMe support. With a 1TB capacity, it's perfect for gaming and productivity. It offers read speeds of up to 2200 MB/s and write speeds of up to 2000 MB/s. The M.2 2280 form factor ensures compatibility with modern systems.",
+        "price": 9800,
+        "status": "In Stock",
+        "product_code": 2023301,
+        "reviews": ""
+    },
+    {
+        "product_id": 2302,
+        "product_name": "Kingston UV500 480GB 2.5\" SATA III Internal SSD",
+        "image": "https://m.media-amazon.com/images/I/81mZgZRAbVL._AC_UF894,1000_QL80_.jpg",
+        "capacity": "480GB",
+        "interface": "SATA III (6.0 Gb/s)",
+        "read_speed": "Up to 520 MB/s",
+        "write_speed": "Up to 500 MB/s",
+        "form_factor": "2.5-inch",
+        "description": "The Kingston UV500 480GB SSD is an efficient storage upgrade for your PC or laptop. With SATA III support, it offers a capacity of 480GB. It delivers read speeds of up to 520 MB/s and write speeds of up to 500 MB/s. The 2.5-inch form factor makes it suitable for a wide range of devices.",
+        "price": 3200,
+        "status": "In Stock",
+        "product_code": 2023302,
+        "reviews": ""
+    },
+    {
+        "product_id": 2303,
+        "product_name": "Kingston KC600 256GB 2.5\" SATA III Internal SSD",
+        "image": "https://m.media-amazon.com/images/I/41ckjDL59vL._AC_.jpg",
+        "capacity": "256GB",
+        "interface": "SATA III (6.0 Gb/s)",
+        "read_speed": "Up to 550 MB/s",
+        "write_speed": "Up to 520 MB/s",
+        "form_factor": "2.5-inch",
+        "description": "The Kingston KC600 256GB SSD is a reliable storage solution with SATA III connectivity. It provides 256GB of storage capacity. It delivers impressive read speeds of up to 550 MB/s and write speeds of up to 520 MB/s. The 2.5-inch form factor ensures compatibility with various devices.",
+        "price": 2400,
+        "status": "In Stock",
+        "product_code": 2023303,
+        "reviews": ""
+    }
+    
+    
+    
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "product_id": 601,
+        "product_name": "HP Envy x360 - Convertible Laptop",
+        "image":"https://static.toiimg.com/thumb/msid-97246174,width-1280,height-720,resizemode-4/97246174.jpg",
+        "model": "HP Envy x360",
+        "processor": "AMD Ryzen 7 5700U",
+        "memory": "16GB DDR4 RAM",
+        "storage": "512GB NVMe SSD",
+        "display": "13.3-inch Full HD Touchscreen",
+        "description": "The HP Envy x360 is a versatile convertible laptop. It's powered by an AMD Ryzen 7 processor and boasts 16GB of DDR4 RAM for smooth multitasking. The 13.3-inch Full HD touchscreen display adds flexibility to your work and entertainment. With a fast 512GB SSD, it offers quick storage access.",
+        "price":89900,
+        "status": "In Stock",
+        "product_code": 2021601,
+        "reviews": ""
+    },
+    {
+        "product_id": 602,
+        "product_name": "HP Pavilion 14 - Everyday Laptop",
+        "image": "https://i.pcmag.com/imagery/reviews/065rv6nxdAEcCzvE3Qb8T3v-1.fit_scale.size_760x427.v1658424542.jpg",
+        "model": "HP Pavilion 14",
+        "processor": "Intel Core i5-1135G7",
+        "memory": "8GB DDR4 RAM",
+        "storage": "256GB NVMe SSD",
+        "display": "14-inch Full HD IPS Display",
+        "description": "The HP Pavilion 14 is an ideal everyday laptop. It features an Intel Core i5 CPU and 8GB of DDR4 RAM for your daily computing needs. The 14-inch Full HD IPS display offers vibrant visuals. With a fast 256GB SSD, it ensures quick boot times and application loading.",
+        "price": 54900,
+        "status": "In Stock",
+        "product_code": 2021602,
+        "reviews": ""
+    },
+    {
+        "product_id": 603,
+        "product_name": "HP Omen 15 - Gaming Laptop",
+        "image": "https://cdn.mos.cms.futurecdn.net/GBEfCwz6JQCo9j9jcpossk.jpg",
+        "model": "HP Omen 15",
+        "processor": "Intel Core i7-11800H",
+        "memory": "32GB DDR4 RAM",
+        "storage": "1TB NVMe SSD + 1TB HDD",
+        "display": "15.6-inch Full HD 165Hz Display",
+        "description": "The HP Omen 15 is a gaming laptop designed for performance. It's powered by an Intel Core i7 CPU and boasts 32GB of DDR4 RAM for gaming excellence. The 15.6-inch Full HD 165Hz display offers smooth visuals. With a 1TB SSD and 1TB HDD, it provides ample storage for your games and files.",
+        "price":119900,
+        "status": "In Stock",
+        "product_code": 2021603,
+        "reviews": ""
+    }
+    
+    
+]

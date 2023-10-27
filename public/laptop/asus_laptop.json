@@ -1,0 +1,50 @@
+[
+    {
+        "product_id": 701,
+        "product_name": "ASUS ZenBook 14 - Ultrabook",
+        "image": "https://soyacincau.com/wp-content/uploads/2022/07/220715-asus-zenbook-14-oled-review-1-scaled.jpg",
+        "model": "ASUS ZenBook 14",
+        "processor": "Intel Core i7-1165G7",
+        "memory": "16GB LPDDR4x RAM",
+        "storage": "512GB NVMe SSD",
+        "display": "14-inch Full HD NanoEdge Display",
+        "description": "The ASUS ZenBook 14 is an ultrathin ultrabook. It features an Intel Core i7 processor and 16GB of LPDDR4x RAM for seamless performance. The 14-inch Full HD NanoEdge display provides a stunning visual experience. With a 512GB SSD, it ensures speedy storage access.",
+        "price": 92900,
+        "status": "In Stock",
+        "product_code": 2021701,
+        "reviews": "4.6 stars (38 reviews)"
+    },
+    {
+        "product_id": 704,
+        "product_name": "ASUS VivoBook S14 - Everyday Laptop",
+        "image": "https://www.bdstall.com/asset/product-image/giant_156639.jpg",
+        "model": "ASUS VivoBook S14",
+        "processor": "Intel Core i7-1165G7",
+        "memory": "16GB LPDDR4x RAM",
+        "storage": "512GB NVMe SSD",
+        "display": "14-inch Full HD Display",
+        "description": "The ASUS VivoBook S14 is a stylish and efficient everyday laptop. It's powered by an Intel Core i7 processor and boasts 16GB of LPDDR4x RAM for smooth multitasking. The 14-inch Full HD display offers clear visuals. With a fast 512GB SSD, it ensures quick boot times and application loading. This laptop is perfect for work and entertainment.",
+        "price": 76900,
+        "status": "In Stock",
+        "product_code": 2021704,
+        "reviews": ""
+    },
+    
+    {
+        "product_id": 703,
+        "product_name": "ASUS VivoBook 15 - Everyday Laptop",
+        "image": "https://images.moneycontrol.com/static-mcnews/2023/03/vivobook-oled-15-1.jpg?impolicy=website&width=1600&height=900",
+        "model": "ASUS VivoBook 15",
+        "processor": "Intel Core i5-1135G7",
+        "memory": "12GB DDR4 RAM",
+        "storage": "256GB NVMe SSD + 1TB HDD",
+        "display": "15.6-inch Full HD Display",
+        "description": "The ASUS VivoBook 15 is an ideal everyday laptop. It features an Intel Core i5 CPU and 12GB of DDR4 RAM for your daily computing needs. The 15.6-inch Full HD display offers clear visuals. With dual storage options (256GB SSD + 1TB HDD), it provides ample space for your files and apps.",
+        "price":64900,
+        "status": "In Stock",
+        "product_code": 2021703,
+        "reviews": ""
+    }
+    
+    
+]

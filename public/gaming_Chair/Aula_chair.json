@@ -1,0 +1,46 @@
+[
+    {
+        "product_id": 9301,
+        "product_name": "AULA Thunder X5 Gaming Chair",
+        "image": "https://i0.wp.com/thunderx3.com/wp-content/uploads/2017/05/ThunderX3-UC5-Gaming-Chair-Gallery-B-1024x579.png",
+        "color": "Black/Red",
+        "material": "High-quality PU leather",
+        "features": "Ergonomic design, adjustable armrests, 180-degree recline, lumbar support, headrest cushion",
+        "weight_capacity": "Up to 300 lbs",
+        "description": "The AULA Thunder X5 Gaming Chair is built for long gaming sessions. With its ergonomic design, adjustable armrests, a 180-degree recline feature, lumbar support, and a headrest cushion, it provides the utmost comfort. Made from high-quality PU leather, this chair is both durable and stylish. It can support gamers up to 300 lbs.",
+        "price": 26999,
+        "status": "In Stock",
+        "product_code": 2029301,
+        "reviews": "4.9 (1245 reviews)"
+    },
+    {
+        "product_id": 9302,
+        "product_name": "AULA Alchemist Gaming Chair",
+        "image": "https://static1-us.millenium.gg/articles/9/19/63/9/@/195358-maxresdefault-2-orig-1-article_cover_bd-1.jpeg",
+        "color": "Black/Blue",
+        "material": "Premium PU leather",
+        "features": "Racecar-style design, adjustable seat height, 160-degree recline, lumbar support, neck pillow",
+        "weight_capacity": "Up to 250 lbs",
+        "description": "The AULA Alchemist Gaming Chair combines style and comfort with its racecar-style design. It features adjustable seat height, a 160-degree recline function, lumbar support, and a neck pillow for maximum comfort during long gaming sessions. Made from premium PU leather, this chair is built to last. It supports gamers up to 250 lbs.",
+        "price": 21999,
+        "status": "In Stock",
+        "product_code": 2029302,
+        "reviews": "4.8 (1098 reviews)"
+    },
+    {
+        "product_id": 9303,
+        "product_name": "AULA Laniro RGB Gaming Chair",
+        "image": "https://ict.com.mm/cdn/shop/products/aula-f8041-rgb-gaming-chair-gray-902638_grande.jpg?v=1657366600",
+        "color": "Black/Green",
+        "material": "Premium PU leather",
+        "features": "RGB lighting, adjustable armrests, 170-degree recline, lumbar support, neck pillow",
+        "weight_capacity": "Up to 280 lbs",
+        "description": "The AULA Laniro RGB Gaming Chair is a fusion of comfort and style, featuring vibrant RGB lighting. It includes adjustable armrests, a 170-degree recline feature, lumbar support, and a neck pillow for a comfortable gaming experience. Made from premium PU leather, this chair combines durability and aesthetics. It can support gamers up to 280 lbs.",
+        "price": 24999,
+        "status": "In Stock",
+        "product_code": 2029303,
+        "reviews": "4.7 (1143 reviews)"
+    }
+        
+    
+]

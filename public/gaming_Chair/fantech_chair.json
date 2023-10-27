@@ -1,0 +1,47 @@
+[
+    {
+        "product_id": 9201,
+        "product_name": "Fantech Alpha GC-185 Gaming Chair",
+        "image": "https://fantechworld.com/wp-content/uploads/2019/09/GC185_PRD3-1.png",
+        "color": "Black/Red",
+        "material": "PU leather",
+        "features": "Ergonomic design, adjustable armrests, 180-degree recline, lumbar support, headrest cushion",
+        "weight_capacity": "Up to 280 lbs",
+        "description": "The Fantech Alpha GC-185 Gaming Chair offers an ergonomic design for extended gaming sessions. Its features include adjustable armrests, a 180-degree recline function, lumbar support, and a headrest cushion. This gaming chair is designed for both comfort and style, making it a great addition to your gaming setup. It supports gamers up to 280 lbs.",
+        "price": 23999,
+        "status": "In Stock",
+        "product_code": 2029201,
+        "reviews": "4.9 (1123 reviews)"
+    },
+    {
+        "product_id": 9202,
+        "product_name": "Fantech Commander GC-182 Gaming Chair",
+        "image": "https://fantechworld.com/wp-content/uploads/2020/08/gc182-2.png",
+        "color": "Black/Blue",
+        "material": "PU leather",
+        "features": "Racecar-style design, adjustable seat height, 160-degree recline, lumbar support, neck pillow",
+        "weight_capacity": "Up to 250 lbs",
+        "description": "The Fantech Commander GC-182 Gaming Chair features a sleek racecar-inspired design for gamers who appreciate style and comfort. It includes adjustable seat height, a 160-degree recline function, lumbar support, and a neck pillow for added comfort during gaming. This chair can support gamers up to 250 lbs.",
+        "price": 19999,
+        "status": "In Stock",
+        "product_code": 2029202,
+        "reviews": "4.7 (934 reviews)"
+    },
+    {
+        "product_id": 9203,
+        "product_name": "Fantech Hex RGB Gaming Chair",
+        "image": "https://fantechworld.com/wp-content/uploads/2022/03/CG-192_ledare_icon_758x455-500x300.png",
+        "color": "Black/Green",
+        "material": "PU leather",
+        "features": "RGB lighting, adjustable armrests, 170-degree recline, lumbar support, neck pillow",
+        "weight_capacity": "Up to 300 lbs",
+        "description": "The Fantech Hex RGB Gaming Chair not only offers comfort but also style with RGB lighting. It comes with adjustable armrests, a 170-degree recline feature, lumbar support, and a neck pillow for maximum comfort. The RGB lighting adds a touch of flair to your gaming setup. This chair is suitable for gamers up to 300 lbs.",
+        "price": 25999,
+        "status": "In Stock",
+        "product_code": 2029203,
+        "reviews": "4.8 (1189 reviews)"
+    }
+    
+    
+    
+]

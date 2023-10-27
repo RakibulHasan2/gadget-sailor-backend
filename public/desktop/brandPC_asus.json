@@ -1,0 +1,50 @@
+[
+    {
+        "product_id": 201,
+        "product_name": "ASUS Desktop Setup - High-Performance Workstation",
+        "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/asus/d700mc/d700mc-01-500x500.webp",
+        "model": "ASUS High-Performance Workstation",
+        "processor": "Intel Core i9-12900K 16-core CPU",
+        "memory": "64GB DDR5 RAM",
+        "storage": "2TB NVMe SSD + 4TB HDD",
+        "graphics": "NVIDIA Quadro RTX A4000 16GB GDDR6",
+        "description": "The ASUS High-Performance Workstation is designed for professionals. It features an Intel Core i9-12900K 16-core CPU for exceptional computing power. With 64GB of high-speed DDR5 RAM and a combination of 2TB NVMe SSD and 4TB HDD storage, it's perfect for demanding tasks. The NVIDIA Quadro RTX A4000 ensures top-tier graphics performance. Get this workstation for creative work and 3D rendering.",
+        "price":249900,
+        "status": "In Stock",
+        "product_code": 2021201,
+        "reviews": "No reviews yet"
+    },
+    {
+        "product_id": 202,
+        "product_name": "ASUS Gaming Desktop Setup - ROG Strix Edition",
+        "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/brand-pc/asus/d900sc/d900sc-01-500x500.webp",
+        "model": "ASUS ROG Strix Gaming Desktop",
+        "processor": "AMD Ryzen 9 5900X 12-core CPU",
+        "memory": "32GB DDR4 RAM",
+        "storage": "1TB NVMe SSD + 2TB HDD",
+        "graphics": "NVIDIA GeForce RTX 3090 24GB GDDR6X",
+        "description": "The ASUS ROG Strix Gaming Desktop is built for gamers. It's powered by an AMD Ryzen 9 5900X 12-core CPU for high-performance gaming. With 32GB of DDR4 RAM and a combination of 1TB NVMe SSD and 2TB HDD storage, it's ready for extensive gaming sessions. The NVIDIA GeForce RTX 3090 delivers mind-blowing graphics. Get this setup for ultimate gaming experiences.",
+        "price": 179900,
+        "status": "In Stock",
+        "product_code": 2021202,
+        "reviews": "No reviews yet"
+    },
+    {
+        "product_id": 203,
+        "product_name": "ASUS Home Office Desktop Setup - Productivity Boost",
+        "image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/brand-pc/asus/d700md/d700md-01-500x500.webp",
+        "model": "ASUS Home Office Desktop",
+        "processor": "Intel Core i7-12700 12-core CPU",
+        "memory": "16GB DDR4 RAM",
+        "storage": "512GB NVMe SSD + 2TB HDD",
+        "graphics": "Intel UHD Graphics 770",
+        "description": "The ASUS Home Office Desktop is ideal for remote work and productivity. It's equipped with an Intel Core i7-12700 12-core CPU for multitasking. With 16GB of DDR4 RAM and a combination of 512GB NVMe SSD and 2TB HDD storage, it's perfect for office tasks. The integrated Intel UHD Graphics 770 provides clear visuals. Boost your productivity with this setup.",
+        "price":79900,
+        "status": "In Stock",
+        "product_code": 2021203,
+        "reviews": "No reviews yet"
+    }
+    
+    
+    
+]

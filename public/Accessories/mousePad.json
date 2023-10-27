@@ -1,0 +1,50 @@
+[
+    {
+        "product_id": 9601,
+        "product_name": "SteelSeries QcK Gaming Mouse Pad",
+        "image": "https://media.steelseriescdn.com/thumbs/filer_public/da/3c/da3c62fe-9b9d-4252-9358-e7438799fc12/1200x_buy_qck-edge_m_01.jpg__1920x1080_q100_crop-fit_optimize_subsampling-2.jpg",
+        "size": "Medium",
+        "surface": "High-quality cloth",
+        "base": "Non-slip rubber",
+        "thickness": "2mm",
+        "color": "Black",
+        "price": 1999,
+        "status": "In Stock",
+        "product_code": 2029601,
+        "reviews": "4.5 (2384 reviews)",
+        "description": "Smooth and consistent surface, optimized for both optical and laser sensors, durable and washable cloth, non-slip base for steady control."
+    },
+
+    {
+    "product_id": 9602,
+    "product_name": "Razer Goliathus Speed Gaming Mouse Pad",
+    "image": "https://media.karousell.com/media/photos/products/2020/12/13/razer_goliathus_speed_cosmic_e_1607876053_9379a202_progressive",
+    "size": "Large",
+    "surface": "High-speed woven fabric",
+    "base": "Anti-slip rubber",
+    "thickness": "3mm",
+    "color": "Black and Green",
+    "price": 2499,
+    "status": "In Stock",
+    "product_code": 2029602,
+    "reviews": "4.7 (3210 reviews)",
+    "description": "Slick and seamless surface for quick mouse movements, pixel-precise targeting and tracking, anti-fraying stitched frame, rubber base for slip resistance."
+},
+{
+    "product_id": 9603,
+    "product_name": "Corsair MM300 Gaming Mouse Pad",
+    "image": "https://www.evetech.co.za/repository/ProductImages/corsair-mm300-pro-mouse-pad-extended-1000px-v1-0001.jpg",
+    "size": "Extended",
+    "surface": "Textile-weave cloth",
+    "base": "Anti-skid rubber",
+    "thickness": "3mm",
+    "color": "Black and Blue",
+    "price": 2999,
+    "status": "In Stock",
+    "product_code": 2029603,
+    "reviews": "4.6 (1823 reviews)",
+    "description": "Precise tracking, stitched edges to prevent fraying, designed for low-DPI gaming, large and comfortable surface area."
+}
+
+
+]

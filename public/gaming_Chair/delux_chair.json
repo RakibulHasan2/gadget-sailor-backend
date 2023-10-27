@@ -1,0 +1,48 @@
+[
+    {
+        "product_id": 9101,
+        "product_name": "Delux PRO Series Gaming Chair",
+        "image": "https://www.tsbliving.co.nz/cdn/shop/products/CNAS-STK-OC-02-PU-BK-01_SWJ5OJS0VY0V_2048x2048.jpg?v=1671419549",
+        "color": "Black/Red",
+        "material": "PU leather",
+        "features": "Ergonomic design, adjustable armrests, 180-degree recline, lumbar support, headrest pillow",
+        "weight_capacity": "Up to 300 lbs",
+        "description": "The Delux PRO Series Gaming Chair is designed for ultimate comfort during long gaming sessions. Its ergonomic design ensures proper posture and support. With features like adjustable armrests, a 180-degree recline function, lumbar support, and a headrest pillow, you can game in style and comfort. This chair is built to accommodate gamers of all sizes with a weight capacity of up to 300 lbs.",
+        "price": 24999,
+        "status": "In Stock",
+        "product_code": 2029101,
+        "reviews": "4.8 (895 reviews)"
+    },
+    {
+        "product_id": 9102,
+        "product_name": "Delux ThunderX3 TGC22 Gaming Chair",
+        "image": "https://i0.wp.com/thunderx3.com/wp-content/uploads/2017/05/ThunderX3-TGC22-Gaming-Chair-BW-SL.png",
+        "color": "Black/Blue",
+        "material": "PU leather",
+        "features": "Racecar-style design, adjustable seat height, 180-degree recline, lumbar support, headrest cushion",
+        "weight_capacity": "Up to 250 lbs",
+        "description": "The Delux ThunderX3 TGC22 Gaming Chair offers a racecar-inspired design for gaming enthusiasts. It features adjustable seat height, a 180-degree recline function, lumbar support, and a headrest cushion. This chair is not only comfortable but also stylish, making it a great addition to your gaming setup. It supports gamers up to 250 lbs.",
+        "price": 19999,
+        "status": "In Stock",
+        "product_code": 2029102,
+        "reviews": "4.6 (1222 reviews)"
+    },
+
+    {
+        "product_id": 9103,
+        "product_name": "Delux Elite Series Racing Style Gaming Chair",
+        "image": "https://m.media-amazon.com/images/I/61uFW4xeo-L._AC_UF1000,1000_QL80_.jpg",
+        "color": "Black/White",
+        "material": "PU leather",
+        "features": "Racing style design, adjustable armrests, 180-degree recline, lumbar support, neck pillow",
+        "weight_capacity": "Up to 275 lbs",
+        "description": "The Delux Elite Series Gaming Chair offers a racing style design for an immersive gaming experience. It includes adjustable armrests, a 180-degree recline feature, lumbar support, and a neck pillow for added comfort during intense gaming sessions. With a weight capacity of up to 275 lbs, this chair is perfect for gamers of various sizes.",
+        "price": 21999,
+        "status": "In Stock",
+        "product_code": 2029103,
+        "reviews": "4.7 (1535 reviews)"
+    }
+    
+    
+    
+]

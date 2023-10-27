@@ -1,0 +1,62 @@
+[
+    {
+        "product_id": 2701,
+        "product_name": "Asus ROG Swift PG279QZ 27\" Gaming Monitor",
+        "image": "https://i.rtings.com/assets/products/BHD5nWoZ/asus-rog-swift-pg279qz/design-medium.jpg",
+        "screen_size": "27 inches",
+        "resolution": "2560 x 1440 (WQHD)",
+        "refresh_rate": "165Hz",
+        "response_time": "1ms",
+        "panel_type": "IPS",
+        "features": "G-Sync, Ultra Low Motion Blur, GamePlus, GameVisual",
+        "connectivity": "HDMI x 1, DisplayPort x 1, USB 3.0 x 2",
+        "color": "Black",
+        "weight": "7.6 kg",
+        "dimensions": "619 x 362 x 65 mm",
+        "price": 12000,
+        "status": "In Stock",
+        "product_code": 2023701,
+        "reviews": ""
+    },
+    {
+        "product_id": 2702,
+        "product_name": "Asus ProArt PA278QV 27\" Professional Monitor",
+        "image": "https://i.rtings.com/assets/products/0Hf25MAv/asus-proart-display-pa278qv/design-medium.jpg",
+        "screen_size": "27 inches",
+        "resolution": "2560 x 1440 (WQHD)",
+        "refresh_rate": "75Hz",
+        "response_time": "5ms",
+        "panel_type": "IPS",
+        "features": "Calman Verified, ProArt Preset, QuickFit Virtual Scale, Flicker-Free, Low Blue Light",
+        "connectivity": "HDMI x 1, DisplayPort x 1, USB 3.0 x 4",
+        "color": "Black",
+        "weight": "7.3 kg",
+        "dimensions": "619 x 362 x 65 mm",
+        "price": 8500,
+        "status": "In Stock",
+        "product_code": 2023702,
+        "reviews": ""
+    },
+    {
+        "product_id": 2703,
+        "product_name": "Asus TUF VG279Q1A 27\" Gaming Monitor",
+        "image": "https://dlcdnwebimgs.asus.com/files/media/a410241c-0ab8-4c1c-850b-1ac80f156709/v1/img/bg-section5.jpg",
+        "screen_size": "27 inches",
+        "resolution": "1920 x 1080 (Full HD)",
+        "refresh_rate": "165Hz",
+        "response_time": "1ms",
+        "panel_type": "IPS",
+        "features": "FreeSync, Shadow Boost, GamePlus, GameFast Input Technology",
+        "connectivity": "HDMI x 2, DisplayPort x 1",
+        "color": "Black",
+        "weight": "6.2 kg",
+        "dimensions": "619 x 362 x 65 mm",
+        "price": 5500,
+        "status": "In Stock",
+        "product_code": 2023703,
+        "reviews": ""
+    }
+    
+    
+    
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "product_id": 2401,
+        "product_name": "Adata XPG SX8200 Pro 1TB NVMe M.2 Internal SSD",
+        "image": "https://i.pcmag.com/imagery/reviews/01wjNZA2EW0gPVfduNTWvip-13.fit_scale.size_760x427.v1574731263.jpg",
+        "capacity": "1TB",
+        "interface": "PCIe NVMe",
+        "read_speed": "Up to 3500 MB/s",
+        "write_speed": "Up to 3000 MB/s",
+        "form_factor": "M.2 2280",
+        "description": "The Adata XPG SX8200 Pro 1TB NVMe SSD is a high-performance storage solution with PCIe NVMe support. With a 1TB capacity, it's perfect for gaming and content creation. It boasts read speeds of up to 3500 MB/s and write speeds of up to 3000 MB/s. The M.2 2280 form factor ensures compatibility with modern systems.",
+        "price": 9800,
+        "status": "In Stock",
+        "product_code": 2023401,
+        "reviews": ""
+    },
+    {
+        "product_id": 2402,
+        "product_name": "Adata SU800 512GB 2.5\" SATA III Internal SSD",
+        "image": "https://m.media-amazon.com/images/I/719v2L12N1L._AC_UF1000,1000_QL80_.jpg",
+        "capacity": "512GB",
+        "interface": "SATA III (6.0 Gb/s)",
+        "read_speed": "Up to 560 MB/s",
+        "write_speed": "Up to 520 MB/s",
+        "form_factor": "2.5-inch",
+        "description": "The Adata SU800 512GB SSD is an efficient storage upgrade for your PC or laptop. With SATA III support, it offers a capacity of 512GB. It delivers read speeds of up to 560 MB/s and write speeds of up to 520 MB/s. The 2.5-inch form factor makes it suitable for a wide range of devices.",
+        "price": 3200,
+        "status": "In Stock",
+        "product_code": 2023402,
+        "reviews": ""
+    },
+    {
+        "product_id": 2403,
+        "product_name": "Adata Ultimate SU650 240GB 2.5\" SATA III Internal SSD",
+        "image": "https://m.media-amazon.com/images/I/71YDz-exIDL._AC_UF894,1000_QL80_.jpg",
+        "capacity": "240GB",
+        "interface": "SATA III (6.0 Gb/s)",
+        "read_speed": "Up to 520 MB/s",
+        "write_speed": "Up to 450 MB/s",
+        "form_factor": "2.5-inch",
+        "description": "The Adata Ultimate SU650 240GB SSD is a cost-effective storage solution with SATA III connectivity. It provides 240GB of storage capacity. It offers read speeds of up to 520 MB/s and write speeds of up to 450 MB/s. The 2.5-inch form factor ensures compatibility with various devices.",
+        "price": 2400,
+        "status": "In Stock",
+        "product_code": 2023403,
+        "reviews": ""
+    }
+    
+    
+    
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "product_id": 2001,
+        "product_name": "Seagate Barracuda 1TB 3.5\" 7200 RPM SATA III Internal HDD",
+        "image": "https://c1.neweggimages.com/ProductImage/22-179-010-08.jpg",
+        "capacity": "1TB",
+        "rotation_speed": "7200 RPM",
+        "interface": "SATA III (6.0 Gb/s)",
+        "cache": "64MB",
+        "form_factor": "3.5-inch",
+        "description": "The Seagate Barracuda 1TB HDD provides reliable and fast storage with a 7200 RPM rotation speed. It uses a SATA III interface for quick data transfers. With a 64MB cache, it's suitable for gaming and general storage needs. The 3.5-inch form factor makes it compatible with desktop PCs and workstations.",
+        "price": 3200,
+        "status": "In Stock",
+        "product_code": 2023001,
+        "reviews": ""
+    },
+    {
+        "product_id": 2002,
+        "product_name": "Seagate IronWolf 4TB 3.5\" 5900 RPM SATA III NAS Internal HDD",
+        "image": "https://m.media-amazon.com/images/I/51eGHGdvf1L._CR3,0,1914,1080_SR684,386_.jpg",
+        "capacity": "4TB",
+        "rotation_speed": "5900 RPM",
+        "interface": "SATA III (6.0 Gb/s)",
+        "cache": "64MB",
+        "form_factor": "3.5-inch",
+        "description": "The Seagate IronWolf 4TB HDD is purpose-built for NAS (Network-Attached Storage) systems. It operates at 5900 RPM and utilizes a SATA III interface, making it ideal for continuous data access. With a 64MB cache, it delivers reliable performance in a NAS environment, ensuring data integrity and accessibility.",
+        "price": 7500,
+        "status": "In Stock",
+        "product_code": 2023002,
+        "reviews": ""
+    },
+    {
+        "product_id": 2003,
+        "product_name": "Seagate FireCuda 2TB 3.5\" 7200 RPM SATA III Internal SSHD",
+        "image": "https://c1.neweggimages.com/ProductImage/22-179-110-07.jpg",
+        "capacity": "2TB",
+        "rotation_speed": "7200 RPM",
+        "interface": "SATA III (6.0 Gb/s)",
+        "cache": "64MB",
+        "form_factor": "3.5-inch",
+        "description": "The Seagate FireCuda 2TB SSHD combines the speed of an SSD with the capacity of an HDD. With a 7200 RPM rotation speed and a SATA III interface, it delivers fast data access. The 64MB cache enhances performance for gaming and multitasking. This SSHD is designed for both speed and storage capacity.",
+        "price": 6800,
+        "status": "In Stock",
+        "product_code": 2023003,
+        "reviews": ""
+    }
+    
+    
+    
+]

@@ -1,8 +1,9 @@
 import { Schema, model } from 'mongoose';
-import { IProducts, ProductModel } from './Product.interface';
+import { IImac,  imacModel } from './imac.interface';
 
 
-const productsSchema = new Schema<IProducts>(
+
+const imacSchema = new Schema<IImac>(
     {
         categoryName: {
             required: true,
@@ -54,18 +55,6 @@ const productsSchema = new Schema<IProducts>(
         graphics:{
             type:String,
         },
-        motherboard:{
-            type:String,
-        },
-        RAM:{
-            type:String,
-        },
-        graphics_card:{
-            type:String,
-        },
-        powerSupply:{
-            type:String,
-        },
         reviews:{
             type:[]
         }
@@ -77,4 +66,4 @@ const productsSchema = new Schema<IProducts>(
         },
     }
 );
-export const Products = model<IProducts, ProductModel>('Products', productsSchema);
+export const Products = model<IImac, imacModel>('Products', imacSchema);

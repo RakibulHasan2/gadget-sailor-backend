@@ -18,5 +18,5 @@ const createProduct = catchAsync(async (req: Request, res: Response) => {
 
   export const productsController = {
     createProduct
-  
   };
+  

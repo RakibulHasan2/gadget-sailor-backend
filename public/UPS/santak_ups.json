@@ -1,0 +1,71 @@
+[
+    {
+        "product_id": 3301,
+        "product_name": "Santak C2K UPS",
+        "image": "https://hopnhat.com.vn/uploads/images/4992/bo-luu-dien-ups-c2k-lcd.jpg",
+        "capacity": "2000VA / 1200W",
+        "battery_runtime": "Up to 180 minutes",
+        "outlets": "8 Outlets (4 Battery Backup, 4 Surge Protection)",
+        "features": "Pure Sine Wave, Automatic Voltage Regulation, LCD Display, USB Charging Port",
+        "frequency": "50/60 Hz",
+        "battery": "Sealed Lead-Acid",
+        "noise_level": "Less than 40 dB",
+        "color": "Black",
+        "weight": "11.5 kg",
+        "dimensions": "380 x 200 x 190 mm",
+        "description": "The Santak C2K UPS is a high-capacity uninterruptible power supply designed to safeguard your critical equipment. With a capacity of 2000VA and 1200W, it ensures an extended battery runtime of up to 180 minutes. This UPS offers 8 outlets, providing a combination of battery backup and surge protection. Key features include pure sine wave output, automatic voltage regulation, an LCD display for monitoring, and a USB charging port. The UPS operates at a frequency of 50/60 Hz, and it relies on a reliable sealed lead-acid battery. Despite its high performance, it operates quietly with a noise level of less than 40 dB. The black UPS unit has a weight of 11.5 kg and dimensions of 380 x 200 x 190 mm, making it suitable for various applications.",
+        "price": 8000,
+        "status": "In Stock",
+        "product_code": 2024301,
+        "reviews": ""
+    }
+    ,
+    
+    {
+        "product_id": 3302,
+        "product_name": "Santak S1K UPS",
+        "image": "https://missolution.net/wp-content/uploads/2020/02/Prolink-650VA-UPS-500x500w-300x300.jpg",
+        "capacity": "1000VA / 600W",
+        "battery_runtime": "Up to 120 minutes",
+        "outlets": "6 Outlets (3 Battery Backup, 3 Surge Protection)",
+        "features": "Simulated Sine Wave, AVR, Multifunction LCD Panel, USB Charging Port",
+        "frequency": "50/60 Hz",
+        "battery": "Sealed Lead-Acid",
+        "noise_level": "Less than 45 dB",
+        "color": "Black",
+        "weight": "9.0 kg",
+        "dimensions": "350 x 180 x 170 mm",
+        "description": "The Santak S1K UPS is a reliable uninterruptible power supply designed to protect your equipment from power interruptions. It boasts a capacity of 1000VA and 600W, ensuring a battery runtime of up to 120 minutes. Equipped with 6 outlets for a combination of battery backup and surge protection, this UPS provides essential power backup. Notable features include simulated sine wave output, automatic voltage regulation (AVR), a multifunction LCD panel for easy monitoring, and a convenient USB charging port. The UPS operates at a frequency of 50/60 Hz and relies on a sealed lead-acid battery for consistent performance. It operates quietly with a noise level of less than 45 dB. The black UPS unit weighs 9.0 kg and has dimensions of 350 x 180 x 170 mm, making it a versatile power protection solution.",
+        "price": 6500,
+        "status": "In Stock",
+        "product_code": 2024302,
+        "reviews": ""
+    }
+    ,
+    {
+        "product_id": 3303,
+        "product_name": "Santak M500 UPS",
+        "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/value-top-vt-v200h-mini-tower-micro-atx-black-11688809772.webp",
+        "capacity": "500VA / 300W",
+        "battery_runtime": "Up to 90 minutes",
+        "outlets": "4 Outlets (2 Battery Backup, 2 Surge Protection)",
+        "features": "Simulated Sine Wave, LED Indicators, USB Charging Port",
+        "frequency": "50/60 Hz",
+        "battery": "Sealed Lead-Acid",
+        "noise_level": "Less than 35 dB",
+        "color": "Black",
+        "weight": "7.5 kg",
+        "dimensions": "320 x 160 x 150 mm",
+        "description": "The Santak M500 UPS is a compact power protection solution, ideal for various applications. With a capacity of 500VA and 300W, it offers a battery runtime of up to 90 minutes. This UPS provides 4 outlets with a combination of battery backup and surge protection. Key features include simulated sine wave output, LED indicators, and a USB charging port. The UPS operates at a frequency of 50/60 Hz, utilizing a reliable sealed lead-acid battery. It operates quietly with a noise level of less than 35 dB. The black UPS unit has a weight of 7.5 kg and dimensions of 320 x 160 x 150 mm.",
+        "price": 5000,
+        "status": "In Stock",
+        "product_code": 2024303,
+        "reviews": ""
+    }
+    
+    
+    
+    
+    
+    
+]
