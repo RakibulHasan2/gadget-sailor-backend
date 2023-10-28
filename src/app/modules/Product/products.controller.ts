@@ -1,8 +1,9 @@
 import { Request, Response } from 'express';
 import sendResponse from "../../../shared/sendResponse";
 import httpStatus from 'http-status';
-  
-  
+import { productsService } from './products.service';
+
+
   // Controller function to get all users
   const getAllProducts = async (req: Request, res: Response) => { 
     const result = await productsService.getAllProducts();
@@ -13,6 +14,8 @@ import httpStatus from 'http-status';
     data: result,
   });
 };
+
+
 
 export const productsController = {
     getAllProducts

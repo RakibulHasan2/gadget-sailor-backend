@@ -4,3 +4,4 @@
 4.dotenv
 5.ts-node-dev as dev
 6.cors
+7.axios
