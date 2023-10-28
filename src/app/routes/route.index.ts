@@ -5,7 +5,7 @@ import { subCategoriesRoute } from '../modules/sub_categories/sub_categories.rou
 import { processorRoute } from '../modules/Product/processor/processor.route';
 import { imacRoute } from '../modules/Product/imac/imac.route';
 import { productsRoute } from '../modules/Product/products.route';
-import { gamingRoute } from '../modules/Product/Gaming_pc/Gaming_pc.route';
+import { MotherboardRoute } from '../modules/Product/motherboard/motherboard.route';
 
 const router = express.Router();
 
@@ -29,6 +29,10 @@ const moduleRoutes = [
   {
     path: '/',
     route: processorRoute
+  },
+  {
+    path: '/',
+    route: MotherboardRoute
   },
   {
     path:'/',
