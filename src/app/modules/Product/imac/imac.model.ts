@@ -1,5 +1,6 @@
 import { Schema, model } from 'mongoose';
-import { IImac,  imacModel } from './imac.interface';
+import { IImac, imacModel } from './imac.interface';
+
 
 
 
@@ -7,56 +8,84 @@ const imacSchema = new Schema<IImac>(
     {
         categoryName: {
             required: true,
-            type:String,
+            type: String,
         },
-        sub_categoryName:{
+        sub_categoryName: {
+            required: true,
+            type: String,
+        },
+        brand_name: {
+            type: String
+        },
+        product_name: {
+            required: true,
+            type: String,
+        },
+        image: {
             required: true,
             type:String,
         },
-        brand_name:{
-            type:String
+        model: {
+            type: String,
         },
-        product_name:{
+        description: {
             required: true,
-            type:String,
+            type: String
         },
-        image:{
-            type:String
+        price: {
+            type: Number
         },
-        model:{
-            type:String,
+        product_code: {
+            type: Number
         },
-        description:{
-            required: true,
-            type:String
+        status: {
+            type: String,
         },
-        price:{
-            type:Number
+        reviews: {
+            type: [],
+
         },
-        product_code:{
-            type:Number
+        warranty: {
+            type: String,
         },
-        status:{
-            type:String,
-        },
+
+        // 
         display:{
             type:String,
-
+            required:true
         },
         processor:{
             type:String,
+            required:true
         },
         memory:{
             type:String,
+            required:true
         },
         storage:{
             type:String,
+            required:true
         },
         graphics:{
             type:String,
+            required:true
         },
-        reviews:{
-            type:[]
+        ram:{
+            type:String,
+            required:true
+        },
+        operating_system:{
+            type:String,
+            required:true
+        },
+        keyboard:{
+            type:String,
+        },
+        mouse:{
+            type:String,
+        },
+        external_ports:{
+            type:String,
         }
     },
     {
@@ -66,4 +95,4 @@ const imacSchema = new Schema<IImac>(
         },
     }
 );
-export const Imac = model<IImac, imacModel>('Products', imacSchema);
+export const Imac = model<IImac, imacModel>('Imacs', imacSchema);

@@ -1,25 +1,23 @@
 import { Model } from 'mongoose';
 
+import { Imac } from './imac.model';
+import { IGlobalProducts } from '../globalProducts.interface';
 
-export type IImac = {
-  //common components for all data
-  categoryName: string;
-  sub_categoryName: string;
-  brand_name:string;
-  product_name: string;
-  image: string;
-  model: string;
-  description: string;
-  price: number;
-  product_code: number
-  status:string;
-  reviews: string[];
+export type Imac = {
+
   //interface for imac
   display: string;
   processor: string;
   memory: string;
   storage: string;
   graphics: string;
+  ram: string,
+  operating_system: string,
+  keyboard:string,
+  mouse:string,
+  external_ports:string
 }
+
+export type IImac = IGlobalProducts & Imac
 
 export type imacModel = Model<IImac, Record<string, unknown>>;
