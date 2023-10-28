@@ -22,16 +22,32 @@ const createProcessor = async (payload: IProcessor): Promise<IProcessor|null> =>
 
 // Function to retrieve all processors
 const getAllProcessor = async (): Promise<IProcessor[]> => {
-    try {
         const categories = await Processor.find({});
         return categories;
-    } catch (error) {
-        console.error('Error getting all processor:', error);
-        throw error;
-    }
 };
+
+//get products by id
+const getProcessorById = async (id: string): Promise<IProcessor | null> => {
+    const user = await Processor.findById(id);
+    return user;
+};
+
+//update products by Id
+const UpdateProcessor = async (id: string,payload: Partial<IProcessor>): Promise<IProcessor | null> => {
+const result = await Processor.findOneAndUpdate({ _id: id }, payload, {new: true});
+return result;
+};
+
+// delete products by id
+const getDeleteProcessor = async (id: string): Promise<IProcessor | null> => {
+const result = await Processor.findByIdAndDelete(id);
+return result;
+}
 
 export const ProcessorService = {
     createProcessor,
-    getAllProcessor
+    getAllProcessor,
+    getProcessorById,
+    UpdateProcessor,
+    getDeleteProcessor
 };
