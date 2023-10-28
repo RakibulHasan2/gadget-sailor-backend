@@ -85,4 +85,4 @@ const processorSchema = new Schema<IProcessor>(
         },
     }
 );
-export const Processor = model<IProcessor, IProcessorModel>('Products', processorSchema);
+export const Processor = model<IProcessor, IProcessorModel>('processor', processorSchema);
