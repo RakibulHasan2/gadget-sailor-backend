@@ -6,6 +6,7 @@ import { processorRoute } from '../modules/Product/processor/processor.route';
 import { imacRoute } from '../modules/Product/imac/imac.route';
 import { productsRoute } from '../modules/Product/products.route';
 import { MotherboardRoute } from '../modules/Product/motherboard/motherboard.route';
+import { gamingRoute } from '../modules/Product/Gaming_pc/Gaming_pc.route';
 
 const router = express.Router();
 
