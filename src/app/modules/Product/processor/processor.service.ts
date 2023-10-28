@@ -22,14 +22,14 @@ const createProcessor = async (payload: IProcessor): Promise<IProcessor|null> =>
 
 // Function to retrieve all processors
 const getAllProcessor = async (): Promise<IProcessor[]> => {
-        const categories = await Processor.find({});
-        return categories;
+        const processors = await Processor.find({});
+        return processors;
 };
 
 //get products by id
 const getProcessorById = async (id: string): Promise<IProcessor | null> => {
-    const user = await Processor.findById(id);
-    return user;
+    const processor = await Processor.findById(id);
+    return processor;
 };
 
 //update products by Id
