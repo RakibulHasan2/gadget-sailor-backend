@@ -20,14 +20,33 @@ const createGamingPc = async (payload: IGamingPc): Promise<IGamingPc | null> => 
 };
 
 const getAllGamingPc = async (): Promise<IGamingPc[]> => {
-   
-        const gamingPc = await GamingPc.find({});
-        return gamingPc;
+
+    const gamingPc = await GamingPc.find({});
+    return gamingPc;
+
+};
+const getGamingPcById = async (id: string): Promise<IGamingPc | null> => {
+
+    const result = await GamingPc.findById(id);
+    return result;
 
 };
 
+const updateGamingPc = async (id: string,payload: Partial<IGamingPc>): Promise<IGamingPc | null> => {
+    const result = await GamingPc.findOneAndUpdate({ _id: id }, payload, {new: true});
+    return result;
+  };
+  
+  const getDeleteGamingcPc = async (id: string): Promise<IGamingPc | null> => {
+  
+        const result = await GamingPc.findByIdAndDelete(id);
+        return result;
+};
 
-export const GaminPcService = {
-  createGamingPc,
-getAllGamingPc
+export const GamingPcService = {
+    createGamingPc,
+    getAllGamingPc,
+    getGamingPcById,
+    updateGamingPc,
+    getDeleteGamingcPc
 };
