@@ -15,11 +15,13 @@ const imacSchema = new Schema<IImac>(
             type: String,
         },
         brand_name: {
+            required: true,
             type: String
         },
         product_name: {
             required: true,
             type: String,
+            unique:true
         },
         image: {
             required: true,
@@ -33,10 +35,11 @@ const imacSchema = new Schema<IImac>(
             type: String
         },
         price: {
-            type: Number
+            type: Number,
+            required: true,
         },
         product_code: {
-            type: Number
+            type: Number,
         },
         status: {
             type: String,
@@ -47,6 +50,7 @@ const imacSchema = new Schema<IImac>(
         },
         warranty: {
             type: String,
+            required: true,
         },
 
         // 
