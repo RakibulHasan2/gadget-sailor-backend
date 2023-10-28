@@ -6,6 +6,7 @@ import { processorRoute } from '../modules/Product/processor/processor.route';
 import { imacRoute } from '../modules/Product/imac/imac.route';
 import { productsRoute } from '../modules/Product/products.route';
 import { MotherboardRoute } from '../modules/Product/motherboard/motherboard.route';
+import { Graphics_CardRoute } from '../modules/Product/graphics_card/graphics_card.route';
 
 const router = express.Router();
 
@@ -37,6 +38,10 @@ const moduleRoutes = [
   {
     path:'/',
     route: imacRoute
+  },
+  {
+    path:'/',
+    route: Graphics_CardRoute
   }
 ];
 
