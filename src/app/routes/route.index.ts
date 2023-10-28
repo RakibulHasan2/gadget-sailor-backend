@@ -5,6 +5,7 @@ import { subCategoriesRoute } from '../modules/sub_categories/sub_categories.rou
 import { processorRoute } from '../modules/Product/processor/processor.route';
 import { imacRoute } from '../modules/Product/imac/imac.route';
 import { productsRoute } from '../modules/Product/products.route';
+import { gamingRoute } from '../modules/Product/Gaming_pc/Gaming_pc.route';
 
 const router = express.Router();
 
@@ -32,7 +33,13 @@ const moduleRoutes = [
   {
     path:'/',
     route: imacRoute
-  }
+  },
+  
+  {
+    path:'/',
+    route: gamingRoute
+  },
+  
 ];
 
 moduleRoutes.forEach(route => router.use(route.path, route.route));
