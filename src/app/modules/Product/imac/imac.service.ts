@@ -18,6 +18,18 @@ const createImac = async (payload: IImac): Promise<IImac | null> => {
     return result;
 };
 
+const getAllImacs = async (): Promise<IImac[]> => {
+    try {
+        const imac = await Imac.find({});
+        return imac;
+    } catch (error) {
+        console.error('Error getting all imacs:', error);
+        throw error;
+    }
+};
+
+
 export const ImacService = {
-    createImac
+    createImac,
+    getAllImacs
 };
