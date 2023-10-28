@@ -27,9 +27,29 @@ const getAllImacs = async (): Promise<IImac[]> => {
         throw error;
     }
 };
+const getImacById = async (id: string): Promise<IImac | null> => {
+
+    const result = await Imac.findById(id);
+    return result;
+
+};
+
+const updateImac = async (id: string,payload: Partial<IImac>): Promise<IImac | null> => {
+    const result = await Imac.findOneAndUpdate({ _id: id }, payload, {new: true});
+    return result;
+  };
+  
+  const deleteImac = async (id: string): Promise<IImac | null> => {
+  
+        const result = await Imac.findByIdAndDelete(id);
+        return result;
+};
 
 
 export const ImacService = {
     createImac,
-    getAllImacs
+    getAllImacs,
+    getImacById,
+    updateImac,
+    deleteImac
 };

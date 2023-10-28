@@ -25,7 +25,45 @@ const createImac = catchAsync(async (req: Request, res: Response) => {
     data: result,
   });
   };
+
+  const getImacById = catchAsync(async (req: Request, res: Response) => {
+    const id  = req.params.id;
+    const result = await ImacService.getImacById(id);
+    sendResponse<IImac>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'imac  retrieved successfully',
+      data: result,
+    });
+  });
+
+    const updateImac = catchAsync(async (req: Request, res: Response) => {
+      const id = req.params.id;
+      const updateData = req.body;
+      const result = await ImacService.updateImac(id, updateData);
+      sendResponse<IImac>(res, {
+        statusCode: httpStatus.OK,
+        success: true,
+        message: 'imac updated successfully',
+        data: result,
+      });
+    });
+
+    const deleteImac = catchAsync(async (req: Request, res: Response) => {
+      const id = req.params.id;
+      const result = await ImacService.deleteImac(id);
+      sendResponse<IImac>(res, {
+        statusCode: httpStatus.OK,
+        success: true,
+        message: 'imac deleted successfully',
+        data: result,
+      });
+    });
+
   export const ImacController = {
     createImac,
-    getAllImacs
+    getAllImacs,
+    getImacById,
+    updateImac,
+    deleteImac
   };
