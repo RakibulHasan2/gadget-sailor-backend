@@ -3,6 +3,7 @@ import { IProcessor } from "./processor.interface";
 import { Processor } from './processor.model';
 
 
+// Function to add a processor
 const createProcessor = async (payload: IProcessor): Promise<IProcessor|null> => {
     const min = 100000;
     const max = 999999;
@@ -19,6 +20,18 @@ const createProcessor = async (payload: IProcessor): Promise<IProcessor|null> =>
     return result;
 };
 
+// Function to retrieve all processors
+const getAllProcessor = async (): Promise<IProcessor[]> => {
+    try {
+        const categories = await Processor.find({});
+        return categories;
+    } catch (error) {
+        console.error('Error getting all processor:', error);
+        throw error;
+    }
+};
+
 export const ProcessorService = {
-    createProcessor
+    createProcessor,
+    getAllProcessor
 };
