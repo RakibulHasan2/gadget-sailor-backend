@@ -1,9 +1,8 @@
 import { Schema, model } from 'mongoose';
-import { IProcessor, IProcessorModel,} from './processor.interface';
+import { IMotherboard, IMotherboardModel } from './motherboard.interface';
 
 
-
-const processorSchema = new Schema<IProcessor>(
+const motherboardSchema = new Schema<IMotherboard>(
     {
         categoryName: {
             required: true,
@@ -17,12 +16,13 @@ const processorSchema = new Schema<IProcessor>(
             type: String
         },
         product_name: {
+            unique: true,
             required: true,
             type: String,
         },
         image: {
             required: true,
-            type:String,
+            type: String,
         },
         model: {
             type: String,
@@ -47,31 +47,31 @@ const processorSchema = new Schema<IProcessor>(
         warranty: {
             type: String,
         },
-        base_speed: {
+        supported_cpu: {
             type: String,
         },
-        max_speed: {
+        chip_set: {
             type: String,
         },
-        default_tdp: {
+        BIOS: {
             type: String,
         },
-        l2_cache: {
+        form_factor: {
             type: String
         },
-        l3_cache: {
+        PCI: {
             type: String
-            },
-        cores: {   
+        },
+        Slots: {
             type: String
-            },
-        threads: {
+        },
+        supported_memory: {
             type: String
-            },
+        },
         ram_type: {
             type: String
-            },
-        maximum_speed: {
+        },
+        maximum_mem: {
             type: String
         },
         max_channels: {
@@ -85,4 +85,4 @@ const processorSchema = new Schema<IProcessor>(
         },
     }
 );
-export const Processor = model<IProcessor, IProcessorModel>('processor', processorSchema);
+export const Motherboard = model<IMotherboard, IMotherboardModel>('motherboard', motherboardSchema);

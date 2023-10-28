@@ -7,52 +7,68 @@ const gamingPcSchema = new Schema<IGamingPc>(
     {
         categoryName: {
             required: true,
-            type:String,
+            type: String,
         },
-        sub_categoryName:{
+        sub_categoryName: {
+            required: true,
+            type: String,
+        },
+        brand_name: {
+            type: String,
+            required: true
+        },
+        product_name: {
+            required: true,
+            type: String,
+        },
+        image: {
             required: true,
             type:String,
         },
-        brand_name:{
-            type:String
+        model: {
+            type: String,
         },
-        product_name:{
+        description: {
             required: true,
-            type:String,
+            type: String
         },
-        image:{
-            type:String
+        price: {
+            type: Number,
+            required: true
         },
-        model:{
-            type:String,
+        product_code: {
+            type: Number
         },
-        description:{
-            required: true,
-            type:String
+        status: {
+            type: String,
         },
-        price:{
-            type:Number
+        reviews: {
+            type: [],
+
         },
-        product_code:{
-            type:Number
-        },
-        status:{
-            type:String,
+        warranty: {
+            type: String,
+            required: true
         },
         motherboard:{
             type:String,
+            required: true,
         },
         RAM:{
             type:String,
+            required: true,
         },
         graphics_card:{
             type:String,
+            required: true,
         },
         powerSupply:{
             type:String,
+            required: true,
         },
-        reviews:{
-            type:[]
+        storage:{
+            type:String,
+            required: true,
         }
     },
     {
@@ -62,4 +78,4 @@ const gamingPcSchema = new Schema<IGamingPc>(
         },
     }
 );
-export const GamingPc = model<IGamingPc, gamingPcModel>('Products', gamingPcSchema);
+export const GamingPc = model<IGamingPc, gamingPcModel>('GamingPc', gamingPcSchema);
