@@ -11,6 +11,7 @@ import { brand_pcRoute } from '../modules/Product/brand_pc/brand_Pc.route';
 import { laptopRoute } from '../modules/Product/laptop/laptop.route';
 import { hard_diskRoute } from '../modules/Product/hard_disk/hard_disk.route';
 import { monitorRoute } from '../modules/Product/monitor/monitor.route';
+import { power_supplyRoute } from '../modules/Product/power_supply/power_supply.route';
 
 const router = express.Router();
 
@@ -64,6 +65,10 @@ const moduleRoutes = [
   {
     path:'/',
     route:monitorRoute
+  },
+  {
+    path:'/',
+    route:power_supplyRoute
   },
   
 ];
