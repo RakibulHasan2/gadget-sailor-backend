@@ -1,6 +1,4 @@
 import { Model } from 'mongoose';
-
-import { Imac } from './imac.model';
 import { IGlobalProducts } from '../globalProducts.interface';
 
 export type Imac = {

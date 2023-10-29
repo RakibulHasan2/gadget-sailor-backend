@@ -1,9 +1,10 @@
 import { Schema, model } from 'mongoose';
-import { IGamingPc, gamingPcModel } from './Gamin_pc.interface';
+import { IBrand_pc, brand_PcModel } from './brand_Pc.interface';
 
 
 
-const gamingPcSchema = new Schema<IGamingPc>(
+
+const brand_PcSchema = new Schema<IBrand_pc>(
     {
         categoryName: {
             required: true,
@@ -50,11 +51,12 @@ const gamingPcSchema = new Schema<IGamingPc>(
             type: String,
             required: true
         },
+        //------------------
         motherboard:{
             type:String,
             required: true,
         },
-        RAM:{
+        ram:{
             type:String,
             required: true,
         },
@@ -82,4 +84,4 @@ const gamingPcSchema = new Schema<IGamingPc>(
         },
     }
 );
-export const GamingPc = model<IGamingPc, gamingPcModel>('GamingPc', gamingPcSchema);
+export const Brand_pc = model<IBrand_pc, brand_PcModel>('brand_pc', brand_PcSchema);
