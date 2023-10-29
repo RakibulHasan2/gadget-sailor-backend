@@ -1,38 +1,37 @@
-import axios from "axios";
+import config from "../../../config";
+import { IProducts } from "./products.interface";
+import { Products } from "./products.model";
 
-// Function to retrieve all users
-const getAllProducts = async () => {
-    try {
-        // Fetch data from the "iMacs" endpoint
-        // const imacsResponse = await axios.get('http://localhost:5000/api/v1/all-imac');
-        // const imacsData = imacsResponse.data;
-        const imacsData = getProductsData("http://localhost:5000/api/v1/all-imac")
-        console.log(imacsData)
+// create Products function
+const createProducts = async (payload: IProducts): Promise<IProducts | null | any> => {
+    const min = 100000;
+    const max = 999999;
 
-        // Fetch data from the "Processors" endpoint
-        const processorsResponse = await axios.get('http://localhost:5000/api/v1/all-processor');
-        const processorsData = processorsResponse.data;
-
-        const mergedData = [...processorsData.data,];
-        return mergedData;
-
-    } catch (error) {
-        console.error('Error getting all products:', error);
-        throw error;
+    if (!payload.status) {
+        payload.status = config.default_status as string;
     }
+
+    if (!payload.product_code) {
+
+        const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+        payload.product_code = randomNumber
+    }
+
+    const updateProduct = Object.keys(payload.others_info)
+    let obj: object | any = { ...payload }
+
+    for (const element of updateProduct) {
+        obj[element] = obj.others_info[element];
+    }
+
+    if (obj.others_info) {
+        delete obj?.others_info;
+    }
+
+    const result = await Products.create(obj);
+    return result;
 };
 
-const getProductsData = async (url: String) => {
-    // Fetch data from the any endpoint
-    const productResponse = await axios.get(`${url}`);
-    console.log(productResponse.data.data)
-    const productData = productResponse.data;
-    return productData
+export const ProductsService = {
+    createProducts
 }
-
-
-
-export const productsService = {
-    getAllProducts
-}
-

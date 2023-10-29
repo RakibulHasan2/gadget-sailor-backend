@@ -1,22 +1,24 @@
-import { Request, Response } from 'express';
+import { Request, Response } from "express";
+import catchAsync from "../../../shared/catchAsync";
+import { ProductsService } from "./products.service";
 import sendResponse from "../../../shared/sendResponse";
-import httpStatus from 'http-status';
-import { productsService } from './products.service';
+import httpStatus from "http-status";
 
 
-  // Controller function to get all users
-  const getAllProducts = async (req: Request, res: Response) => { 
-    const result = await productsService.getAllProducts();
+ // Controller function to create all Products
+ const createProducts = catchAsync(async (req: Request, res: Response) => {
+    const { ...ProductsData } = req.body;
+    const result = await ProductsService.createProducts(ProductsData);
+  
     sendResponse(res, {
-    statusCode: httpStatus.OK,
-    success: true,
-    message: 'Users retrieved successfully',
-    data: result,
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Products is Created successfully',
+      data: result,
+    });
   });
-};
 
-
-
-export const productsController = {
-    getAllProducts
-}
+  
+  export const productsController = {
+    createProducts
+  }
