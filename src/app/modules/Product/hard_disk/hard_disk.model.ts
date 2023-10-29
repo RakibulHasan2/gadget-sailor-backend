@@ -1,9 +1,11 @@
 import { Schema, model } from 'mongoose';
-import { IGamingPc, gamingPcModel } from './Gamin_pc.interface';
+import { IHard_disk, hard_diskModel } from './hard_disk.interface';
 
 
 
-const gamingPcSchema = new Schema<IGamingPc>(
+
+
+const hard_diskSchema = new Schema<IHard_disk>(
     {
         categoryName: {
             required: true,
@@ -14,12 +16,13 @@ const gamingPcSchema = new Schema<IGamingPc>(
             type: String,
         },
         brand_name: {
-            type: String,
-            required: true
+            required: true,
+            type: String
         },
         product_name: {
             required: true,
             type: String,
+            unique:true
         },
         image: {
             required: true,
@@ -34,10 +37,10 @@ const gamingPcSchema = new Schema<IGamingPc>(
         },
         price: {
             type: Number,
-            required: true
+            required: true,
         },
         product_code: {
-            type: Number
+            type: Number,
         },
         status: {
             type: String,
@@ -48,32 +51,31 @@ const gamingPcSchema = new Schema<IGamingPc>(
         },
         warranty: {
             type: String,
-            required: true
-        },
-        motherboard:{
-            type:String,
             required: true,
         },
-        RAM:{
+
+        // 
+        cache:{
             type:String,
-            required: true,
+            required:true
         },
-        graphics_card:{
+        capacity:{
             type:String,
-            required: true,
+            required:true
         },
-        powerSupply:{
+        form_factor:{
             type:String,
-            required: true,
+            required:true
         },
-        storage:{
+        interface:{
             type:String,
-            required: true,
+            required:true
         },
-        processor:{
+         rotation_speed:{
             type:String,
-            required: true,
-        }
+            required:true
+        },
+      
     },
     {
         timestamps: true,
@@ -82,4 +84,4 @@ const gamingPcSchema = new Schema<IGamingPc>(
         },
     }
 );
-export const GamingPc = model<IGamingPc, gamingPcModel>('GamingPc', gamingPcSchema);
+export const Hard_disk = model<IHard_disk, hard_diskModel>('Hard-disk', hard_diskSchema);

@@ -3,7 +3,7 @@
         "product_id": 1301,
         "product_name": "ASUS ROG Strix GeForce RTX 3080 Gaming Graphics Card",
         "image": "https://www.wepc.com/wp-content/uploads/2022/01/Asus-RTX-3080-12GB-2-768x512.jpg",
-        "chipset": "NVIDIA GeForce RTX 3080",
+        "chip_set": "NVIDIA GeForce RTX 3080",
         "memory_size": "10GB GDDR6X",
         "memory_bus": "320-bit",
         "core_clock": "1740 MHz",

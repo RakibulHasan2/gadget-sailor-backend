@@ -7,6 +7,7 @@ export type GamingPc = {
   graphics_card: string;
   powerSupply: string;
   storage:string
+  processor:string
 }
 export type IGamingPc = IGlobalProducts & GamingPc
 

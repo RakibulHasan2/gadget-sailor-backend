@@ -1,6 +1,5 @@
 [
-    {
-        "product_id": 1801,
+    {   
         "product_name": "ASUS ROG Thor 1200W 80+ Platinum Full Modular Power Supply",
         "image": "https://dlcdnimgs.asus.com/websites/global/products/qSd3yqxSwbgFVutp/img/ROG-THOR-1200P_KV.png",
         "wattage": "1200W",
@@ -15,10 +14,15 @@
         "price":12500,
         "status": "In Stock",
         "product_code": 2022801,
-        "reviews": ""
+        "reviews": "",
+        "main_power":"24/20-pin x 1",
+        "SATA":"8",
+        "CPU":"4+4-pin x 2",
+        "AC_input":"100-240Vac",
+        "DC_input":"+3.3V +5V +12V -12V +5Vsb"
     },
     {
-        "product_id": 1802,
+        
         "product_name": "ASUS TUF Gaming 750W 80+ Bronze Full Modular Power Supply",
         "image": "https://cdn.mos.cms.futurecdn.net/AUhWmvSM75av5ZpuXjKJvT.jpg",
         "wattage": "750W",
@@ -33,7 +37,10 @@
         "price": 5400,
         "status": "In Stock",
         "product_code": 2022802,
-        "reviews": ""
+        "reviews": "",
+        "main_power":"24/20-pin x 1",
+        "SATA":"8",
+        "CPU":"4+4-pin x 2"
     },
 
     {
@@ -52,7 +59,10 @@
         "price": 3200,
         "status": "In Stock",
         "product_code": 2022803,
-        "reviews": ""
+        "reviews": "",
+        "main_power":"24/20-pin x 1",
+        "SATA":"8",
+        "CPU":"4+4-pin x 2"
     }
     
     
