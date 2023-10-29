@@ -23,7 +23,6 @@ const getAllProducts = async () => {
 };
 
 const getProductsData = async (url: String) => {
-    // Fetch data from the any endpoint
     const productResponse = await axios.get(`${url}`);
     console.log(productResponse.data.data)
     const productData = productResponse.data;
