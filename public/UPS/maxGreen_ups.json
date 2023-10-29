@@ -1,25 +1,24 @@
 [
     {
-        "product_id": 3101,
+        "categoryName": "Test",
+        "sub_categoryName": "test",
+        "brand_name": "max Green",
         "product_name": "Max Green MG1500VA UPS",
+        "model": "MGOE-W1KS",
         "image": "https://www.startech.com.bd/image/cache/catalog/ups/maxgreen/mgo-w3kl/mgo-w3kl-001-500x500.png",
         "capacity": "1500VA / 900W",
-        "battery_runtime": "Up to 120 minutes",
-        "outlets": "8 Outlets (4 Battery Backup, 4 Surge Protection)",
-        "features": "Simulated Sine Wave, Automatic Voltage Regulation, LED Display, USB Charging Port",
+        "input_voltage": "120VAC-300VAC",
+        "output_voltage": "220/230/240±1%",
         "frequency": "50/60 Hz",
-        "battery": "Sealed Lead-Acid",
         "noise_level": "Less than 45 dB",
+        "batteryBackup_time": "Up to 120 minutes",
         "color": "Black",
         "weight": "9.8 kg",
         "dimensions": "340 x 170 x 160 mm",
         "description": "The Max Green MG1500VA UPS provides reliable power backup for your devices. With a capacity of 1500VA and 900W, it ensures extended battery runtime of up to 120 minutes. It offers 8 outlets with a combination of battery backup and surge protection. Features include simulated sine wave output, automatic voltage regulation, an LED display, and a USB charging port. This UPS operates at a frequency of 50/60 Hz and uses a sealed lead-acid battery. It operates quietly with a noise level of less than 45 dB. The UPS is sleek and compact, weighing 9.8 kg and measuring 340 x 170 x 160 mm.",
         "price": 6500,
-        "status": "In Stock",
-        "product_code": 2024101,
         "reviews": ""
     },
- 
     {
         "product_id": 3102,
         "product_name": "Max Green MG1000VA UPS",
@@ -39,8 +38,7 @@
         "status": "In Stock",
         "product_code": 2024102,
         "reviews": ""
-    }
-    ,
+    },
     {
         "product_id": 3103,
         "product_name": "Max Green MG500VA UPS",
@@ -61,8 +59,4 @@
         "product_code": 2024103,
         "reviews": ""
     }
-    
-
-    
-    
 ]
