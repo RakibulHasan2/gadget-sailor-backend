@@ -2,8 +2,6 @@ import config from "../../../../config";
 import { ISSD } from "./ssd.interface";
 import { SSD } from "./ssd.model";
 
-
-
 // Function to add a SSD
 const createSSD = async (payload: ISSD): Promise<ISSD|null> => {
     const min = 100000;

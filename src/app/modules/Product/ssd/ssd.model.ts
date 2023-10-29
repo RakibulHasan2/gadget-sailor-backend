@@ -50,28 +50,34 @@ const ssdSchema = new Schema<ISSD>(
         capacity: {
             type: String,
         },
-        input_voltage: {
+        interface: {
             type: String,
         },
-        output_voltage: {
+        flash_type: {
             type: String,
         },
-        frequency: {
+        read_speed: {
             type: String
         },
-        noise_level: {
+        write_speed: {
             type: String
         },
-        batteryBackup_time: {
+        MTBF: {
             type: String
         },
-        color: {
+        dimension: {
             type: String
         },
         weight: {
             type: String
         },
-        dimensions: {
+        operating_temperature: {
+            type: String
+        },
+        storage_temperature: {
+            type: String
+        },
+        form_factor: {
             type: String
         }
     },
