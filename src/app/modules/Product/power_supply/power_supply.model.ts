@@ -2,9 +2,6 @@ import { Schema, model } from 'mongoose';
 import { IPower_supply, power_supplyModel } from './power_supply.interface';
 
 
-
-
-
 const power_supplySchema = new Schema<IPower_supply>(
     {
         categoryName: {
