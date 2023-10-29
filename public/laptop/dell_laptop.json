@@ -19,7 +19,7 @@
         "graphics": "Intel UHD Graphics",
         "webCam": "720p at 30 fps HD",
         "audio_features": "Realtek Audio Controller, 2W x 2 = 4 W",
-        "pperating_system": "Available with Windows 11 or Windows 10.",
+        "operating_system": "Available with Windows 11 or Windows 10.",
         "battery_type": "3 cell",
         "battery_capacity": "42 Whr",
         "speaker":"yes",
