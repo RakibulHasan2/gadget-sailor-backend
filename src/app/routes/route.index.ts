@@ -16,6 +16,7 @@ import { power_supplyRoute } from '../modules/Product/power_supply/power_supply.
 import { ramRoute } from '../modules/Product/RAM/Ram.route';
 import { UPSRoute } from '../modules/Product/ups/ups.route';
 import { SSDRoute } from '../modules/Product/ssd/ssd.route';
+import { gamingHeadphoneRoute } from '../modules/Product/gaming_headphone/gaming_headphone.route';
 
 const router = express.Router();
 
@@ -90,6 +91,10 @@ const moduleRoutes = [
   {
     path:'/',
     route:SSDRoute
+  },
+  {
+    path:'/',
+    route: gamingHeadphoneRoute
   }
 ];
 
