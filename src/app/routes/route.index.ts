@@ -8,6 +8,7 @@ import { productsRoute } from '../modules/Product/products.route';
 import { MotherboardRoute } from '../modules/Product/motherboard/motherboard.route';
 import { gamingRoute } from '../modules/Product/Gaming_pc/Gaming_pc.route';
 import { brand_pcRoute } from '../modules/Product/brand_pc/brand_Pc.route';
+import { laptopRoute } from '../modules/Product/laptop/laptop.route';
 
 const router = express.Router();
 
@@ -49,6 +50,10 @@ const moduleRoutes = [
   {
     path:'/',
     route: brand_pcRoute
+  },
+  {
+    path:'/',
+    route: laptopRoute
   },
   
 ];

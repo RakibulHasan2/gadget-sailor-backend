@@ -1,7 +1,7 @@
 [
     {
-        "product_id": 501,
         "product_name": "Dell XPS 13 - Ultrabook",
+        "brand_name":"Dell",
         "image": "https://www.custommacbd.com/cdn/shop/products/8150aQHMSML._AC_SL1500_da39eebc-e743-4bab-9894-acd5bd071eb9_1200x1200.jpg?v=1636109420",
         "model": "Dell XPS 13",
         "processor": "Intel Core i7-1165G7",
@@ -9,10 +9,32 @@
         "storage": "512GB NVMe SSD",
         "display": "13.4-inch 4K InfinityEdge Touch Display",
         "description": "The Dell XPS 13 Ultrabook is an ultra-slim and lightweight laptop. It features a stunning 4K touchscreen display for crisp visuals. Powered by an Intel Core i7 processor and equipped with a fast 512GB SSD, it ensures top-notch performance. With long-lasting battery life, it's perfect for on-the-go professionals.",
-        "price":114900,
+        "price": 114900,
         "status": "In Stock",
         "product_code": 2021501,
-        "reviews": ""
+        "reviews": "",
+        "Generation": "11 th",
+        "total_ram_slot": "2",
+        "max_ram_capacity": "32",
+        "graphics": "Intel UHD Graphics",
+        "webCam": "720p at 30 fps HD",
+        "audio_features": "Realtek Audio Controller, 2W x 2 = 4 W",
+        "pperating_system": "Available with Windows 11 or Windows 10.",
+        "battery_type": "3 cell",
+        "battery_capacity": "42 Whr",
+        "speaker":"yes",
+        "microphone":"yes",
+        "Lan":"yes",
+        "wifi":"Wi-Fi 6 AX201 2x2 802.11ax 160MHz, Intel Dual Band",
+        "Bluetooth":"Bluetooth 5.2",
+        "adapter_type":"40w adapter",
+        "weight":"1.80 kg",
+        "HDMI_Port":"1x HDMI 1.4",
+        "USB_2_port":"1x USB 2.0",
+        "USB_3_port":"2x USB 3.2 Gen 1 Type-A",
+        "USB_type_C":"1x USB 3.2 Gen 2 Type-C",
+        "head_micro_port":"yes"
+
     },
     {
         "product_id": 502,
@@ -27,7 +49,23 @@
         "price": 69900,
         "status": "In Stock",
         "product_code": 2021502,
-        "reviews": ""
+        "reviews": "",
+        "Generation": "11 th",
+        "total_ram_slot": "2",
+        "max_ram_capacity": "32",
+        "graphics": "Intel UHD Graphics",
+        "webCam": "720p at 30 fps HD",
+        "audio_features": "Realtek Audio Controller, 2W x 2 = 4 W",
+        "pperating_system": "Available with Windows 11 or Windows 10.",
+        "battery_type": "3 cell",
+        "battery_capacity": "42 Whr",
+        "speaker":"yes",
+        "microphone":"yes",
+        "Lan":"yes",
+        "wifi":"Wi-Fi 6 AX201 2x2 802.11ax 160MHz, Intel Dual Band",
+        "Bluetooth":"Bluetooth 5.2",
+        "adapter_type":"40w adapter",
+        "weight":"1.80 kg"
     },
     {
         "product_id": 503,
@@ -42,7 +80,22 @@
         "price": 90900,
         "status": "In Stock",
         "product_code": 2021503,
-        "reviews": ""
+        "reviews": "",
+        "Generation": "11 th",
+        "total_ram_slot": "2",
+        "max_ram_capacity": "32",
+        "graphics": "Intel UHD Graphics",
+        "webCam": "720p at 30 fps HD",
+        "audio_features": "Realtek Audio Controller, 2W x 2 = 4 W",
+        "pperating_system": "Available with Windows 11 or Windows 10.",
+        "battery_type": "3 cell",
+        "battery_capacity": "42 Whr",
+        "speaker":"yes",
+        "microphone":"yes",
+        "Lan":"yes",
+        "wifi":"Wi-Fi 6 AX201 2x2 802.11ax 160MHz, Intel Dual Band",
+        "Bluetooth":"Bluetooth 5.2",
+        "adapter_type":"40w adapter",
+        "weight":"1.80 kg"
     }
-        
 ]

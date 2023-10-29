@@ -21,6 +21,7 @@ const brand_PcSchema = new Schema<IBrand_pc>(
         product_name: {
             required: true,
             type: String,
+            unique:true
         },
         image: {
             required: true,
@@ -51,7 +52,7 @@ const brand_PcSchema = new Schema<IBrand_pc>(
             type: String,
             required: true
         },
-        //------------------
+        //--------------------
         motherboard:{
             type:String,
             required: true,
