@@ -1,8 +1,8 @@
 import { Model } from 'mongoose';
 
 export type ISub_Categories = {
-  categoryName: string;
-  sub_categoryName: string;
+  category_name: string;
+  sub_category_name: string;
 };
 
 export type sub_CategoriesModel = Model<ISub_Categories, Record<string, unknown>>;

@@ -2,21 +2,7 @@ import express from 'express';
 import { UserRoute } from './../modules/users/user.route';
 import { CategoriesRoute } from '../modules/categories/categories..route';
 import { subCategoriesRoute } from '../modules/sub_categories/sub_categories.route';
-import { processorRoute } from '../modules/Product/processor/processor.route';
-import { imacRoute } from '../modules/Product/imac/imac.route';
 import { productsRoute } from '../modules/Product/products.route';
-import { MotherboardRoute } from '../modules/Product/motherboard/motherboard.route';
-import { Graphics_CardRoute } from '../modules/Product/graphics_card/graphics_card.route';
-import { gamingRoute } from '../modules/Product/Gaming_pc/Gaming_pc.route';
-import { brand_pcRoute } from '../modules/Product/brand_pc/brand_Pc.route';
-import { laptopRoute } from '../modules/Product/laptop/laptop.route';
-import { hard_diskRoute } from '../modules/Product/hard_disk/hard_disk.route';
-import { monitorRoute } from '../modules/Product/monitor/monitor.route';
-import { power_supplyRoute } from '../modules/Product/power_supply/power_supply.route';
-import { ramRoute } from '../modules/Product/RAM/Ram.route';
-import { UPSRoute } from '../modules/Product/ups/ups.route';
-import { SSDRoute } from '../modules/Product/ssd/ssd.route';
-import { gamingHeadphoneRoute } from '../modules/Product/gaming_headphone/gaming_headphone.route';
 
 const router = express.Router();
 
@@ -24,10 +10,6 @@ const moduleRoutes = [
   {
     path: '/',
     route: UserRoute
-  },
-  {
-    path: '/',
-    route: productsRoute 
   },
   {
     path: '/',
@@ -39,62 +21,7 @@ const moduleRoutes = [
   },
   {
     path: '/',
-    route: processorRoute
-  },
-  {
-    path: '/',
-    route: MotherboardRoute
-  },
-  {
-    path:'/',
-    route: imacRoute
-  },
-  {
-    path:'/',
-    route: Graphics_CardRoute
-  },
-  
-  {
-    path:'/',
-    route: gamingRoute
-  },
-  
-  {
-    path:'/',
-    route: brand_pcRoute
-  },
-  {
-    path:'/',
-    route: laptopRoute
-  },
-  {
-    path:'/',
-    route: hard_diskRoute
-  },
-  {
-    path:'/',
-    route:monitorRoute
-  },
-  {
-    path:'/',
-    route:power_supplyRoute
-  },
-  
-  {
-    path:'/',
-    route:ramRoute
-  },
-  {
-    path:'/',
-    route:UPSRoute
-  },
-  {
-    path:'/',
-    route:SSDRoute
-  },
-  {
-    path:'/',
-    route: gamingHeadphoneRoute
+    route: productsRoute
   }
 ];
 

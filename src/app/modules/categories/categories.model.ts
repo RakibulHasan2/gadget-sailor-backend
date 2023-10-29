@@ -4,7 +4,7 @@ import { CategoryModel, ICategory } from './categories.interface';
 
 const categoriesSchema = new Schema<ICategory>(
     {
-        categoryName: {
+        category_name: {
             required: true,
             type:String,
             unique: true
