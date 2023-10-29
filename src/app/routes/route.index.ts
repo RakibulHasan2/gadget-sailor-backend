@@ -14,6 +14,7 @@ import { hard_diskRoute } from '../modules/Product/hard_disk/hard_disk.route';
 import { monitorRoute } from '../modules/Product/monitor/monitor.route';
 import { power_supplyRoute } from '../modules/Product/power_supply/power_supply.route';
 import { ramRoute } from '../modules/Product/RAM/Ram.route';
+import { UPSRoute } from '../modules/Product/ups/ups.route';
 
 const router = express.Router();
 
@@ -81,6 +82,10 @@ const moduleRoutes = [
     path:'/',
     route:ramRoute
   },
+  {
+    path:'/',
+    route:UPSRoute
+  }
   
 ];
 
