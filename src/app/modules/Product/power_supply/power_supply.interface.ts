@@ -1,9 +1,6 @@
 import { Model } from 'mongoose';
 import { IGlobalProducts } from '../globalProducts.interface';
 
-
-
-
 export interface PowerSupply {
     efficiency_rating: string;
     modularity: string;
