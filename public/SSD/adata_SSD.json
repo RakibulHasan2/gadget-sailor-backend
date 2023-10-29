@@ -5,13 +5,17 @@
         "image": "https://i.pcmag.com/imagery/reviews/01wjNZA2EW0gPVfduNTWvip-13.fit_scale.size_760x427.v1574731263.jpg",
         "capacity": "1TB",
         "interface": "PCIe NVMe",
+        "flash_type": "M.2 2280",
         "read_speed": "Up to 3500 MB/s",
         "write_speed": "Up to 3000 MB/s",
+        "MTBF": "1TB",
+        "dimension": "(100.5 x 69.85 x 70) mm",
+        "Weight": "32.1 g",
+        "operating_temperature" :"0 to 70 C",
+        "storage_temperature": "-55 to 85 C",
         "form_factor": "M.2 2280",
         "description": "The Adata XPG SX8200 Pro 1TB NVMe SSD is a high-performance storage solution with PCIe NVMe support. With a 1TB capacity, it's perfect for gaming and content creation. It boasts read speeds of up to 3500 MB/s and write speeds of up to 3000 MB/s. The M.2 2280 form factor ensures compatibility with modern systems.",
         "price": 9800,
-        "status": "In Stock",
-        "product_code": 2023401,
         "reviews": ""
     },
     {
@@ -44,7 +48,4 @@
         "product_code": 2023403,
         "reviews": ""
     }
-    
-    
-    
 ]

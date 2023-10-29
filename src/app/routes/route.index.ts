@@ -15,6 +15,7 @@ import { monitorRoute } from '../modules/Product/monitor/monitor.route';
 import { power_supplyRoute } from '../modules/Product/power_supply/power_supply.route';
 import { ramRoute } from '../modules/Product/RAM/Ram.route';
 import { UPSRoute } from '../modules/Product/ups/ups.route';
+import { SSDRoute } from '../modules/Product/ssd/ssd.route';
 
 const router = express.Router();
 
@@ -85,8 +86,11 @@ const moduleRoutes = [
   {
     path:'/',
     route:UPSRoute
+  },
+  {
+    path:'/',
+    route:SSDRoute
   }
-  
 ];
 
 moduleRoutes.forEach(route => router.use(route.path, route.route));
