@@ -1,8 +1,11 @@
 import { Schema, model } from 'mongoose';
-import { IPower_supply, power_supplyModel } from './power_supply.interface';
+import { GamingHeadphoneModel, IGamingHeadphone } from './gaming_headphone.interface';
 
 
-const power_supplySchema = new Schema<IPower_supply>(
+
+
+
+const GamingHeadphoneSchema = new Schema<IGamingHeadphone>(
     {
         categoryName: {
             required: true,
@@ -13,7 +16,6 @@ const power_supplySchema = new Schema<IPower_supply>(
             type: String,
         },
         brand_name: {
-            required: true,
             type: String
         },
         product_name: {
@@ -33,11 +35,10 @@ const power_supplySchema = new Schema<IPower_supply>(
             type: String
         },
         price: {
-            type: Number,
-            required: true,
+            type: Number
         },
         product_code: {
-            type: Number,
+            type: Number
         },
         status: {
             type: String,
@@ -48,53 +49,41 @@ const power_supplySchema = new Schema<IPower_supply>(
         },
         warranty: {
             type: String,
-            required: true,
-        },
-
-        // 
-        AC_input:{
-            type:String,
             required:true
         },
-        CPU:{
-            type:String,
+        //-------------------
+        cable_length: {
+            type: String,
             required:true
         },
-         current:{
-            type:String,
+        color: {
+            type: String,
             required:true
         },
-        DC_input:{
-            type:String,
+        connection_type: {
+            type: String,
             required:true
         },
-        efficiency_rating:{
-            type:String,
+        features: {
+            type: String,
             required:true
         },
-        fan_size:{
-            type:String,
+        headphone_type: {
+            type: String,
             required:true
-        },
-        frequency_range:{
-            type:String,
+            },
+        microphone: {   
+            type: String,
             required:true
-        },
-        main_power:{
-            type:String,
-        },
-        modularity:{
-            type:String,
-        },
-        protections:{
-            type:String,
-        },
-        SATA:{
-            type:String,
-        },
-        voltage:{
-            type:String,
-        }
+            },
+        rgb: {   
+            type: String,
+            required:true
+            },
+        sound_quality: {   
+            type: String,
+            required:true
+            }
     },
     {
         timestamps: true,
@@ -103,4 +92,4 @@ const power_supplySchema = new Schema<IPower_supply>(
         },
     }
 );
-export const Power_supply = model<IPower_supply, power_supplyModel>('power_supply', power_supplySchema);
+export const GamingHeadphone = model<IGamingHeadphone, GamingHeadphoneModel>('gaming_Headphone', GamingHeadphoneSchema);

@@ -11,4 +11,4 @@ export type IGlobalProducts = {
     status:string;
     reviews: string[];
     warranty: string;
-  }
+}
