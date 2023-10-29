@@ -4,7 +4,7 @@ import { Hard_disk } from "./hard_disk.model";
 
 
 
-const createImac = async (payload: IHard_disk): Promise<IHard_disk | null> => {
+const createHard_disk = async (payload: IHard_disk): Promise<IHard_disk | null> => {
     const min = 100000;
     const max = 999999;
     if (!payload.status) {
@@ -19,35 +19,35 @@ const createImac = async (payload: IHard_disk): Promise<IHard_disk | null> => {
     return result;
 };
 
-const getAllImacs = async (): Promise<IHard_disk[]> => {
+const getAllHard_disk = async (): Promise<IHard_disk[]> => {
 
         const result = await Hard_disk.find({});
         return result;
 
 };
-const getImacById = async (id: string): Promise<IHard_disk | null> => {
+const getHard_diskById = async (id: string): Promise<IHard_disk | null> => {
 
     const result = await Hard_disk.findById(id);
     return result;
 
 };
 
-const updateImac = async (id: string,payload: Partial<IHard_disk>): Promise<IHard_disk | null> => {
+const updateHard_disk = async (id: string,payload: Partial<IHard_disk>): Promise<IHard_disk | null> => {
     const result = await Hard_disk.findOneAndUpdate({ _id: id }, payload, {new: true});
     return result;
   };
   
-  const deleteImac = async (id: string): Promise<IHard_disk | null> => {
+  const deleteHard_disk = async (id: string): Promise<IHard_disk | null> => {
   
         const result = await Hard_disk.findByIdAndDelete(id);
         return result;
 };
 
 
-export const ImacService = {
-    createImac,
-    getAllImacs,
-    getImacById,
-    updateImac,
-    deleteImac
+export const Hard_diskService = {
+    createHard_disk,
+    getAllHard_disk,
+    getHard_diskById,
+    updateHard_disk,
+    deleteHard_disk
 };

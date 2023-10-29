@@ -84,4 +84,4 @@ const hard_diskSchema = new Schema<IHard_disk>(
         },
     }
 );
-export const Hard_disk = model<IHard_disk, hard_diskModel>('Imacs', hard_diskSchema);
+export const Hard_disk = model<IHard_disk, hard_diskModel>('Hard-disk', hard_diskSchema);
