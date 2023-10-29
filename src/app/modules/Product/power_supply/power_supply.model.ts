@@ -1,9 +1,11 @@
 import { Schema, model } from 'mongoose';
-import { IGamingPc, gamingPcModel } from './Gamin_pc.interface';
+import { IPower_supply, power_supplyModel } from './power_supply.interface';
 
 
 
-const gamingPcSchema = new Schema<IGamingPc>(
+
+
+const power_supplySchema = new Schema<IPower_supply>(
     {
         categoryName: {
             required: true,
@@ -14,12 +16,13 @@ const gamingPcSchema = new Schema<IGamingPc>(
             type: String,
         },
         brand_name: {
-            type: String,
-            required: true
+            required: true,
+            type: String
         },
         product_name: {
             required: true,
             type: String,
+            unique:true
         },
         image: {
             required: true,
@@ -34,10 +37,10 @@ const gamingPcSchema = new Schema<IGamingPc>(
         },
         price: {
             type: Number,
-            required: true
+            required: true,
         },
         product_code: {
-            type: Number
+            type: Number,
         },
         status: {
             type: String,
@@ -48,31 +51,52 @@ const gamingPcSchema = new Schema<IGamingPc>(
         },
         warranty: {
             type: String,
-            required: true
-        },
-        motherboard:{
-            type:String,
             required: true,
         },
-        RAM:{
+
+        // 
+        AC_input:{
             type:String,
-            required: true,
+            required:true
         },
-        graphics_card:{
+        CPU:{
             type:String,
-            required: true,
+            required:true
         },
-        powerSupply:{
+         current:{
             type:String,
-            required: true,
+            required:true
         },
-        storage:{
+        DC_input:{
             type:String,
-            required: true,
+            required:true
         },
-        processor:{
+        efficiency_rating:{
             type:String,
-            required: true,
+            required:true
+        },
+        fan_size:{
+            type:String,
+            required:true
+        },
+        frequency_range:{
+            type:String,
+            required:true
+        },
+        main_power:{
+            type:String,
+        },
+        modularity:{
+            type:String,
+        },
+        protections:{
+            type:String,
+        },
+        SATA:{
+            type:String,
+        },
+        voltage:{
+            type:String,
         }
     },
     {
@@ -82,4 +106,4 @@ const gamingPcSchema = new Schema<IGamingPc>(
         },
     }
 );
-export const GamingPc = model<IGamingPc, gamingPcModel>('GamingPc', gamingPcSchema);
+export const Power_supply = model<IPower_supply, power_supplyModel>('power_supply', power_supplySchema);
