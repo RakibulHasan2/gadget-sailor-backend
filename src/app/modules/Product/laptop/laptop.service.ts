@@ -19,13 +19,10 @@ const createLaptop = async (payload: ILaptop): Promise<ILaptop | null> => {
 };
 
 const getAllLaptop = async (): Promise<ILaptop[]> => {
-    try {
-        const imac = await Laptop.find({});
-        return imac;
-    } catch (error) {
-        console.error('Error getting all imacs:', error);
-        throw error;
-    }
+
+        const result = await Laptop.find({});
+        return result;
+  
 };
 const getLaptopById = async (id: string): Promise<ILaptop | null> => {
 
