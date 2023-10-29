@@ -21,7 +21,6 @@ export type Graphics_Card = {
     directX: string;
     openGL: string;
     dimension: string
-
 }
 
 export type IGraphics_card = IGlobalProducts & Graphics_Card;
