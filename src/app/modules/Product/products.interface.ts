@@ -16,6 +16,7 @@ export type IProducts = {
     others_info: object;
 };
 
+
 export type  ProductsModel = Model<IProducts, Record<string, unknown>>;
 
 
