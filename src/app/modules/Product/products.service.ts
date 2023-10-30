@@ -45,9 +45,16 @@ const getAllproducts = async (): Promise<IProducts[]> => {
     }
 };
 
+// Function to retrieve products by id
+const getSinglProducts = async (id: string): Promise<IProducts | null> => {
+    const result = await Products.findById(id);
+    return result;
+};
+
 
 
 export const ProductsService = {
     createProducts,
-    getAllproducts
+    getAllproducts,
+    getSinglProducts
 }

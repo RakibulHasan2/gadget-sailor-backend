@@ -20,12 +20,10 @@ const createProducts = catchAsync(async (req: Request, res: Response) => {
 });
 
 
-//  getAllProducts function to retrieve all products
+//  Controller function to retrieve all products
 const getAllProducts = async (req: Request, res: Response) => {
 
-
   const result = await ProductsService.getAllproducts();
-
 
   sendResponse<IProducts[]>(res, {
     statusCode: httpStatus.OK,
@@ -35,8 +33,24 @@ const getAllProducts = async (req: Request, res: Response) => {
   });
 };
 
+//  Controller function to retrieve single products by id
+const getSinglProducts = async (req: Request, res: Response) => {
+  const id = req.params.id;
+
+  const result = await ProductsService.getSinglProducts(id);
+
+  sendResponse<IProducts>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'products retrieved successfully',
+    data: result,
+  });
+
+};
+
 
 export const productsController = {
   createProducts,
-  getAllProducts
+  getAllProducts,
+  getSinglProducts
 }
