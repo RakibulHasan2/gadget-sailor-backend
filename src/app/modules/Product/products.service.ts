@@ -32,6 +32,22 @@ const createProducts = async (payload: IProducts): Promise<IProducts | null | an
     return result;
 };
 
+
+
+// Function to retrieve all products
+const getAllproducts = async (): Promise<IProducts[]> => {
+    try {
+        const allProducts = await Products.find({});
+        return allProducts;
+    } catch (error) {
+        console.error('Error getting all products:', error);
+        throw error;
+    }
+};
+
+
+
 export const ProductsService = {
-    createProducts
+    createProducts,
+    getAllproducts
 }
