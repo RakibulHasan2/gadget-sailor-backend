@@ -52,17 +52,16 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
       : [];
   }
 
-  const propertyToExtract: any = (property : string) => {
-      const { [property]: extractedValue } = error.keyValue
-      return extractedValue
+  const propertyToExtract: any = (property: string) => {
+    const { [property]: extractedValue } = error.keyValue
+    return extractedValue
   }
-
   const errorM = propertyToExtract(Object.keys(error.keyValue))
+  const keys = Object.keys(error.keyValue)
 
-  console.log(errorM)
   res.status(statusCode).json({
     success: false,
-    message: `${errorM} is already used. give a new one`,
+    message: `${keys} '${errorM}' is already used`,
     errorMessages,
     stack: config.env !== 'production' ? error?.stack : undefined,
   });
