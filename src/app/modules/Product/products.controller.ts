@@ -23,7 +23,7 @@ const createProducts = catchAsync(async (req: Request, res: Response) => {
 //  Controller function to retrieve all products
 const getAllProducts = async (req: Request, res: Response) => {
 
-  const result = await ProductsService.getAllproducts();
+  const result = await ProductsService.getAllProducts();
 
   sendResponse<IProducts[]>(res, {
     statusCode: httpStatus.OK,
@@ -50,26 +50,36 @@ const getSingleProduct = async (req: Request, res: Response) => {
 
 
 // Controller function to update single products by id
-const updateSingleProduct = async (req: Request, res: Response) => {
+const updateSingleProduct = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
-  const newData=req.body;
-console.log(newData)
-
-  const result = await ProductsService.updateSingleproduct(id,newData);
-
+  const newData = req.body;
+  const result = await ProductsService.updateSingleProduct(id, newData);
   sendResponse<IProducts>(res, {
     statusCode: httpStatus.OK,
     success: true,
     message: 'products updated successfully',
     data: result,
   });
+}
+);
 
-};
+// delete Product by id
+const DeleteProduct = catchAsync(async (req: Request, res: Response) => {
+  const id = req.params.id;
+  const result = await ProductsService.DeleteProduct(id);
+  sendResponse<IProducts>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Product deleted successfully',
+    data: result,
+  });
+});
 
 
 export const productsController = {
   createProducts,
   getAllProducts,
   getSingleProduct,
-  updateSingleProduct
+  updateSingleProduct,
+  DeleteProduct
 }
