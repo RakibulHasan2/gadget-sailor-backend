@@ -46,15 +46,26 @@ const getAllproducts = async (): Promise<IProducts[]> => {
 };
 
 // Function to retrieve products by id
-const getSinglProducts = async (id: string): Promise<IProducts | null> => {
+const getSingleProduct = async (id: string): Promise<IProducts | null> => {
     const result = await Products.findById(id);
     return result;
 };
 
-
+// Function to update a single product
+const updateSingleproduct = async (id: string,payload: Partial<IProducts>): Promise<IProducts[]> => {
+    try {
+        const updatedProduct = await Products.findOneAndUpdate({_id:id}, payload,{new: true});
+        return updatedProduct;
+    } catch (error) {
+        console.error('Error in updating the product:', error);
+        throw error;
+    }
+};
 
 export const ProductsService = {
     createProducts,
     getAllproducts,
-    getSinglProducts
+    getSingleProduct,
+    updateSingleproduct
+
 }

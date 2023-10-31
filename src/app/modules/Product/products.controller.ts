@@ -34,10 +34,10 @@ const getAllProducts = async (req: Request, res: Response) => {
 };
 
 //  Controller function to retrieve single products by id
-const getSinglProducts = async (req: Request, res: Response) => {
+const getSingleProduct = async (req: Request, res: Response) => {
   const id = req.params.id;
 
-  const result = await ProductsService.getSinglProducts(id);
+  const result = await ProductsService.getSingleProduct(id);
 
   sendResponse<IProducts>(res, {
     statusCode: httpStatus.OK,
@@ -49,8 +49,27 @@ const getSinglProducts = async (req: Request, res: Response) => {
 };
 
 
+// Controller function to update single products by id
+const updateSingleProduct = async (req: Request, res: Response) => {
+  const id = req.params.id;
+  const newData=req.body;
+console.log(newData)
+
+  const result = await ProductsService.updateSingleproduct(id,newData);
+
+  sendResponse<IProducts>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'products updated successfully',
+    data: result,
+  });
+
+};
+
+
 export const productsController = {
   createProducts,
   getAllProducts,
-  getSinglProducts
+  getSingleProduct,
+  updateSingleProduct
 }
