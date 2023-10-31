@@ -5,11 +5,11 @@ import { ISub_Categories, sub_CategoriesModel } from './sub_categories.interface
 
 const sub_CategoriesSchema = new Schema<ISub_Categories>(
     {
-        categoryName:{
+        category_name:{
             type: String,
             required: true,
         },
-        sub_categoryName: {
+        sub_category_name: {
             unique: true,
             required: true,
             type: String,
