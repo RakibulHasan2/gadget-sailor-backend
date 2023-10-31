@@ -10,6 +10,7 @@ import config from "../../config";
 
 
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
+
   let statusCode = 500;
   let message = 'something went wrong';
   let errorMessages: IGlobalGenericError[] = [];
@@ -33,26 +34,34 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
     statusCode = error?.statusCode;
     errorMessages = error?.message
       ? [
-          {
-            path: '',
-            message: error?.message,
-          },
-        ]
+        {
+          path: '',
+          message: error?.message,
+        },
+      ]
       : [];
   } else if (error instanceof Error) {
     message = error?.message;
     errorMessages = error?.message
       ? [
-          {
-            path: '',
-            message: error?.message,
-          },
-        ]
+        {
+          path: '',
+          message: error?.message,
+        },
+      ]
       : [];
   }
+
+  const propertyToExtract: any = (property: string) => {
+    const { [property]: extractedValue } = error.keyValue
+    return extractedValue
+  }
+  const errorM = propertyToExtract(Object.keys(error.keyValue))
+  const keys = Object.keys(error.keyValue)
+
   res.status(statusCode).json({
     success: false,
-    message,
+    message: `${keys} '${errorM}' is already used`,
     errorMessages,
     stack: config.env !== 'production' ? error?.stack : undefined,
   });
