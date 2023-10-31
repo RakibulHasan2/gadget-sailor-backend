@@ -8,24 +8,14 @@ import { IUsers } from './user.interface';
 // Controller function to create all users
 const createUsers = catchAsync(async (req: Request, res: Response) => {
   const { ...usersData } = req.body;
-  try {
-    const result = await UsersService.createUsers(usersData);
+  const result = await UsersService.createUsers(usersData);
 
-    sendResponse(res, {
-      statusCode: httpStatus.OK,
-      success: true,
-      message: 'user is Created successfully',
-      data: result,
-    });
-  } catch (err: any) {
-    if (err.name === 'MongoServerError') {
-
-     const fieldValue = Object.keys(err.keyValue)
-      err.message = `${fieldValue[0]} is already used`
-      res.send(err.message);
-      
-    }
-  }
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'user is Created successfully',
+    data: result,
+  });
 });
 
 // Controller function to get all users
