@@ -33,16 +33,10 @@ const createProducts = async (payload: IProducts): Promise<IProducts | null | an
 };
 
 
-
 // Function to retrieve all products
-const getAllproducts = async (): Promise<IProducts[]> => {
-    try {
+const getAllProducts = async (): Promise<IProducts[]> => {
         const allProducts = await Products.find({});
         return allProducts;
-    } catch (error) {
-        console.error('Error getting all products:', error);
-        throw error;
-    }
 };
 
 // Function to retrieve products by id
@@ -52,20 +46,22 @@ const getSingleProduct = async (id: string): Promise<IProducts | null> => {
 };
 
 // Function to update a single product
-const updateSingleproduct = async (id: string,payload: Partial<IProducts>): Promise<IProducts[]> => {
-    try {
-        const updatedProduct = await Products.findOneAndUpdate({_id:id}, payload,{new: true});
-        return updatedProduct;
-    } catch (error) {
-        console.error('Error in updating the product:', error);
-        throw error;
-    }
+const updateSingleProduct = async (id: string, payload: Partial<IProducts>): Promise<IProducts | null> => {
+    const updatedProduct = await Products.findOneAndUpdate({ _id: id }, payload, { new: true });
+    return updatedProduct;
 };
+
+// delete Product by id
+const DeleteProduct = async (id: string): Promise<IProducts | null> => {
+    const result = await Products.findByIdAndDelete(id);
+    return result;
+};
+
 
 export const ProductsService = {
     createProducts,
-    getAllproducts,
+    getAllProducts,
     getSingleProduct,
-    updateSingleproduct
-
+    updateSingleProduct,
+    DeleteProduct
 }
