@@ -14,7 +14,7 @@ const handleZodError = (error: ZodError): IGlobalGenericErrorResponse => {
   const statusCode = 400;
   return {
     statusCode,
-    message: 'Validation error',
+    message: 'Zod error',
     errorMessages: errors,
   };
 };
