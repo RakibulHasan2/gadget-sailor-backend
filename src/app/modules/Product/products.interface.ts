@@ -5,7 +5,7 @@ export type IProducts = {
     sub_category_name: string;
     brand_name:string;
     product_name: string;
-    image: string;
+    image: string[];
     model: string;
     description: string;
     price: number;

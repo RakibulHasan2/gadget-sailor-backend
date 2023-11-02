@@ -8,7 +8,6 @@ export const productsSchema = new Schema<IProducts>(
             type: String
         },
         sub_category_name: {
-            required: true,
             type: String,
         },
         brand_name: {
@@ -21,7 +20,7 @@ export const productsSchema = new Schema<IProducts>(
             unique: true,
         },
         image: {
-            type: String,
+            type: [String],
             required: true,
             unique: true,
         } ,

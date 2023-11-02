@@ -11,7 +11,6 @@ const sub_CategoriesSchema = new Schema<ISub_Categories>(
         },
         sub_category_name: {
             unique: true,
-            required: true,
             type: String,
         },
     },
