@@ -35,13 +35,39 @@ const createProducts = async (payload: IProducts): Promise<IProducts | null | an
 
 // Function to retrieve all products
 const getAllProducts = async (): Promise<IProducts[]> => {
-        const allProducts = await Products.find({});
-        return allProducts;
+    const allProducts = await Products.find({});
+    return allProducts;
 };
 
-// Function to retrieve products by id
-const getSingleProduct = async (id: string): Promise<IProducts | null> => {
-    const result = await Products.findById(id);
+// // Function to retrieve products by id
+// const getSingleProduct = async (id: string): Promise<IProducts | null> => {
+//     const result = await Products.findById(id);
+//     return result;
+// };
+
+// // Function to retrieve products by category
+const getProductsByCategoryOrID = async (idOrCategoryName: string): Promise<IProducts | IProducts[] | null> => {
+    if (idOrCategoryName.match(/^[0-9a-fA-F]{24}$/)) {
+        // The argument is an ObjectId, so retrieve a single product by ID.
+        const result = await Products.findById(idOrCategoryName);
+        return result;
+    } else {
+        // The argument is a category name, so retrieve all products in that category.
+        const result = await Products.find({ category_name: idOrCategoryName });
+        return result;
+    }
+};
+
+// // Function to retrieve products by category and sub category
+const getProductsByCatAndSubCat = async (categoryName: string, subCategoryName?: string): Promise<IProducts[] | null> => {
+    const filter = {
+        category_name: categoryName,
+        sub_category_name: subCategoryName
+    };
+    if (subCategoryName) {
+        filter.sub_category_name = subCategoryName;
+    }
+    const result = await Products.find(filter);
     return result;
 };
 
@@ -61,7 +87,9 @@ const DeleteProduct = async (id: string): Promise<IProducts | null> => {
 export const ProductsService = {
     createProducts,
     getAllProducts,
-    getSingleProduct,
+    // getSingleProduct,
     updateSingleProduct,
-    DeleteProduct
+    DeleteProduct,
+    getProductsByCategoryOrID,
+    getProductsByCatAndSubCat
 }
