@@ -68,6 +68,8 @@ const  getProductsByCatAndSubCat = async (req: Request, res: Response) => {
 
   const categoryName = req.params.categoryName;
   const subCategoryName = req.params.subCategoryName;
+
+  // console.log(subCategoryName)
   const result = await ProductsService.getProductsByCatAndSubCat(categoryName,subCategoryName);
 
   sendResponse<IProducts[]>(res, {
@@ -76,7 +78,6 @@ const  getProductsByCatAndSubCat = async (req: Request, res: Response) => {
     message: 'products retrieved successfully',
     data: result,
   });
-
 };
 
 

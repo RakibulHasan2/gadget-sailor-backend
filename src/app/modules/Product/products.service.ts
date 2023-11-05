@@ -62,7 +62,7 @@ const getProductsByCategoryOrID = async (idOrCategoryName: string): Promise<IPro
 const getProductsByCatAndSubCat = async (categoryName: string, subCategoryName?: string): Promise<IProducts[] | null> => {
     const filter = {
         category_name: categoryName,
-        sub_category_name: subCategoryName
+        sub_category_name: subCategoryName,
     };
     if (subCategoryName) {
         filter.sub_category_name = subCategoryName;
@@ -70,6 +70,7 @@ const getProductsByCatAndSubCat = async (categoryName: string, subCategoryName?:
     const result = await Products.find(filter);
     return result;
 };
+
 
 // Function to update a single product
 const updateSingleProduct = async (id: string, payload: Partial<IProducts>): Promise<IProducts | null> => {
