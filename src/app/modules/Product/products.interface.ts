@@ -2,10 +2,10 @@ import { Model } from 'mongoose';
 
 export type IProducts = {
     category_name: string;
-    sub_category_name: string;
+    sub_category_name?: string;
     brand_name:string;
     product_name: string;
-    image: string;
+    image: string[];
     model: string;
     description: string;
     price: number;
