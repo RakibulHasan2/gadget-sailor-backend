@@ -93,7 +93,7 @@ const DeleteProduct = catchAsync(async (req: Request, res: Response) => {
 export const productsController = {
   createProducts,
   getAllProducts,
-  getSingleProduct,
+
   updateSingleProduct,
   DeleteProduct,
   getProductsByCategoryOrID,
