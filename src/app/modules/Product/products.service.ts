@@ -40,7 +40,7 @@ const getAllProducts = async (): Promise<IProducts[]> => {
 };
 
 
-//retrieve products by category
+// retrieve products by category
 const getProductsByCategoryOrID = async (idOrCategoryName: string): Promise<IProducts | IProducts[] | null> => {
     if (idOrCategoryName.match(/^[0-9a-fA-F]{24}$/)) {
         // The argument is an ObjectId, so retrieve a single product by ID.
@@ -48,21 +48,36 @@ const getProductsByCategoryOrID = async (idOrCategoryName: string): Promise<IPro
         return result;
     } else {
         // The argument is a category name, so retrieve all products in that category.
-        const result = await Products.find({ category_name: idOrCategoryName });
+        const result = await Products.find({
+            $or: [
+                { category_name: idOrCategoryName },
+                { sub_category_name: idOrCategoryName },
+                { brand_name: idOrCategoryName }
+            ]
+        });
         return result;
     }
 };
 
+
 //retrieve products by category and sub category
 const getProductsByCatAndSubCat = async (categoryName: string, subCategoryName?: string): Promise<IProducts[] | null> => {
-    const filter = {
-        category_name: categoryName,
-        sub_category_name: subCategoryName,
-    };
-    if (subCategoryName) {
-        filter.sub_category_name = subCategoryName;
-    }
-    const result = await Products.find(filter);
+    const result = await Products.find({
+        $or: [
+            {
+                $and: [
+                    { category_name: categoryName },
+                    { sub_category_name: subCategoryName}
+                ]
+            },
+            {
+                $and: [
+                    { sub_category_name: categoryName},
+                    { brand_name: subCategoryName }
+                ]
+            }
+        ]
+    });
     return result;
 };
 
