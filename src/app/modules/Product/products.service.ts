@@ -33,19 +33,14 @@ const createProducts = async (payload: IProducts): Promise<IProducts | null | an
 };
 
 
-// Function to retrieve all products
+// retrieve all products
 const getAllProducts = async (): Promise<IProducts[]> => {
     const allProducts = await Products.find({});
     return allProducts;
 };
 
-// // Function to retrieve products by id
-const getSingleProduct = async (id: string): Promise<IProducts | null> => {
-    const result = await Products.findById(id);
-    return result;
-};
 
-// // Function to retrieve products by category
+//retrieve products by category
 const getProductsByCategoryOrID = async (idOrCategoryName: string): Promise<IProducts | IProducts[] | null> => {
     if (idOrCategoryName.match(/^[0-9a-fA-F]{24}$/)) {
         // The argument is an ObjectId, so retrieve a single product by ID.
@@ -58,11 +53,11 @@ const getProductsByCategoryOrID = async (idOrCategoryName: string): Promise<IPro
     }
 };
 
-// // Function to retrieve products by category and sub category
+//retrieve products by category and sub category
 const getProductsByCatAndSubCat = async (categoryName: string, subCategoryName?: string): Promise<IProducts[] | null> => {
     const filter = {
         category_name: categoryName,
-        sub_category_name: subCategoryName
+        sub_category_name: subCategoryName,
     };
     if (subCategoryName) {
         filter.sub_category_name = subCategoryName;
@@ -71,7 +66,7 @@ const getProductsByCatAndSubCat = async (categoryName: string, subCategoryName?:
     return result;
 };
 
-// Function to update a single product
+//update a single product
 const updateSingleProduct = async (id: string, payload: Partial<IProducts>): Promise<IProducts | null> => {
     const updatedProduct = await Products.findOneAndUpdate({ _id: id }, payload, { new: true });
     return updatedProduct;
@@ -91,5 +86,5 @@ export const ProductsService = {
     updateSingleProduct,
     DeleteProduct,
     getProductsByCategoryOrID,
-    getProductsByCatAndSubCat
+    getProductsByCatAndSubCat,
 }
