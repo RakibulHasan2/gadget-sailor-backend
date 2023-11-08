@@ -61,7 +61,7 @@ const getProductsByCategoryOrID = async (idOrCategoryName: string): Promise<IPro
 
 
 //retrieve products by category and sub category
-const getProductsByCatAndSubCat = async (categoryName: string, subCategoryName?: string): Promise<IProducts[] | null> => {
+const getByCatAndSubCatOrSubCatAndBrand = async (categoryName: string, subCategoryName?: string): Promise<IProducts[] | null> => {
     const result = await Products.find({
         $or: [
             {
@@ -100,5 +100,5 @@ export const ProductsService = {
     updateSingleProduct,
     DeleteProduct,
     getProductsByCategoryOrID,
-    getProductsByCatAndSubCat,
+    getByCatAndSubCatOrSubCatAndBrand,
 }
