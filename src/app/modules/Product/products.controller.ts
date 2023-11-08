@@ -49,10 +49,10 @@ const  getProductsByCategoryOrID = async (req: Request, res: Response) => {
 };
 
 // retrieve products by category and sub category
-const  getProductsByCatAndSubCat = async (req: Request, res: Response) => {
+const  getByCatAndSubCatOrSubCatAndBrand = async (req: Request, res: Response) => {
   const categoryName = req.params.categoryName;
   const subCategoryName = req.params.subCategoryName;
-  const result = await ProductsService.getProductsByCatAndSubCat(categoryName,subCategoryName);
+  const result = await ProductsService.getByCatAndSubCatOrSubCatAndBrand(categoryName,subCategoryName);
 
   sendResponse<IProducts[]>(res, {
     statusCode: httpStatus.OK,
@@ -96,5 +96,5 @@ export const productsController = {
   updateSingleProduct,
   DeleteProduct,
   getProductsByCategoryOrID,
-  getProductsByCatAndSubCat,
+  getByCatAndSubCatOrSubCatAndBrand,
 }
