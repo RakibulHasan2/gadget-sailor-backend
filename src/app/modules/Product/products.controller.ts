@@ -6,7 +6,7 @@ import httpStatus from "http-status";
 import { IProducts } from "./products.interface";
 
 
-// Controller function to create all Products
+//create all Products
 const createProducts = catchAsync(async (req: Request, res: Response) => {
   const { ...ProductsData } = req.body;
   const result = await ProductsService.createProducts(ProductsData);
@@ -20,7 +20,7 @@ const createProducts = catchAsync(async (req: Request, res: Response) => {
 });
 
 
-//  Controller function to retrieve all products
+// retrieve all products
 const getAllProducts = async (req: Request, res: Response) => {
 
   const result = await ProductsService.getAllProducts();
@@ -33,22 +33,7 @@ const getAllProducts = async (req: Request, res: Response) => {
   });
 };
 
-//  Controller function to retrieve single products by id
-// const getSingleProduct = async (req: Request, res: Response) => {
-//   const id = req.params.id;
-
-//   const result = await ProductsService.getSingleProduct(id);
-
-//   sendResponse<IProducts>(res, {
-//     statusCode: httpStatus.OK,
-//     success: true,
-//     message: 'products retrieved successfully',
-//     data: result,
-//   });
-
-// };
-
-//  Controller function to retrieve single products by id or Category name
+//retrieve single products by id or Category name
 const  getProductsByCategoryOrID = async (req: Request, res: Response) => {
   const categoryName = req.params.categoryName;
 
@@ -63,9 +48,8 @@ const  getProductsByCategoryOrID = async (req: Request, res: Response) => {
 
 };
 
-//  Controller function to retrieve single products by category and sub category
+// retrieve products by category and sub category
 const  getProductsByCatAndSubCat = async (req: Request, res: Response) => {
-
   const categoryName = req.params.categoryName;
   const subCategoryName = req.params.subCategoryName;
   const result = await ProductsService.getProductsByCatAndSubCat(categoryName,subCategoryName);
@@ -76,7 +60,6 @@ const  getProductsByCatAndSubCat = async (req: Request, res: Response) => {
     message: 'products retrieved successfully',
     data: result,
   });
-
 };
 
 
@@ -110,9 +93,8 @@ const DeleteProduct = catchAsync(async (req: Request, res: Response) => {
 export const productsController = {
   createProducts,
   getAllProducts,
-  // getSingleProduct,
   updateSingleProduct,
   DeleteProduct,
   getProductsByCategoryOrID,
-  getProductsByCatAndSubCat 
+  getProductsByCatAndSubCat,
 }
