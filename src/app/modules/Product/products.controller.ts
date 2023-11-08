@@ -34,27 +34,27 @@ const getAllProducts = async (req: Request, res: Response) => {
 };
 
 //  Controller function to retrieve single products by id
-// const getSingleProduct = async (req: Request, res: Response) => {
-//   const id = req.params.id;
+const getSingleProduct = async (req: Request, res: Response) => {
+  const id = req.params.id;
 
-//   const result = await ProductsService.getSingleProduct(id);
+  const result = await ProductsService.getSingleProduct(id);
 
-//   sendResponse<IProducts>(res, {
-//     statusCode: httpStatus.OK,
-//     success: true,
-//     message: 'products retrieved successfully',
-//     data: result,
-//   });
+  sendResponse<IProducts>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'products retrieved successfully',
+    data: result,
+  });
 
-// };
+};
 
 //  Controller function to retrieve single products by id or Category name
-const  getProductsByCategoryOrID = async (req: Request, res: Response) => {
+const getProductsByCategoryOrID = async (req: Request, res: Response) => {
   const categoryName = req.params.categoryName;
 
-  const result = await ProductsService. getProductsByCategoryOrID(categoryName);
+  const result = await ProductsService.getProductsByCategoryOrID(categoryName);
 
-  sendResponse<IProducts| IProducts[]>(res, {
+  sendResponse<IProducts | IProducts[]>(res, {
     statusCode: httpStatus.OK,
     success: true,
     message: 'products retrieved successfully',
@@ -64,11 +64,11 @@ const  getProductsByCategoryOrID = async (req: Request, res: Response) => {
 };
 
 //  Controller function to retrieve single products by category and sub category
-const  getProductsByCatAndSubCat = async (req: Request, res: Response) => {
+const getProductsByCatAndSubCat = async (req: Request, res: Response) => {
 
   const categoryName = req.params.categoryName;
   const subCategoryName = req.params.subCategoryName;
-  const result = await ProductsService.getProductsByCatAndSubCat(categoryName,subCategoryName);
+  const result = await ProductsService.getProductsByCatAndSubCat(categoryName, subCategoryName);
 
   sendResponse<IProducts[]>(res, {
     statusCode: httpStatus.OK,
@@ -110,9 +110,9 @@ const DeleteProduct = catchAsync(async (req: Request, res: Response) => {
 export const productsController = {
   createProducts,
   getAllProducts,
-  // getSingleProduct,
+  getSingleProduct,
   updateSingleProduct,
   DeleteProduct,
   getProductsByCategoryOrID,
-  getProductsByCatAndSubCat 
+  getProductsByCatAndSubCat
 }

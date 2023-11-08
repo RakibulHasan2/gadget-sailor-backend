@@ -40,10 +40,10 @@ const getAllProducts = async (): Promise<IProducts[]> => {
 };
 
 // // Function to retrieve products by id
-// const getSingleProduct = async (id: string): Promise<IProducts | null> => {
-//     const result = await Products.findById(id);
-//     return result;
-// };
+const getSingleProduct = async (id: string): Promise<IProducts | null> => {
+    const result = await Products.findById(id);
+    return result;
+};
 
 // // Function to retrieve products by category
 const getProductsByCategoryOrID = async (idOrCategoryName: string): Promise<IProducts | IProducts[] | null> => {
@@ -87,7 +87,7 @@ const DeleteProduct = async (id: string): Promise<IProducts | null> => {
 export const ProductsService = {
     createProducts,
     getAllProducts,
-    // getSingleProduct,
+    getSingleProduct,
     updateSingleProduct,
     DeleteProduct,
     getProductsByCategoryOrID,
