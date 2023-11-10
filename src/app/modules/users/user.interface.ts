@@ -14,7 +14,7 @@ export type IUsers = {
   permanent_address: string;
   post_code: string;
   city: string;
-  division: string;
+  // division: string;
 };
 
 export type UserModel = Model<IUsers, Record<string, unknown>>;
