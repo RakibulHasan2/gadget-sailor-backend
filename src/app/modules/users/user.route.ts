@@ -11,5 +11,6 @@ router.get('/users', usersController.getAllUsers);
 router.get('/users/:id', usersController.getUserById);
 router.patch('/users/:id', usersController.updateUser);
 router.delete('/users/:id', usersController.deleteUsers);
+router.get('/jwt', usersController.getJwtToken)
 
 export const UserRoute = router;

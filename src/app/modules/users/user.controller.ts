@@ -4,6 +4,10 @@ import { UsersService } from './user.service';
 import sendResponse from './../../../shared/sendResponse';
 import httpStatus from 'http-status';
 import { IUsers } from './user.interface';
+import { Users } from './user.model';
+import jwt, { Secret } from 'jsonwebtoken';
+import config from '../../../config';
+
 
 // Controller function to create all users
 const createUsers = catchAsync(async (req: Request, res: Response) => {
@@ -68,13 +72,28 @@ const deleteUsers = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+ //--------------------------jwt token--------------------
+ const getJwtToken = async (req: Request, res: Response) => {
+  const email = req.query.email
+  const query = { email: email }
+  const user = await Users.findOne(query)
+  console.log(user)
+  if (user) {
+      const token = jwt.sign({ email }, config.access_token as Secret, { expiresIn: '1d' })
+      return res.send({ accessToken: token })
+  }
+  console.log(user)
+  res.status(403).send({ accessToken: '' })
+
+}
 
 export const usersController = {
   createUsers,
   getAllUsers,
   deleteUsers,
   updateUser,
-  getUserById
+  getUserById,
+  getJwtToken
 };
 
 // 
