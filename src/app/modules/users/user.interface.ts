@@ -11,7 +11,6 @@ export type IUsers = {
   password: string;
   phoneNumber: number;
   profile_image: string;
-  cover_image: string;
   present_address: string;
   extra_phone_number: string;
   permanent_address: string;

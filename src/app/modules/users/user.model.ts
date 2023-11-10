@@ -45,9 +45,6 @@ const userSchema = new Schema<IUsers, UserModel>(
         present_address: {
             type: String,
         },
-        cover_image: {
-            type: String,
-        },
         profile_image: {
             type: String,
         },
