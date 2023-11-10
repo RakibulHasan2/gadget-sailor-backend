@@ -27,6 +27,30 @@ const userSchema = new Schema<IUsers, UserModel>(
             type: String,
             required: true,
         },
+        city: {
+            type: String,
+        },
+        division: {
+            type: String,
+        },
+        extra_phone_number: {
+            type: Number,
+        },
+        permanent_address: {
+            type: String,
+        },
+        post_code: {
+            type: String,
+        },
+        present_address: {
+            type: String,
+        },
+        cover_image: {
+            type: String,
+        },
+        profile_image: {
+            type: String,
+        },
         phoneNumber: {
             unique: true,
             type: Number,
