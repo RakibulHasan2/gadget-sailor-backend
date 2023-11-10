@@ -12,7 +12,7 @@ export type IUsers = {
   phoneNumber: number;
   present_address: string;
   permanent_address: string;
-  post_code: string;
+  // post_code: string;
   // city: string;
   // division: string;
 };
