@@ -34,7 +34,7 @@ const userSchema = new Schema<IUsers, UserModel>(
             type: String,
         },
         extra_phone_number: {
-            type: Number,
+            type: String,
         },
         permanent_address: {
             type: String,
