@@ -35,6 +35,7 @@ const getDeleteUsers = async (id: string): Promise<IUsers | null> => {
         return result;
 };
 
+
 export const UsersService = {
     createUsers,
     getAllUsers,
