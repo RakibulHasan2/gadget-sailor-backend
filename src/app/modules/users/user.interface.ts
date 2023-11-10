@@ -13,7 +13,7 @@ export type IUsers = {
   present_address: string;
   permanent_address: string;
   post_code: string;
-  city: string;
+  // city: string;
   // division: string;
 };
 
