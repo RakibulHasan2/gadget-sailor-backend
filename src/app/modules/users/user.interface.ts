@@ -10,7 +10,7 @@ export type IUsers = {
   email: string;
   password: string;
   phoneNumber: number;
-  profile_image: string;
+  image: string;
   present_address: string;
   extra_phone_number: string;
   permanent_address: string;
