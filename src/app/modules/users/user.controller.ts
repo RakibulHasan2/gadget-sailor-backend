@@ -77,12 +77,10 @@ const deleteUsers = catchAsync(async (req: Request, res: Response) => {
   const email = req.query.email
   const query = { email: email }
   const user = await Users.findOne(query)
-  console.log(user)
   if (user) {
       const token = jwt.sign({ email }, config.access_token as Secret, { expiresIn: '1d' })
       return res.send({ accessToken: token })
   }
-  console.log(user)
   res.status(403).send({ accessToken: '' })
 
 }

@@ -2,6 +2,7 @@ import express from 'express';
 import { usersController } from './user.controller';
 import validateRequest from '../../middleware/validateRequest';
 import { UserValidation } from './usersValidation';
+import verifyJWT from '../../../utils/jwtUtils';
 
 const router = express.Router();
 
