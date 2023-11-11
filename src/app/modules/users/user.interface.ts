@@ -12,7 +12,6 @@ export type IUsers = {
   phoneNumber: number;
   image: string;
   present_address: string;
-  extra_phone_number: string;
   permanent_address: string;
   post_code: string;
   city: string;
