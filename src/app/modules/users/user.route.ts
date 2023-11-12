@@ -11,7 +11,7 @@ router.post('/auth/signup',validateRequest(UserValidation.createUserZodSchema),u
 router.post('/auth/login',usersController.loginUser);
 router.get('/users', usersController.getAllUsers);
 router.get('/users/:id', usersController.getUserById);
-router.patch('/users/:id', usersController.updateUser);
+router.put('/users/:id', usersController.updateUser);
 router.delete('/users/:id', usersController.deleteUsers);
 router.get('/jwt', usersController.getJwtToken)
 
