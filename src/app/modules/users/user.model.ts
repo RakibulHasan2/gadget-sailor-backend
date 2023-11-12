@@ -33,9 +33,6 @@ const userSchema = new Schema<IUsers, UserModel>(
         division: {
             type: String,
         },
-        extra_phone_number: {
-            type: String,
-        },
         permanent_address: {
             type: String,
         },
@@ -45,7 +42,7 @@ const userSchema = new Schema<IUsers, UserModel>(
         present_address: {
             type: String,
         },
-        profile_image: {
+        image: {
             type: String,
         },
         phoneNumber: {
