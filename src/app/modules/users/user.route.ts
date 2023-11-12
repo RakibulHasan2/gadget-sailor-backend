@@ -8,6 +8,7 @@ const router = express.Router();
 
 //user signup 
 router.post('/auth/signup',validateRequest(UserValidation.createUserZodSchema),usersController.createUsers);
+router.post('/auth/login',usersController.loginUser);
 router.get('/users', usersController.getAllUsers);
 router.get('/users/:id', usersController.getUserById);
 router.patch('/users/:id', usersController.updateUser);
