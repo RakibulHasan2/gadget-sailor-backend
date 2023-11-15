@@ -10,6 +10,12 @@ export type IUsers = {
   email: string;
   password: string;
   phoneNumber: number;
+  image: string;
+  present_address: string;
+  permanent_address: string;
+  post_code: string;
+  city: string;
+  division: string;
 };
 
 export type UserModel = Model<IUsers, Record<string, unknown>>;

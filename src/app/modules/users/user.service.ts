@@ -8,6 +8,7 @@ const createUsers = async (payload: IUsers): Promise<IUsers | null> => {
         return result;
 };
 
+
 // Function to retrieve all users
 const getAllUsers = async (): Promise<IUsers[]> => {
         const users = await Users.find({});
@@ -23,11 +24,11 @@ const getUserById = async (id: string): Promise<IUsers | null> => {
 
 
 //update user by Id
-const UpdateUser = async (id: string,payload: Partial<IUsers>): Promise<IUsers | null> => {
-    const result = await Users.findOneAndUpdate({ _id: id }, payload, {new: true});
-    return result;
-  };
-  
+const UpdateUser = async (id: string, payload: Partial<IUsers>): Promise<IUsers | null> => {
+        const result = await Users.findOneAndUpdate({ _id: id }, payload, { new: true });
+        return result;
+};
+
 
 // delete user by id
 const getDeleteUsers = async (id: string): Promise<IUsers | null> => {
@@ -35,10 +36,11 @@ const getDeleteUsers = async (id: string): Promise<IUsers | null> => {
         return result;
 };
 
+
 export const UsersService = {
-    createUsers,
-    getAllUsers,
-    getDeleteUsers,
-    UpdateUser,
-    getUserById
+        createUsers,
+        getAllUsers,
+        getDeleteUsers,
+        UpdateUser,
+        getUserById
 };
