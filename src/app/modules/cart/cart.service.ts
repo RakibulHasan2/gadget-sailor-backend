@@ -1,3 +1,4 @@
+import { ICategory } from "../categories/categories.interface";
 import { ICart } from "./cart.interface";
 import { cart } from "./cart.model";
 
@@ -13,6 +14,21 @@ const createCart = async (payload: ICart): Promise<ICart | null | any> => {
     }
 }
 
+// Function to retrieve data from cart
+const getFromCart = async (): Promise<ICart[]> => {
+    try {
+        const result = await cart.find({});
+        return result;
+    } catch (error) {
+        console.error('Error getting data from cart:', error);
+        throw error;
+    }
+};
+
+
+
+
 export const cartService = {
     createCart,
+    getFromCart
 }
