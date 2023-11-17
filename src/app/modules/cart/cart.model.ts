@@ -40,4 +40,4 @@ export const cartSchema = new Schema<ICart>(
 
 var thingCartSchema = new Schema({ cartSchema }, { strict: false });
 
-export const Cart = model<ICart, IcartModel>('Products', thingCartSchema);
+export const cart = model<ICart, IcartModel>('Products', thingCartSchema);
