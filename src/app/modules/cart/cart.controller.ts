@@ -16,3 +16,7 @@ const create_Cart = catchAsync(async (req: Request, res: Response) => {
         data: result,
     });
 })
+
+export const cartController = {
+    create_Cart
+}

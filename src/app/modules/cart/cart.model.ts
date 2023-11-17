@@ -9,7 +9,7 @@ export const cartSchema = new Schema<ICart>(
             type: String
         },
         image: {
-            type: [String],
+            type: String,
             required: true,
             unique: true,
         },
@@ -40,4 +40,4 @@ export const cartSchema = new Schema<ICart>(
 
 var thingCartSchema = new Schema({ cartSchema }, { strict: false });
 
-export const cart = model<ICart, IcartModel>('Products', thingCartSchema);
+export const cart = model<ICart, IcartModel>('Cart', thingCartSchema);
