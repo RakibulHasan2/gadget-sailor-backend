@@ -1,10 +1,10 @@
-import { ICategory } from "../categories/categories.interface";
 import { ICart } from "./cart.interface";
 import { cart } from "./cart.model";
 
 //function to create cart
-const createCart = async (payload: ICart): Promise<ICart | null | any> => {
+const createCart = async (payload: ICart): Promise<ICart | null> => {
     try {
+
         const result = await cart.create(payload);
         return result;
     }

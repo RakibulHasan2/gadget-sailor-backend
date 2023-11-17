@@ -11,7 +11,8 @@ export const cartSchema = new Schema<ICart>(
         image: {
             type: String,
             required: true,
-            unique: true,
+            unique: true
+
         },
         unit_price: {
             type: Number,
@@ -28,6 +29,10 @@ export const cartSchema = new Schema<ICart>(
         model: {
             type: String,
             required: true,
+        },
+        email: {
+            type: String,
+            required: true,
         }
     },
     {
@@ -40,4 +45,4 @@ export const cartSchema = new Schema<ICart>(
 
 var thingCartSchema = new Schema({ cartSchema }, { strict: false });
 
-export const cart = model<ICart, IcartModel>('Cart', thingCartSchema);
+export const cart = model<ICart, IcartModel>('Carts', thingCartSchema);

@@ -9,7 +9,7 @@ import { ICart } from "./cart.interface";
 const create_Cart = catchAsync(async (req: Request, res: Response) => {
     const { ...cartData } = req.body;
     const result = await cartService.createCart(cartData);
-
+    console.log(cartData)
     sendResponse(res, {
         statusCode: httpStatus.OK,
         success: true,

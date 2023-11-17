@@ -23,12 +23,12 @@ export const productsSchema = new Schema<IProducts>(
             type: [String],
             required: true,
             unique: true,
-        } ,
+        },
         model: {
             type: String,
             required: true,
             unique: true,
-        }  ,
+        },
         description: {
             type: String,
             required: true,
@@ -37,27 +37,27 @@ export const productsSchema = new Schema<IProducts>(
         price: {
             type: Number,
             required: true,
-        }  ,
+        },
         product_code: {
             type: Number,
             required: true,
             unique: true,
-        }  ,
+        },
         status: {
             type: String,
             required: true,
-        }  ,
+        },
         reviews: {
             type: [],
             required: true,
-        } ,
+        },
         warranty: {
             type: String,
             required: true,
         },
         others_info: {
             type: Object
-        }     
+        }
     },
     {
         timestamps: true,
@@ -67,6 +67,6 @@ export const productsSchema = new Schema<IProducts>(
     }
 );
 
-var thingSchema = new Schema({productsSchema}, { strict: false });
+var thingSchema = new Schema({ productsSchema }, { strict: false });
 
 export const Products = model<IProducts, ProductsModel>('Products', thingSchema);
