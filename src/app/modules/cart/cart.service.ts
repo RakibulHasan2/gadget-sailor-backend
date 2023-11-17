@@ -26,9 +26,16 @@ const getFromCart = async (): Promise<ICart[]> => {
 };
 
 
+// Function to retrieve data from cart by email
+const getCartDataByEmail = async (email: string): Promise<ICart | null> => {
+    const result = await cart.findById(email);
+    return result;
+};
+
 
 
 export const cartService = {
     createCart,
-    getFromCart
+    getFromCart,
+    getCartDataByEmail,
 }

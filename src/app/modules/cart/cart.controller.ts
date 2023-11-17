@@ -33,8 +33,25 @@ const getCartData = async (req: Request, res: Response) => {
     });
 };
 
+// retrieve data from cart by email
+const getCartByEmail = async (req: Request, res: Response) => {
+    const Email = req.params.email;
+
+    const result = await cartService.getCartDataByEmail(Email);
+
+    sendResponse<ICart | ICart[]>(res, {
+        statusCode: httpStatus.OK,
+        success: true,
+        message: 'cart data retrieved by email successfully',
+        data: result,
+    });
+
+};
+
+
 
 export const cartController = {
     create_Cart,
     getCartData,
+    getCartByEmail
 }
