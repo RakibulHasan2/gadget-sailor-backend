@@ -34,12 +34,12 @@ const getAllProducts = async (req: Request, res: Response) => {
 };
 
 //retrieve single products by id or Category name
-const  getProductsByCategoryOrID = async (req: Request, res: Response) => {
+const getProductsByCategoryOrID = async (req: Request, res: Response) => {
   const categoryName = req.params.categoryName;
 
-  const result = await ProductsService. getProductsByCategoryOrID(categoryName);
+  const result = await ProductsService.getProductsByCategoryOrID(categoryName);
 
-  sendResponse<IProducts| IProducts[]>(res, {
+  sendResponse<IProducts | IProducts[]>(res, {
     statusCode: httpStatus.OK,
     success: true,
     message: 'products retrieved successfully',
@@ -49,10 +49,10 @@ const  getProductsByCategoryOrID = async (req: Request, res: Response) => {
 };
 
 // retrieve products by category and sub category
-const  getByCatAndSubCatOrSubCatAndBrand = async (req: Request, res: Response) => {
+const getByCatAndSubCatOrSubCatAndBrand = async (req: Request, res: Response) => {
   const categoryName = req.params.categoryName;
   const subCategoryName = req.params.subCategoryName;
-  const result = await ProductsService.getByCatAndSubCatOrSubCatAndBrand(categoryName,subCategoryName);
+  const result = await ProductsService.getByCatAndSubCatOrSubCatAndBrand(categoryName, subCategoryName);
 
   sendResponse<IProducts[]>(res, {
     statusCode: httpStatus.OK,
@@ -93,6 +93,7 @@ const DeleteProduct = catchAsync(async (req: Request, res: Response) => {
 export const productsController = {
   createProducts,
   getAllProducts,
+
   updateSingleProduct,
   DeleteProduct,
   getProductsByCategoryOrID,

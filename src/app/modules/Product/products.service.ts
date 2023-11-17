@@ -67,12 +67,12 @@ const getByCatAndSubCatOrSubCatAndBrand = async (categoryName: string, subCatego
             {
                 $and: [
                     { category_name: categoryName },
-                    { sub_category_name: subCategoryName}
+                    { sub_category_name: subCategoryName }
                 ]
             },
             {
                 $and: [
-                    { sub_category_name: categoryName},
+                    { sub_category_name: categoryName },
                     { brand_name: subCategoryName }
                 ]
             }
