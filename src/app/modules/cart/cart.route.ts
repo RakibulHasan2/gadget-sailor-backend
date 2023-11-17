@@ -4,5 +4,6 @@ import { cartController } from "./cart.controller";
 const router = express.Router();
 router.post('/addCart', cartController.create_Cart);
 router.get('/getCart', cartController.getCartData);
+router.get('/getCart/:email', cartController.getCartByEmail)
 
 export const cartRoute = router;

@@ -27,9 +27,23 @@ const getFromCart = async (): Promise<ICart[]> => {
 
 
 // Function to retrieve data from cart by email
-const getCartDataByEmail = async (email: string): Promise<ICart | null> => {
-    const result = await cart.findById(email);
-    return result;
+const getCartDataByEmail = async (Email: string): Promise<ICart | ICart[] | null> => {
+    if (Email.match(/^[0-9a-fA-F]{24}$/)) {
+        const result = await cart.findById(Email);
+        return result;
+
+    }
+
+    else {
+        const result = await cart.find({
+            $or: [
+                { email: Email },
+
+            ]
+        });
+        return result;
+    }
+
 };
 
 
