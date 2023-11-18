@@ -25,7 +25,6 @@ const createUsers = catchAsync(async (req: Request, res: Response) => {
 const loginUser = catchAsync(async (req: Request, res: Response) => {
     const { email, password } = req.body;
     const user = await Users.findOne({ email, password });
-    console.log(user)
     if (user) {
       res.json(user)
     } else {

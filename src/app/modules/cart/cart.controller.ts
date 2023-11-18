@@ -6,7 +6,7 @@ import { Request, Response } from "express";
 import { ICart } from "./cart.interface";
 
 // create cart
-const create_Cart = catchAsync(async (req: Request, res: Response) => {
+const createCart = catchAsync(async (req: Request, res: Response) => {
     const { ...cartData } = req.body;
     const result = await cartService.createCart(cartData);
     console.log(cartData)
@@ -48,10 +48,23 @@ const getCartByEmail = async (req: Request, res: Response) => {
 
 };
 
+// delete Cart by id
+const DeleteCart = catchAsync(async (req: Request, res: Response) => {
+    const id = req.params.id;
+    const result = await cartService.DeleteCart(id);
+    sendResponse<ICart>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Cart deleted successfully',
+      data: result,
+    });
+  });
+  
 
 
 export const cartController = {
-    create_Cart,
+    createCart,
     getCartData,
-    getCartByEmail
+    getCartByEmail,
+    DeleteCart
 }
