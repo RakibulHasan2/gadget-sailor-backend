@@ -46,10 +46,17 @@ const getCartDataByEmail = async (Email: string): Promise<ICart | ICart[] | null
 
 };
 
+// delete Cart by id
+const DeleteCart = async (id: string): Promise<ICart | null> => {
+    const result = await cart.findByIdAndDelete(id);
+    return result;
+};
+
 
 
 export const cartService = {
     createCart,
     getFromCart,
     getCartDataByEmail,
+    DeleteCart
 }
