@@ -6,7 +6,7 @@ import { Request, Response } from "express";
 import { ICart } from "./cart.interface";
 
 // create cart
-const create_Cart = catchAsync(async (req: Request, res: Response) => {
+const createCart = catchAsync(async (req: Request, res: Response) => {
     const { ...cartData } = req.body;
     const result = await cartService.createCart(cartData);
     console.log(cartData)
@@ -63,7 +63,7 @@ const DeleteCart = catchAsync(async (req: Request, res: Response) => {
 
 
 export const cartController = {
-    create_Cart,
+    createCart,
     getCartData,
     getCartByEmail,
     DeleteCart
