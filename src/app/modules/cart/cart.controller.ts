@@ -48,10 +48,23 @@ const getCartByEmail = async (req: Request, res: Response) => {
 
 };
 
+// delete Cart by id
+const DeleteCart = catchAsync(async (req: Request, res: Response) => {
+    const id = req.params.id;
+    const result = await cartService.DeleteCart(id);
+    sendResponse<ICart>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Cart deleted successfully',
+      data: result,
+    });
+  });
+  
 
 
 export const cartController = {
     create_Cart,
     getCartData,
-    getCartByEmail
+    getCartByEmail,
+    DeleteCart
 }
