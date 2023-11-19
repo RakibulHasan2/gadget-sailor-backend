@@ -4,7 +4,6 @@ import { cart } from "./cart.model";
 //function to create cart
 const createCart = async (payload: ICart): Promise<ICart | null> => {
     try {
-
         const result = await cart.create(payload);
         return result;
     }
@@ -16,35 +15,31 @@ const createCart = async (payload: ICart): Promise<ICart | null> => {
 
 // Function to retrieve data from cart
 const getFromCart = async (): Promise<ICart[]> => {
-    try {
-        const result = await cart.find({});
-        return result;
-    } catch (error) {
-        console.error('Error getting data from cart:', error);
-        throw error;
-    }
+    const result = await cart.find({});
+    return result;
 };
-
 
 // Function to retrieve data from cart by email
 const getCartDataByEmail = async (Email: string): Promise<ICart | ICart[] | null> => {
     if (Email.match(/^[0-9a-fA-F]{24}$/)) {
         const result = await cart.findById(Email);
         return result;
-
     }
-
     else {
         const result = await cart.find({
             $or: [
                 { email: Email },
-
+                {product_name: Email}
             ]
         });
         return result;
     }
 
 };
+
+export const updateCartItem = async (id:any,cartItemData: any) => {
+    return await cart.findByIdAndUpdate(id, cartItemData, { new: true });
+  };
 
 // delete Cart by id
 const DeleteCart = async (id: string): Promise<ICart | null> => {
@@ -58,5 +53,6 @@ export const cartService = {
     createCart,
     getFromCart,
     getCartDataByEmail,
-    DeleteCart
+    DeleteCart,
+    updateCartItem
 }
