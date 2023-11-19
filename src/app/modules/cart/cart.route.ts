@@ -3,9 +3,11 @@ import { cartController } from "./cart.controller";
 
 const router = express.Router();
 
-router.post('/addCart', cartController.createCart);
+// router.post('/addCart', cartController.createCart);
 router.get('/getCart', cartController.getCartData);
 router.get('/getCart/:email', cartController.getCartByEmail)
+router.post('/addCart', cartController.addToCart);
 router.delete('/getCart/:id', cartController.DeleteCart)
+router.put('/getCart/:id', cartController.updateSingleCart)
 
 export const cartRoute = router;
