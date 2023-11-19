@@ -11,8 +11,6 @@ export const cartSchema = new Schema<ICart>(
         image: {
             type: String,
             required: true,
-            unique: true
-
         },
         unit_price: {
             type: Number,
