@@ -32,8 +32,25 @@ const GetFromFav = async (req: Request, res: Response) => {
 };
 
 
+// retrieve data from favourite by email
+const GetFavByEmail = async (req: Request, res: Response) => {
+    const Email = req.params.email;
+    // console.log(Email)
+    const result = await favService.getFavDataByEmail(Email);
+    // console.log(result)
+    sendResponse<IFav | IFav[]>(res, {
+        statusCode: httpStatus.OK,
+        success: true,
+        message: 'Retrieved from favourite by email successfully',
+        data: result,
+    });
+
+};
+
+
 
 export const favController = {
     AddToFav,
-    GetFromFav
+    GetFromFav,
+    GetFavByEmail
 }
