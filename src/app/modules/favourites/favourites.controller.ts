@@ -47,10 +47,23 @@ const GetFavByEmail = async (req: Request, res: Response) => {
 
 };
 
+// delete fav by id
+const DeleteFav = catchAsync(async (req: Request, res: Response) => {
+    const id = req.params.id;
+    const result = await favService.deleteFav(id);
+    sendResponse<IFav>(res, {
+        statusCode: httpStatus.OK,
+        success: true,
+        message: 'Deleted from favourite successfully',
+        data: result,
+    });
+});
+
 
 
 export const favController = {
     AddToFav,
     GetFromFav,
-    GetFavByEmail
+    GetFavByEmail,
+    DeleteFav
 }

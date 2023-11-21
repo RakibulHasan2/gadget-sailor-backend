@@ -37,8 +37,15 @@ const getFavDataByEmail = async (Email: string): Promise<IFav | IFav[] | null> =
 
 };
 
+// delete fav by id
+const deleteFav = async (id: string): Promise<IFav | null> => {
+    const result = await fav.findByIdAndDelete(id);
+    return result;
+};
+
 export const favService = {
     addToFav,
     getFromFav,
-    getFavDataByEmail
+    getFavDataByEmail,
+    deleteFav
 }
