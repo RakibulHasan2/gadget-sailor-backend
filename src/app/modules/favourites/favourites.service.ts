@@ -2,7 +2,7 @@ import { IFav } from "./favourites.interface";
 import { fav } from "./favourites.model";
 
 //function to add in favourites
-const addInFav = async (payload: IFav): Promise<IFav | null> => {
+const addToFav = async (payload: IFav): Promise<IFav | null> => {
     try {
         const result = await fav.create(payload);
         return result;
@@ -11,4 +11,9 @@ const addInFav = async (payload: IFav): Promise<IFav | null> => {
         console.error('Error creating cart:', error);
         throw error;
     }
+}
+
+export const favService = {
+    addToFav,
+
 }
