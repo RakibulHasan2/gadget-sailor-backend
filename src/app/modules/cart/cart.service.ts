@@ -29,7 +29,7 @@ const getCartDataByEmail = async (Email: string): Promise<ICart | ICart[] | null
         const result = await cart.find({
             $or: [
                 { email: Email },
-                {product_name: Email}
+                { product_name: Email }
             ]
         });
         return result;
@@ -37,9 +37,9 @@ const getCartDataByEmail = async (Email: string): Promise<ICart | ICart[] | null
 
 };
 
-export const updateCartItem = async (id:any,cartItemData: any) => {
+export const updateCartItem = async (id: any, cartItemData: any) => {
     return await cart.findByIdAndUpdate(id, cartItemData, { new: true });
-  };
+};
 
 // delete Cart by id
 const DeleteCart = async (id: string): Promise<ICart | null> => {

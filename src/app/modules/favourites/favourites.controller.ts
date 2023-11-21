@@ -3,6 +3,7 @@ import catchAsync from "../../../shared/catchAsync";
 import sendResponse from "../../../shared/sendResponse";
 import { favService } from "./favourites.service";
 import { Request, Response } from "express";
+import { IFav } from "./favourites.interface";
 
 //create all Products
 const AddToFav = catchAsync(async (req: Request, res: Response) => {
@@ -12,11 +13,27 @@ const AddToFav = catchAsync(async (req: Request, res: Response) => {
     sendResponse(res, {
         statusCode: httpStatus.OK,
         success: true,
-        message: 'Products is Created successfully',
+        message: 'Added to favourite successfully',
         data: result,
     });
 });
 
+// retrieve all data from favourite
+const GetFromFav = async (req: Request, res: Response) => {
+
+    const result = await favService.getFromFav();
+
+    sendResponse<IFav[]>(res, {
+        statusCode: httpStatus.OK,
+        success: true,
+        message: 'Retrieved from favourite successfully',
+        data: result,
+    });
+};
+
+
+
 export const favController = {
     AddToFav,
+    GetFromFav
 }

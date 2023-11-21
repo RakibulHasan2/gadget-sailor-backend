@@ -13,7 +13,14 @@ const addToFav = async (payload: IFav): Promise<IFav | null> => {
     }
 }
 
+// Function to retrieve data from favourite list
+const getFromFav = async (): Promise<IFav[]> => {
+    const result = await fav.find({});
+    return result;
+};
+
+
 export const favService = {
     addToFav,
-
+    getFromFav,
 }
