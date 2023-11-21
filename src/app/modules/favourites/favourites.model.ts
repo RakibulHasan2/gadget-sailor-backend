@@ -35,4 +35,4 @@ export const favSchema = new Schema<IFav>(
 
 var thingFavSchema = new Schema({ favSchema }, { strict: false });
 
-export const cart = model<IFav, IFavModel>('Favourites', thingFavSchema);
+export const fav = model<IFav, IFavModel>('Favourites', thingFavSchema);
