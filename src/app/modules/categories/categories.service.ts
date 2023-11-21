@@ -10,13 +10,8 @@ const createCategories = async (payload: ICategory): Promise<ICategory | null> =
 
 // Function to retrieve all categories
 const getAllCategories = async (): Promise<ICategory[]> => {
-    try {
         const categories = await Categories.find({});
         return categories;
-    } catch (error) {
-        console.error('Error getting all categories:', error);
-        throw error;
-    }
 };
 
 const getSingleCategory = async (id: string): Promise<ICategory | null> => {
