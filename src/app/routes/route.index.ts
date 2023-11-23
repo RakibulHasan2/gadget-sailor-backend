@@ -4,7 +4,6 @@ import { CategoriesRoute } from '../modules/categories/categories..route';
 import { subCategoriesRoute } from '../modules/sub_categories/sub_categories.route';
 import { productsRoute } from '../modules/Product/products.route';
 import { cartRoute } from '../modules/cart/cart.route';
-import { BuildPCRoute } from '../modules/build_pc/build_pc.route';
 import { favRoute } from '../modules/favourites/favourites.route';
 
 
@@ -30,10 +29,6 @@ const moduleRoutes = [
   {
     path: '/',
     route: cartRoute
-  },
-  {
-    path: '/',
-    route: BuildPCRoute
   },
   {
     path: '/',
