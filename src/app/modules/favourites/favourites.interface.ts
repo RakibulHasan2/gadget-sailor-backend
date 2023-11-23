@@ -6,6 +6,7 @@ export type IFav = {
     price: number;
     image: string;
     email: string;
+    count: number
 };
 
 
