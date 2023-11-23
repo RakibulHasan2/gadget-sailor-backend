@@ -3,6 +3,10 @@ import { IFav, IFavModel } from "./favourites.interface";
 
 export const favSchema = new Schema<IFav>(
     {
+        I_id: {
+            required: true,
+            type: String
+        },
         product_name: {
             required: true,
             type: String
