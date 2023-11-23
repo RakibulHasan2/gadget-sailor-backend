@@ -23,6 +23,10 @@ export const favSchema = new Schema<IFav>(
         email: {
             type: String,
             required: true,
+        },
+        count: {
+            type: Number,
+            required: true,
         }
     },
     {
