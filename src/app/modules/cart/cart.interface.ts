@@ -8,6 +8,7 @@ export type ICart = {
     quantity: number;
     model: string;
     email: string;
+    u_id: string;
 };
 
 export type IcartModel = Model<ICart, Record<string, unknown>>;
