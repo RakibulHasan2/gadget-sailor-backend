@@ -13,6 +13,7 @@ export type IProducts = {
     status:string;
     reviews: string[];
     warranty: string;
+    quantity: number;
     others_info: object;
 };
 
