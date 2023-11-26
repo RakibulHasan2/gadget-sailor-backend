@@ -7,16 +7,17 @@ import { ICart } from "./cart.interface";
 
 
 const addToCart = async (req: Request, res: Response) => {
-    const { product_name, quantity} = req.body;
-    const existingItem = await cartService.getCartDataByEmail(product_name) as ICart[];
-    if (existingItem[0]) {
+    const { product_name, quantity, email } = req.body;
+    const existingItem = await cartService.getCartDataByEmail(email, product_name) as ICart[];
+    if (existingItem[0]?.product_name === product_name) {
+        console.log("executed", existingItem[0]?.email)
         existingItem[0].quantity += quantity;
         existingItem[0].total_price += (existingItem[0].unit_price * quantity);
         const newData = {
-            quantity: existingItem[0].quantity ,
-            total_price: existingItem[0].total_price 
+            quantity: existingItem[0].quantity,
+            total_price: existingItem[0].total_price
         }
-        const result  = await cartService.updateCartItem(existingItem[0]._id.toString(),newData);
+        const result = await cartService.updateCartItem(existingItem[0]._id.toString(), newData);
         sendResponse<ICart | ICart[]>(res, {
             statusCode: httpStatus.OK,
             success: true,
@@ -56,20 +57,18 @@ const updateSingleCart = catchAsync(async (req: Request, res: Response) => {
     const newData = req.body;
     const result = await cartService.updateCartItem(id, newData);
     sendResponse<ICart>(res, {
-      statusCode: httpStatus.OK,
-      success: true,
-      message: 'products updated successfully',
-      data: result,
+        statusCode: httpStatus.OK,
+        success: true,
+        message: 'products updated successfully',
+        data: result,
     });
-  }
-  );
+}
+);
 
 // retrieve data from cart by email
 const getCartByEmail = async (req: Request, res: Response) => {
     const Email = req.params.email;
-    // console.log(Email)
     const result = await cartService.getCartDataByEmail(Email);
-    // console.log(result)
     sendResponse<ICart | ICart[]>(res, {
         statusCode: httpStatus.OK,
         success: true,
