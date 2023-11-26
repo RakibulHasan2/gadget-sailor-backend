@@ -31,6 +31,9 @@ export const cartSchema = new Schema<ICart>(
         email: {
             type: String,
             required: true,
+        },
+        u_id:{
+            type: String,
         }
     },
     {
