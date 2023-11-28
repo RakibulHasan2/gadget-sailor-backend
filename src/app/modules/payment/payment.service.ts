@@ -20,8 +20,28 @@ const getFromPaidList = async (): Promise<IPayment[]> => {
     return result;
 };
 
+
+// Function to retrieve data from payment by email
+const getPaymentDataByEmail = async (Email: string): Promise<IPayment | IPayment[] | null> => {
+    if (Email.match(/^[0-9a-fA-F]{24}$/)) {
+        const result = await payment.findById(Email);
+        return result;
+    }
+    else {
+        const result = await payment.find({
+            $or: [
+                { email: Email },
+                { product_name: Email }
+            ]
+        });
+        return result;
+    }
+
+};
+
 export const paymentService = {
     addToPaidList,
     getFromPaidList,
+    getPaymentDataByEmail
 
 }
