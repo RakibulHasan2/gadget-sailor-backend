@@ -15,4 +15,4 @@ export const paymentSchema = new Schema<IPayment>(
 
 var thingPaymentSchema = new Schema({ paymentSchema }, { strict: false });
 
-export const fav = model<IPayment, IPaymentModel>('Favourites', thingPaymentSchema);
+export const payment = model<IPayment, IPaymentModel>('Payments', thingPaymentSchema);
