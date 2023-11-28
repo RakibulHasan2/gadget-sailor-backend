@@ -37,9 +37,7 @@ const GetFromPaidData = async (req: Request, res: Response) => {
 // retrieve data from payment by email
 const GetPaidDataByEmail = async (req: Request, res: Response) => {
     const Email = req.params.email;
-    console.log(Email)
     const result = await paymentService.getPaymentDataByEmail(Email);
-    console.log(result)
     sendResponse<IPayment | IPayment[]>(res, {
         statusCode: httpStatus.OK,
         success: true,
