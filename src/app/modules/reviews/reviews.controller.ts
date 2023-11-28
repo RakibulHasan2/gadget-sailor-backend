@@ -17,11 +17,7 @@ const createReviews = catchAsync(async (req: Request, res: Response) => {
 });
 
 const getAllReviews = async (req: Request, res: Response) => {
-
-  // Call the getAllReviews function to retrieve all users
   const result = await ReviewsService.getAllReviews();
-
-  // Send the Reviews as a JSON response
   sendResponse<IReviews[]>(res, {
     statusCode: httpStatus.OK,
     success: true,
@@ -30,8 +26,21 @@ const getAllReviews = async (req: Request, res: Response) => {
   });
 };
 
+//retrieve review by product id
+const getByProductId = async (req: Request, res: Response) => {
+  const p_id = req.params.p_id;
+  const result = await ReviewsService.getByProductId(p_id);
+  sendResponse<IReviews[]>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'reviews retrieved successfully',
+    data: result,
+  });
+
+};
 
 export const ReviewsController = {
   createReviews,
   getAllReviews,
+  getByProductId
 };

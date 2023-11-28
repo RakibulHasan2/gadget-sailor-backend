@@ -14,8 +14,17 @@ const getAllReviews = async (): Promise<IReviews[]> => {
     return reviews;
 };
 
+//retrieve review by product id
+const getByProductId = async (p_id: string): Promise<IReviews[] | null> => {
+    const result = await Reviews.find({
+        p_id: p_id
+    });
+    return result;
+};
+
 
 export const ReviewsService = {
     createReviews,
-    getAllReviews
+    getAllReviews,
+    getByProductId
 };
