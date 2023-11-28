@@ -10,7 +10,6 @@ const addToCart = async (req: Request, res: Response) => {
     const { product_name, quantity, email } = req.body;
     const existingItem = await cartService.getCartDataByEmail(email, product_name) as ICart[];
     if (existingItem[0]?.product_name === product_name) {
-        console.log("executed", existingItem[0]?.email)
         existingItem[0].quantity += quantity;
         existingItem[0].total_price += (existingItem[0].unit_price * quantity);
         const newData = {
@@ -34,7 +33,6 @@ const addToCart = async (req: Request, res: Response) => {
             data: result,
         });
     }
-
 };
 
 //function to get Cart Data
