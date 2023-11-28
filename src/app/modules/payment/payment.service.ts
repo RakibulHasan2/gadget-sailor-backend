@@ -13,7 +13,15 @@ const addToPaidList = async (payload: IPayment): Promise<IPayment | null> => {
     }
 }
 
+
+// Function to retrieve all data from payment list 
+const getFromPaidList = async (): Promise<IPayment[]> => {
+    const result = await payment.find({});
+    return result;
+};
+
 export const paymentService = {
     addToPaidList,
+    getFromPaidList,
 
 }
