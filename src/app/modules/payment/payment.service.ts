@@ -13,7 +13,7 @@ const addToPaidList = async (payload: IPayment): Promise<IPayment | null> => {
     }
 }
 
-export const favService = {
+export const paymentService = {
     addToPaidList,
 
 }
