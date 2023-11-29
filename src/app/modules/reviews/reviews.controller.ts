@@ -36,11 +36,23 @@ const getByProductId = async (req: Request, res: Response) => {
     message: 'reviews retrieved successfully',
     data: result,
   });
-
 };
+
+// delete Review by id
+const DeleteReview = catchAsync(async (req: Request, res: Response) => {
+  const id = req.params.id;
+  const result = await ReviewsService.DeleteReview(id);
+  sendResponse<IReviews>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Review deleted successfully',
+    data: result,
+  });
+});
 
 export const ReviewsController = {
   createReviews,
   getAllReviews,
-  getByProductId
+  getByProductId,
+  DeleteReview
 };
