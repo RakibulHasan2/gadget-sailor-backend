@@ -22,9 +22,16 @@ const getByProductId = async (p_id: string): Promise<IReviews[] | null> => {
     return result;
 };
 
+// delete review by id
+const DeleteReview = async (id: string): Promise<IReviews | null> => {
+    const result = await Reviews.findByIdAndDelete(id);
+    return result;
+};
+
 
 export const ReviewsService = {
     createReviews,
     getAllReviews,
-    getByProductId
+    getByProductId,
+    DeleteReview
 };
