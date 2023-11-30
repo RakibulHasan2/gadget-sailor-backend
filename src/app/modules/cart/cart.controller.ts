@@ -13,7 +13,7 @@ const addToCart = async (req: Request, res: Response) => {
         existingItem[0].quantity += quantity;
         existingItem[0].total_price += (existingItem[0].unit_price * quantity);
         const newData = {
-            quantity: existingItem[0].quantity,
+            quantity: existingItem[0].quantity, 
             total_price: existingItem[0].total_price
         }
         const result = await cartService.updateCartItem(existingItem[0]._id.toString(), newData);
