@@ -1,6 +1,7 @@
 import { Model } from "mongoose";
 
 export type ICart = {
+    [x: string]: any;
     product_name: string;
     image: string;
     unit_price: number;
