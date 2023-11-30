@@ -1,6 +1,8 @@
 import { IPayment } from "./payment.interface";
 import { payment } from "./payment.model";
 
+const stripe = require("stripe")(process.env.STRIPE_SECRET_kEY);
+
 //function to add in payment
 const addToPaidList = async (payload: IPayment): Promise<IPayment | null> => {
     try {
