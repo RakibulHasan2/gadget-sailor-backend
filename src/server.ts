@@ -16,5 +16,6 @@ async function main() {
         console.log("fail to connect",err);
     }
 }
-
 main();
+
+export default app;
