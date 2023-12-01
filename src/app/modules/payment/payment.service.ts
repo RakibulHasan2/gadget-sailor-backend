@@ -1,6 +1,8 @@
 import { IPayment } from "./payment.interface";
 import { payment } from "./payment.model";
 
+const stripe = require("stripe")(process.env.STRIPE_SECRET_kEY);
+
 //function to add in payment
 const addToPaidList = async (payload: IPayment): Promise<IPayment | null> => {
     try {
@@ -39,9 +41,35 @@ const getPaymentDataByEmail = async (Email: string): Promise<IPayment | IPayment
 
 };
 
+//process payment in stripe
+const processPayment = async (Price: number): Promise<IPayment | IPayment[] | null> => {
+    try {
+        // const totalAmount = Price * 100;
+
+        console.log('Received price:', Price);
+
+        const totalAmount = isNaN(Price) ? 0 : Price * 100;
+        console.log('Calculated total amount:', totalAmount);
+
+
+        const paymentIntent = await stripe.paymentIntents.create({
+            currency: "usd",
+            amount: totalAmount,
+            payment_method_types: ["card"],
+        });
+
+        return {
+            clientSecret: paymentIntent.client_secret,
+        };
+    } catch (error) {
+        throw new Error(`Error creating PaymentIntent: ${error}`);
+    }
+}
+
 export const paymentService = {
     addToPaidList,
     getFromPaidList,
-    getPaymentDataByEmail
+    getPaymentDataByEmail,
+    processPayment
 
 }
