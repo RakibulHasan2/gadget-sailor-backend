@@ -55,7 +55,7 @@ const handleCreatePaymentIntent = async (req: Request, res: Response) => {
         return res.status(400).json({ error: 'Invalid price' });
     }
     const paymentIntentResponse = await paymentService.processPayment(price);
-    sendResponse<IPayment | IPayment[]>(res, {
+    sendResponse(res, {
         statusCode: httpStatus.OK,
         success: true,
         message: 'Payment Intent successfully',
