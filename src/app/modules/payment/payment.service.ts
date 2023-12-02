@@ -45,6 +45,7 @@ const getPaymentDataByEmail = async (Email: string): Promise<IPayment | IPayment
 const processPayment = async (Price: number) => {
     try {
         // const totalAmount = Price * 100;
+        //const data=req.body;
 
         console.log('Received price:', Price);
 
