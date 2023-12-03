@@ -81,7 +81,7 @@ const processPayment = async (Price: number) => {
 
 // Function to retrieve data from payment by order Code
 const getPaymentDataByOrderCode = async (orderCode: number): Promise<IPayment | IPayment[] | null> => {
-    const result = await payment.find({
+    const result = await payment.findById({
         $or: [
             { payment_code: orderCode },
 
