@@ -6,8 +6,6 @@ async function main() {
     try {
         await mongoose.connect(config.database_url as string);
         console.log("database is connected");
-
-
         app.listen(parseInt(`${config.port}`), () => {
             console.log(`gadget sailor listening on port ${config.port}`);
           })

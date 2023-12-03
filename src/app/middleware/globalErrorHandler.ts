@@ -63,7 +63,7 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
     success: false,
     message: `${keys} '${errorM}' is already used`,
     errorMessages,
-    stack: config.env === 'production' ? error?.stack : undefined,
+    stack: config.env !== 'production' ? error?.stack : undefined,
   });
 };
 
