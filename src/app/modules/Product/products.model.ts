@@ -57,6 +57,10 @@ export const productsSchema = new Schema<IProducts>(
         },
         others_info: {
             type: Object
+        },
+        I_id: {
+            type: String,
+            required: true,
         }
     },
     {
