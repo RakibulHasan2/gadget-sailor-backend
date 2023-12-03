@@ -55,24 +55,23 @@ const handleCreatePaymentIntent = async (req: Request, res: Response) => {
         return res.status(400).json({ error: 'Invalid price' });
     }
     const paymentIntentResponse = await paymentService.processPayment(price);
-    console.log(paymentIntentResponse)
     sendResponse(res, {
         statusCode: httpStatus.OK,
         success: true,
         message: 'Payment Intent successfully',
         data: paymentIntentResponse,
     });
-
-
 }
 
 
 
 // retrieve data from payment by order code
 const GetPaidDataByOrderCode = async (req: Request, res: Response) => {
-    const body = req.body;
-    const paymentCode = Number(body.payment_code);
-    console.log(paymentCode);
+    console.log("Bodyyyyyyy");
+    const body = req.params;
+    console.log(req.params.orderCode);
+    const paymentCode = Number(body.orderCode);
+    console.log("payment codeeeeeeeeeee", paymentCode);
     const result = await paymentService.getPaymentDataByOrderCode(paymentCode);
     console.log(result);
     if (result) {
@@ -91,7 +90,6 @@ const GetPaidDataByOrderCode = async (req: Request, res: Response) => {
         });
     }
 };
-
 
 export const paymentController = {
     AddToPaidData,
