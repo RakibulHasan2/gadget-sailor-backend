@@ -6,7 +6,7 @@ import { Products } from "./products.model";
 const createProducts = async (payload: IProducts): Promise<IProducts | null | any> => {
     const min = 100000;
     const max = 999999;
-
+    
     if (!payload.status) {
         payload.status = config.default_status as string;
     }

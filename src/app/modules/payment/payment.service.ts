@@ -41,14 +41,10 @@ const getPaymentDataByEmail = async (Email: string): Promise<IPayment | IPayment
     }
     else {
         const result = await payment.find({
-            $or: [
-                { email: Email },
-                { product_name: Email }
-            ]
+            email: Email
         });
         return result;
     }
-
 };
 
 //process payment in stripe
@@ -84,10 +80,8 @@ const getPaymentDataByOrderCode = async (orderCode: number): Promise<IPayment | 
     const result = await payment.findById({
         $or: [
             { payment_code: orderCode },
-
         ]
     });
-    console.log(result)
     return result;
 };
 
