@@ -58,6 +58,10 @@ export const productsSchema = new Schema<IProducts>(
             type: String,
             required: true,
         },
+        quantity: {
+            type: Number,
+            required: true,
+        },
         others_info: {
             type: Object
         },

@@ -5,6 +5,16 @@ const stripe = require("stripe")('sk_test_51M8NuoDiyv5tmMKuxijWM3IkO7XqsOGpmBJYa
 
 //function to add in payment
 const addToPaidList = async (payload: IPayment): Promise<IPayment | null> => {
+
+    const min = 1000000;
+    const max = 9999999;
+
+    if (!payload.product_code) {
+
+        const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+        payload.payment_code = randomNumber
+    }
+
     try {
         const result = await payment.create(payload);
         return result;
