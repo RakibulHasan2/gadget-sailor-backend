@@ -50,21 +50,12 @@ const getPaymentDataByEmail = async (Email: string): Promise<IPayment | IPayment
 //process payment in stripe
 const processPayment = async (Price: number) => {
     try {
-        // const totalAmount = Price * 100;
-        //const data=req.body;
-
-        console.log('Received price:', Price);
-
         const totalAmount = isNaN(Price) ? 0 : Price * 100;
-        console.log('Calculated total amount:', totalAmount);
-
-
         const paymentIntent = await stripe.paymentIntents.create({
             currency: "usd",
             amount: totalAmount,
             payment_method_types: ["card"],
         });
-
         return {
             clientSecret: paymentIntent.client_secret,
         };
@@ -72,9 +63,6 @@ const processPayment = async (Price: number) => {
         throw new Error(`Error creating PaymentIntent: ${error}`);
     }
 }
-
-
-
 
 
 export const paymentService = {
