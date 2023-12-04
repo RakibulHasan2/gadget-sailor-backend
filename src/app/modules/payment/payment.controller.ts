@@ -65,36 +65,9 @@ const handleCreatePaymentIntent = async (req: Request, res: Response) => {
 
 
 
-// retrieve data from payment by order code
-const GetPaidDataByOrderCode = async (req: Request, res: Response) => {
-    console.log("Bodyyyyyyy");
-    const body = req.params;
-    console.log(req.params.orderCode);
-    const paymentCode = Number(body.orderCode);
-    console.log("payment codeeeeeeeeeee", paymentCode);
-    const result = await paymentService.getPaymentDataByOrderCode(paymentCode);
-    console.log(result);
-    if (result) {
-        sendResponse<IPayment | IPayment[]>(res, {
-            statusCode: httpStatus.OK,
-            success: true,
-            message: 'Retrieved from payment by order code successfully',
-            data: result,
-        });
-    } else {
-        sendResponse<IPayment | IPayment[]>(res, {
-            statusCode: httpStatus.NOT_FOUND,
-            success: false,
-            message: 'Data not found',
-            data: null,
-        });
-    }
-};
-
 export const paymentController = {
     AddToPaidData,
     GetFromPaidData,
     GetPaidDataByEmail,
-    handleCreatePaymentIntent,
-    GetPaidDataByOrderCode
+    handleCreatePaymentIntent
 }
