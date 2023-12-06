@@ -74,6 +74,11 @@ const processPayment = async (Price: number) => {
 }
 
 
+//update a single payment
+const updateSinglePayment = async (id: string, payload: Partial<IPayment>): Promise<IPayment | null> => {
+    const updatedPayment = await payment.findOneAndUpdate({ _id: id }, payload, { new: true });
+    return updatedPayment;
+};
 
 
 
@@ -81,5 +86,6 @@ export const paymentService = {
     addToPaidList,
     getFromPaidList,
     getPaymentDataByEmail,
-    processPayment
+    processPayment,
+    updateSinglePayment
 }

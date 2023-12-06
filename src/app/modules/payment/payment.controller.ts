@@ -63,11 +63,24 @@ const handleCreatePaymentIntent = async (req: Request, res: Response) => {
     });
 }
 
-
+// Controller function to update single payment by id
+const updateSinglePaidData = catchAsync(async (req: Request, res: Response) => {
+    const id = req.params.id;
+    const newData = req.body;
+    const result = await paymentService.updateSinglePayment(id, newData);
+    sendResponse<IPayment>(res, {
+        statusCode: httpStatus.OK,
+        success: true,
+        message: 'payment updated successfully',
+        data: result,
+    });
+}
+);
 
 export const paymentController = {
     AddToPaidData,
     GetFromPaidData,
     GetPaidDataByEmail,
-    handleCreatePaymentIntent
+    handleCreatePaymentIntent,
+    updateSinglePaidData
 }
