@@ -50,6 +50,7 @@ const GetPaidDataByEmail = async (req: Request, res: Response) => {
 //process payment in stripe
 const handleCreatePaymentIntent = async (req: Request, res: Response) => {
     const data = req.body;
+    
     const price = data.totalPrice;
     if (isNaN(price)) {
         return res.status(400).json({ error: 'Invalid price' });
